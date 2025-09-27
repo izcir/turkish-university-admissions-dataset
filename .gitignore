@@ -1,0 +1,45 @@
+# ---------- Python build / bytecode ----------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+.env
+.env.*
+
+# ---------- IDE / Editor metadata ----------
+.idea/
+.vscode/
+*.code-workspace
+
+# ---------- Jupyter / IPython ----------
+.ipynb_checkpoints/
+
+# ---------- Packaging / Distribution ----------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Caches / Tooling ----------
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.ruff_cache/
+pytestdebug.log
+
+# ---------- Logs ----------
+*.log
+
+# ---------- OS artifacts ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Misc ----------
+*.swp
+*.bak

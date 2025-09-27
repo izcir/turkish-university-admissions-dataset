@@ -1,0 +1,734 @@
+department_name_id,department_name
+1,Abaza Dili ve Edebiyatı
+2,Acil Durum ve Afet Yönetimi
+3,Acil Yardım ve Afet Yönetimi
+4,Açık Deniz Sondaj Teknolojisi
+5,Açık Deniz Tabanı Uygulamaları Teknolojisi
+6,Adalet
+7,Adalet Meslek Yüksekokulu
+8,Adli Bilimler
+9,Adli Bilişim Mühendisliği
+10,Ağaç İşleri Endüstri Mühendisliği
+11,Ağız ve Diş Sağlığı
+12,Aile ve Tüketici Bilimleri
+13,Aktüerya
+14,Aktüerya Bilimleri
+15,Aktüerya ve Risk Yönetimi
+16,Alman Dili ve Edebiyatı
+17,Almanca Mütercim ve Tercümanlık
+18,Almanca Öğretmenliği
+19,Alternatif Enerji Kaynakları Teknolojisi
+20,Ambalaj Tasarımı
+21,Ameliyathane Hizmetleri
+22,Amerikan Kültürü ve Edebiyatı
+23,Anestezi
+24,Animasyon ve Oyun Tasarımı
+25,Antrenörlük Eğitimi
+26,Antropoloji
+27,Arap Dili ve Edebiyatı
+28,Arapça Mütercim ve Tercümanlık
+29,Arapça Öğretmenliği
+30,Arıcılık
+31,Arka-Yüz Yazılım Geliştirme
+32,Arkeoloji
+33,Arkeoloji ve Sanat Tarihi
+34,Arnavut Dili ve Edebiyatı
+35,Astronomi ve Astrofizik
+36,Astronomi ve Uzay Bilimleri
+37,Aşçılık
+38,Atçılık ve Antrenörlüğü
+39,Atık Yönetimi
+40,Avcılık ve Yaban Hayatı
+41,Avrupa Birliği İlişkileri
+42,Ayakkabı Tasarım ve Üretimi
+43,Ayakkabı Tasarımı ve Üretimi
+44,Azerbaycan Dili Öğretmenliği
+45,Azerbaycan Dili ve Edebiyatı
+46,Azerbaycan Türkçesi ve Edebiyatı
+47,Bağcılık
+48,Bağcılık ve Bağ Ürünleri Teknolojisi
+49,Bahçe Bitkileri
+50,Bahçe Bitkileri Üretimi ve Pazarlaması
+51,Bahçe Tarımı
+52,Bahçe ve Tarla Bitkileri
+53,Balıkçılık Teknolojisi Mühendisliği
+54,Bankacılık
+55,Bankacılık ve Finans
+56,Bankacılık ve Sigortacılık
+57,Basım Teknolojileri
+58,Basım ve Yayım Teknolojileri
+59,Basım ve Yayın Teknolojileri
+60,Basın ve Yayın
+61,Basın ve Yayıncılık
+62,Batı Dilleri
+63,Beden Eğitimi ve Spor Öğretmenliği
+64,Beslenme ve Diyetetik
+65,Bıçakçılık ve El Aletleri Üretim Teknolojisi
+66,Bilgi Güvenliği Teknolojisi
+67,Bilgi ve Belge Yönetimi
+68,Bilgi Yönetimi
+69,Bilgisayar-Enformatik
+70,Bilgisayar Bilimleri
+71,Bilgisayar Bilimleri ve Mühendisliği
+72,Bilgisayar Destekli Tasarım ve Animasyon
+73,Bilgisayar Mühendisliği
+74,Bilgisayar Operatörlüğü
+75,Bilgisayar Programcılığı
+76,Bilgisayar Teknolojisi
+77,Bilgisayar Teknolojisi ve Bilişim Sistemleri
+78,Bilgisayar ve Öğretim Teknolojileri Öğretmenliği
+79,Bilgisayar ve Yazılım Mühendisliği
+80,Bilim Tarihi
+81,Bilişim Güvenliği Teknolojisi
+82,Bilişim Sistemleri Mühendisliği
+83,Bilişim Sistemleri ve Teknolojileri
+84,Bitki Koruma
+85,Bitkisel Üretim ve Teknolojileri
+86,Biyoenformatik ve Genetik
+87,Biyokimya
+88,Biyoloji
+89,Biyoloji Öğretmenliği
+90,Biyomedikal Cihaz Teknolojisi
+91,Biyomedikal Mühendisliği
+92,Biyomühendislik
+93,Biyosistem Mühendisliği
+94,Biyoteknoloji
+95,Biyoteknoloji ve Moleküler Biyoloji
+96,Boşnak Dili ve Edebiyatı
+97,Boya Teknolojisi
+98,Bulgar Dili ve Edebiyatı
+99,Bulgarca Mütercim ve Tercümanlık
+100,Bulut Bilişim Operatörlüğü
+101,Büro Yönetimi ve Yönetici Asistanlığı
+102,Büyük Veri Analistliği
+103,Canlandırma Filmi Tasarım ve Yönetimi
+104,Cevher Hazırlama Mühendisliği
+105,Ceza İnfaz ve Güvenlik Hizmetleri
+106,CNC Programlama ve Operatörlüğü
+107,Coğrafi Bilgi Sistemleri
+108,Coğrafya
+109,Coğrafya Öğretmenliği
+110,Çağdaş Türk Lehçeleri ve Edebiyatları
+111,Çağdaş Yunan Dili ve Edebiyatı
+112,Çağrı Merkezi Hizmetleri
+113,Çalışma Ekonomisi ve Endüstri İlişkileri
+114,Çay Tarımı ve İşleme Teknolojisi
+115,Çerkez Dili ve Edebiyatı
+116,Çerkez Dili ve Kültürü
+117,Çeviribilim
+118,Çeviribilimi
+119,Çevre Koruma ve Kontrol
+120,Çevre Mühendisliği
+121,Çevre Sağlığı
+122,Çevre Temizliği ve Denetimi
+123,Çim Alan Tesisi ve Yönetimi
+124,Çin Dili ve Edebiyatı
+125,Çince Mütercim ve Tercümanlık
+126,Çini Sanatı ve Tasarımı
+127,Çizgi Film ve Animasyon
+128,Çocuk Gelişimi
+129,Çocuk Koruma ve Bakım Hizmetleri
+130,Çok Boyutlu Modelleme ve Animasyon
+131,Deniz Bilimleri ve Teknolojisi Mühendisliği
+132,Deniz Brokerliği
+133,Deniz İşletmeciliği ve Yönetimi
+134,Deniz Ulaştırma İşletme Mühendisliği
+135,Deniz Ulaştırma ve İşletme
+136,Deniz ve Liman İşletmeciliği
+137,Denizci Sağlığı
+138,Denizcilik İşletmeleri Yönetimi
+139,Deri Konfeksiyon
+140,Deri Mühendisliği
+141,Deri Teknolojisi
+142,"Dezenfeksiyon, Sterilizasyon ve Antisepsi"
+143,"Dezenfeksiyon, Sterilizasyon ve Antisepsi Teknikerliği"
+144,Dijital Dönüşüm Elektroniği
+145,Dijital Fabrika Teknolojileri
+146,Dijital Medya ve Pazarlama
+147,Dijital Oyun Tasarımı
+148,Dil ve Konuşma Terapisi
+149,Dilbilim
+150,Dilbilimi
+151,Diş Hekimliği
+152,Diş Protez Teknolojisi
+153,Dış Ticaret
+154,Diyaliz
+155,Doğal Yapı Taşları Teknolojisi
+156,Doğalgaz ve Tesisatı Teknolojisi
+157,Doğu Dilleri
+158,Döküm
+159,E-Ticaret
+160,E-Ticaret ve Pazarlama
+161,Ebelik
+162,Eczacılık
+163,Eczane Hizmetleri
+164,Egzersiz ve Spor Bilimleri
+165,Ekonometri
+166,Ekonomi
+167,Ekonomi ve Finans
+168,El Sanatları
+169,El Sanatları Tasarımı ve Üretimi
+170,Elektrik
+171,Elektrik-Elektronik Mühendisliği
+172,"Elektrik Enerjisi Üretim, İletim ve Dağıtımı"
+173,Elektrik Mühendisliği
+174,Elektrikli Cihaz Teknolojisi
+175,Elektronik Haberleşme Teknolojisi
+176,Elektronik Mühendisliği
+177,Elektronik Teknolojisi
+178,Elektronik Ticaret ve Teknoloji Yönetimi
+179,Elektronik Ticaret ve Yönetimi
+180,Elektronik ve Haberleşme Mühendisliği
+181,Elektronörofizyoloji
+182,Emlak ve Emlak Yönetimi
+183,Emlak Yönetimi
+184,Endüstri Mühendisliği
+185,Endüstri Ürünleri Tasarımı
+186,Endüstri ve Sistem Mühendisliği
+187,Endüstri Yönetimi Mühendisliği
+188,Endüstriyel Cam ve Seramik
+189,Endüstriyel Hammaddeler İşleme Teknolojisi
+190,Endüstriyel Kalıpçılık
+191,Endüstriyel Tasarım
+192,Endüstriyel Tasarım Mühendisliği
+193,Endüstriyel Tavukçuluk
+194,Enerji Bilimi ve Teknolojileri
+195,Enerji Mühendisliği
+196,Enerji Sistemleri Mühendisliği
+197,Enerji Tesisleri İşletmeciliği
+198,Enerji Yönetimi
+199,Engelli Bakımı ve Rehabilitasyon
+200,Engelliler İçin Destek Programı
+201,Engelliler İçin Gölge Öğreticilik
+202,Ergoterapi
+203,Ermeni Dili ve Edebiyatı
+204,Ermeni Dili ve Kültürü
+205,Eser Koruma
+206,Eski Yunan Dili ve Edebiyatı
+207,Et ve Ürünleri Teknolojisi
+208,Ev İdaresi
+209,Ev Tekstili Tasarımı
+210,Evde Hasta Bakımı
+211,Fars Dili ve Edebiyatı
+212,Farsça Mütercim ve Tercümanlık
+213,Felsefe
+214,Felsefe Grubu Öğretmenliği
+215,Fen Bilgisi Öğretmenliği
+216,Fidan Yetiştiriciliği
+217,Film Tasarım ve Yazarlık
+218,Film Tasarım ve Yönetmenliği
+219,Film Tasarımı
+220,Film Tasarımı ve Yazarlığı
+221,Film Tasarımı ve Yönetimi
+222,Film Tasarımı ve Yönetmenliği
+223,Finans ve Bankacılık
+224,Fındık Eksperliği
+225,Fizik
+226,Fizik Mühendisliği
+227,Fizik Öğretmenliği
+228,Fizyoterapi
+229,Fizyoterapi ve Rehabilitasyon
+230,Fotoğraf
+231,Fotoğraf ve Video
+232,Fotoğrafçılık ve Kameramanlık
+233,Fotonik
+234,Fransız Dili ve Edebiyatı
+235,Fransızca Mütercim ve Tercümanlık
+236,Fransızca Öğretmenliği
+237,Gastronomi
+238,Gastronomi ve Mutfak Sanatları
+239,Gayrimenkul Geliştirme ve Yönetimi
+240,Gaz ve Tesisatı Teknolojisi
+241,Gazetecilik
+242,Geleneksel El Sanatları
+243,Geleneksel Tekstillerin Korunması ve Restorasyonu
+244,Geleneksel Türk Sanatları
+245,Gemi İnşaatı
+246,Gemi İnşaatı ve Gemi Makineleri Mühendisliği
+247,Gemi Makineleri İşletme
+248,Gemi Makineleri İşletme Mühendisliği
+249,Gemi Makineleri İşletmeciliği
+250,Gemi ve Deniz Teknolojisi Mühendisliği
+251,Gemi ve Yat Tasarımı
+252,Genetik ve Biyomühendislik
+253,Genetik ve Yaşam Bilimleri Programları
+254,Geomatik Mühendisliği
+255,Geoteknik
+256,Gerontoloji
+257,Gıda Kalite Kontrolü ve Analizi
+258,Gıda Mühendisliği
+259,Gıda Teknolojisi
+260,Girişimcilik
+261,Giyim Üretim Teknolojisi
+262,Görsel İletişim
+263,Görsel İletişim Tasarımı
+264,Görsel Sanatlar
+265,Görsel Sanatlar ve Görsel İletişim Tasarımı
+266,Görsel Sanatlar ve İletişim Tasarımı
+267,Grafik
+268,Grafik Sanatlar
+269,Grafik Tasarım
+270,Grafik Tasarımı
+271,Gümrük İşletme
+272,Gürcü Dili ve Edebiyatı
+273,Güverte
+274,Halıcılık ve Kilimcilik
+275,Halkbilim
+276,Halkbilimi
+277,Halkla İlişkiler
+278,Halkla İlişkiler ve Pazarlama İletişimi
+279,Halkla İlişkiler ve Reklamcılık
+280,Halkla İlişkiler ve Tanıtım
+281,Harita Mühendisliği
+282,Harita ve Kadastro
+283,Hasta Bakımı
+284,Hava Aracı İmalat Teknolojileri
+285,Hava Lojistiği
+286,Havacılık Elektrik ve Elektroniği
+287,Havacılık Elektroniği
+288,Havacılık ve Uzay Mühendisliği
+289,Havacılık Yönetimi
+290,Hayvansal Üretim
+291,Hayvansal Üretim ve Teknolojileri
+292,Hemşirelik
+293,Hemşirelik ve Sağlık Hizmetleri
+294,Hibrid ve Elektrikli Taşıtlar Teknolojisi
+295,Hidrojeoloji Mühendisliği
+296,Hindoloji
+297,Hititoloji
+298,Hukuk
+299,Hukuk Büro Yönetimi ve Sekreterliği
+300,Hungaroloji
+301,İbrani Dili ve Edebiyatı
+302,İbrani Dili ve Kültürü
+303,İç Mekan Tasarımı
+304,İç Mimarlık
+305,İç Mimarlık ve Çevre Tasarımı
+306,İç Mimarlık ve Mobilya Tasarımı
+307,İklim Bilimi ve Meteoroloji Mühendisliği
+308,İklimlendirme ve Soğutma Teknolojisi
+309,İkram Hizmetleri
+310,İktisadi ve İdari Bilimler Programları
+311,İktisadi ve İdari Programlar
+312,İktisat
+313,İlahiyat
+314,İletişim
+315,İletişim Bilimleri
+316,İletişim Sanatları
+317,İletişim Tasarımı
+318,İletişim Tasarımı ve Medya
+319,İletişim Tasarımı ve Yeni Medya
+320,İletişim Tasarımı ve Yönetimi
+321,İletişim ve Tasarım
+322,İletişim ve Tasarımı
+323,İlk ve Acil Yardım
+324,İlköğretim Matematik Öğretmenliği
+325,İmalat Mühendisliği
+326,İmalat Yürütme Sistemleri Operatörlüğü
+327,İngiliz Dilbilimi
+328,İngiliz Dili ve Edebiyatı
+329,İngiliz Dili ve Karşılaştırmalı Edebiyat
+330,İngiliz ve Rus Dilleri ve Edebiyatları
+331,İngilizce Mütercim ve Tercümanlık
+332,İngilizce Öğretmenliği
+333,İngilizce Öğretmenliği-Elt
+334,"İngilizce, Fransızca Mütercim ve Tercümanlık"
+335,İnsan Kaynakları Yönetimi
+336,İnsan ve Toplum Bilimleri
+337,İnsansız Araç Teknikerliği
+338,İnsansız Hava Aracı Teknolojisi ve Operatörlüğü
+339,İnşaat Mühendisliği
+340,İnşaat Teknolojisi
+341,İnternet ve Ağ Teknolojileri
+342,İslam Bilimleri
+343,İslam Ekonomisi ve Finans
+344,İslam İktisadı ve Finans
+345,İslami İlimler
+346,İspanyol Dili ve Edebiyatı
+347,İstatistik
+348,İstatistik ve Bilgisayar Bilimleri
+349,İş Makineleri Operatörlüğü
+350,İş Sağlığı ve Güvenliği
+351,İş ve Uğraşı Terapisi
+352,İşletme
+353,İşletme-Ekonomi
+354,İşletme Bilgi Yönetimi
+355,İşletme Enformatiği
+356,İşletme Mühendisliği
+357,İşletme Yönetimi
+358,İtalyan Dili ve Edebiyatı
+359,Japon Dili ve Edebiyatı
+360,Japonca Mütercim ve Tercümanlık
+361,Japonca Öğretmenliği
+362,Jeofizik Mühendisliği
+363,Jeoloji Mühendisliği
+364,Kamu Yönetimi
+365,Kanatlı Hayvan Yetiştiriciliği
+366,Karşılaştırmalı Edebiyat
+367,Kaynak Teknolojisi
+368,Kazak Dili ve Edebiyatı
+369,Kenevir Dokuma Tezgahtarlığı
+370,Kenevir Dokumacılığı
+371,Kentsel Tasarım ve Peyzaj Mimarlığı
+372,Kimya
+373,Kimya-Biyoloji Mühendisliği
+374,Kimya Mühendisliği
+375,Kimya Mühendisliği ve Uygulamalı Kimya
+376,Kimya Öğretmenliği
+377,Kimya Teknolojisi
+378,Kimya ve Süreç Mühendisliği
+379,Klasik Arkeoloji
+380,Konaklama İşletmeciliği
+381,Konaklama ve Turizm İşletmeciliği
+382,Kontrol ve Otomasyon Mühendisliği
+383,Kontrol ve Otomasyon Teknolojisi
+384,Kooperatifçilik
+385,Kore Dili ve Edebiyatı
+386,Kozmetik Teknolojisi
+387,"Kurgu, Ses ve Görüntü Yönetimi"
+388,Kurumsal Bilişim Uzmanlığı
+389,Kuyumculuk ve Mücevher Tasarımı
+390,Kuyumculuk ve Mücevherat Tasarımı
+391,Kuyumculuk ve Takı Tasarımı
+392,Kültür Varlıklarını Koruma ve Onarım
+393,Kültür ve İletişim Bilimleri
+394,Kültürel Miras ve Turizm
+395,Kümes Hayvanları Yetiştiriciliği
+396,Küresel Siyaset ve Uluslararası İlişkiler
+397,Kürt Dili ve Edebiyatı
+398,Laborant ve Veteriner Sağlık
+399,Laboratuvar Teknolojisi
+400,Lastik ve Plastik Teknolojisi
+401,Latin Dili ve Edebiyatı
+402,Leh Dili ve Edebiyatı
+403,Lif ve Polimer Mühendisliği
+404,Lojistik
+405,Lojistik Yönetimi
+406,Maden Mühendisliği
+407,Maden Teknolojisi
+408,Madencilik Teknolojisi
+409,Mahkeme Büro Hizmetleri
+410,Makine
+411,Makine Mühendisliği
+412,Makine Resim ve Konstrüksiyonu
+413,Makine ve İmalat Mühendisliği
+414,"Makine, Resim ve Konstrüksiyon"
+415,Maliye
+416,Malzeme Bilimi ve Mühendisliği
+417,Malzeme Bilimi ve Nanoteknoloji Mühendisliği
+418,Malzeme Bilimi ve Teknolojileri
+419,Mantarcılık
+420,Marina ve Yat İşletmeciliği
+421,Marka İletişimi
+422,Matematik
+423,Matematik-Bilgisayar
+424,Matematik Mühendisliği
+425,Matematik Öğretmenliği
+426,Matematik ve Bilgisayar Bilimleri
+427,Medya ve Görsel Sanatlar
+428,Medya ve İletişim
+429,Mekatronik
+430,Mekatronik Mühendisliği
+431,Mekatronik Sistemler Mühendisliği
+432,Menkul Kıymetler ve Sermaye Piyasası
+433,Mermer Teknolojisi
+434,Metalurji
+435,Metalurji ve Malzeme Mühendisliği
+436,Meteoroloji Mühendisliği
+437,Meyve ve Sebze İşleme Teknolojisi
+438,Mimari Dekoratif Sanatlar
+439,Mimari Restorasyon
+440,Mimarlık
+441,Mobil Teknolojileri
+442,Mobilya ve Dekorasyon
+443,Moda Tasarımı
+444,Moda ve Tekstil Tasarımı
+445,Moda Yönetimi
+446,Moleküler Biyoloji ve Genetik
+447,Moleküler Biyoteknoloji
+448,Muhasebe
+449,Muhasebe Bilgi Sistemleri
+450,Muhasebe ve Denetim
+451,Muhasebe ve Finans Yönetimi
+452,Muhasebe ve Vergi Uygulamaları
+453,Mühendislik Programları
+454,Mühendislik ve Doğa Bilimleri Programları
+455,Mütercim-Tercümanlık
+456,Müzecilik
+457,Müzik
+458,Nanobilim ve Nanoteknoloji
+459,Nanoteknoloji Mühendisliği
+460,Nüfus ve Vatandaşlık
+461,Nükleer Enerji Mühendisliği
+462,Nükleer Teknoloji ve Radyasyon Güvenliği
+463,Nükleer Tıp Teknikleri
+464,Odyoloji
+465,Odyometri
+466,Okul Öncesi Öğretmenliği
+467,Optik ve Akustik Mühendisliği
+468,Optisyenlik
+469,Organik Tarım
+470,Organik Tarım İşletmeciliği
+471,Orman Endüstrisi Mühendisliği
+472,Orman Mühendisliği
+473,Ormancılık ve Orman Ürünleri
+474,Ortez-Protez
+475,Ortez ve Protez
+476,Ortopedik Protez ve Ortez
+477,Otel Yöneticiliği
+478,Oto Boya ve Karoseri
+479,Otobüs Kaptanlığı
+480,Otomotiv Gövde ve Yüzey İşlem Teknolojileri
+481,Otomotiv Mühendisliği
+482,Otomotiv Teknolojisi
+483,Otonom Sistemler Teknikerliği
+484,Otopsi Yardımcılığı
+485,Oyun Geliştirme ve Programlama
+486,Ön-Yüz Yazılım Geliştirme
+487,Özel Eğitim Öğretmenliği
+488,Özel Güvenlik ve Koruma
+489,Pastacılık ve Ekmekçilik
+490,Patoloji Laboratuvar Teknikleri
+491,Pazarlama
+492,Perakende Satış ve Mağaza Yönetimi
+493,Perfüzyon
+494,Perfüzyon Teknikleri
+495,Petrol ve Doğalgaz Mühendisliği
+496,Peyzaj Mimarlığı
+497,Peyzaj ve Süs Bitkileri
+498,Peyzaj ve Süs Bitkileri Yetiştiriciliği
+499,Pilotaj
+500,Podoloji
+501,Polimer Malzeme Mühendisliği
+502,Polimer Mühendisliği
+503,Polimer Teknolojisi
+504,Politika ve Ekonomi
+505,Polonya Dili ve Kültürü
+506,Posta Hizmetleri
+507,Protohistorya ve Ön Asya Arkeolojisi
+508,Psikoloji
+509,Psikolojik Danışmanlık ve Rehberlik
+510,Psikolojik Danışmanlık ve Rehberlik Öğretmenliği
+511,Radyo ve Televizyon
+512,Radyo ve Televizyon Programcılığı
+513,Radyo ve Televizyon Teknolojisi
+514,"Radyo, Televizyon ve Sinema"
+515,Radyoterapi
+516,Rafineri ve Petro-Kimya Teknolojisi
+517,Raylı Sistemler Elektrik ve Elektronik
+518,Raylı Sistemler Elektrik ve Elektronik Teknolojisi
+519,Raylı Sistemler İşletmeciliği
+520,Raylı Sistemler Makine Teknolojisi
+521,Raylı Sistemler Makinistliği
+522,Raylı Sistemler Makinistlik
+523,Raylı Sistemler Mühendisliği
+524,Raylı Sistemler Yol Teknolojisi
+525,Rehberlik ve Psikolojik Danışmanlık
+526,Reklam Tasarımı ve İletişimi
+527,Reklamcılık
+528,Reklamcılık ve Halkla İlişkiler
+529,Rekreasyon
+530,Rekreasyon Yönetimi
+531,Restorasyon ve Konservasyon
+532,Robotik ve Otonom Sistemleri Mühendisliği
+533,Robotik ve Yapay Zekâ
+534,Rus Dili Öğretmenliği
+535,Rus Dili ve Edebiyatı
+536,Rus Dili ve Edebiyatı Öğretmenliği
+537,Rus ve İngiliz Dilleri ve Edebiyatları
+538,Rusça Mütercim ve Tercümanlık
+539,Saç Bakımı ve Güzellik Hizmetleri
+540,Sağlık Bilgi Sistemleri Teknikerliği
+541,Sağlık Kurumları İşletmeciliği
+542,Sağlık Turizmi İşletmeciliği
+543,Sağlık Yönetimi
+544,Sahne Işık ve Ses Teknolojileri
+545,Sahne ve Dekor Tasarımı
+546,Sahne ve Gösteri Sanatları Teknolojisi
+547,Sanal ve Artırılmış Gerçeklik
+548,Sanat Tarihi
+549,Sanat ve Kültür Yönetimi
+550,Sanat ve Sosyal Bilimler Programları
+551,Sanat Yönetimi
+552,Seracılık
+553,Seramik Tasarımı
+554,Seramik ve Cam Tasarımı
+555,"Seramik, Cam ve Çinicilik"
+556,Sermaye Piyasaları ve Portföy Yönetimi
+557,Sermaye Piyasası
+558,Seyahat İşletmeciliği
+559,Seyahat İşletmeciliği ve Turizm Rehberliği
+560,Siber Güvenlik
+561,Siber Güvenlik Analistliği ve Operatörlüğü
+562,Siber Güvenlik Mühendisliği
+563,Sigortacılık
+564,Sigortacılık ve Aktüerya Bilimleri
+565,Sigortacılık ve Risk Yönetimi
+566,Sigortacılık ve Sosyal Güvenlik
+567,Silah Sanayi Teknikerliği
+568,Sinema ve Dijital Medya
+569,Sinema ve Televizyon
+570,Sınıf Öğretmenliği
+571,Sinoloji
+572,Sivil Hava Ulaştırma İşletmeciliği
+573,Sivil Havacılık Kabin Hizmetleri
+574,Sivil Savunma ve İtfaiyecilik
+575,Siyasal Bilimler
+576,Siyasal Bilimler ve Uluslararası İlişkiler
+577,Siyaset Bilimi
+578,Siyaset Bilimi ve Kamu Yönetimi
+579,Siyaset Bilimi ve Uluslararası İlişkiler
+580,Sondaj Teknolojisi
+581,Sosyal Bilgiler Öğretmenliği
+582,Sosyal Güvenlik
+583,Sosyal Hizmet
+584,Sosyal Hizmetler
+585,Sosyal Medya Yöneticiliği
+586,Sosyal ve Siyasal Bilimler
+587,Sosyoloji
+588,Spor Bilimleri
+589,Spor Yöneticiliği
+590,Spor Yönetimi
+591,Su Altı Kaynak Teknolojisi
+592,Su Altı Teknolojisi
+593,Su Bilimleri ve Mühendisliği
+594,Su Ürünleri Endüstrisi Mühendisliği
+595,Su Ürünleri İşleme Teknolojisi
+596,Su Ürünleri Mühendisliği
+597,Sulama Teknolojisi
+598,Sümeroloji
+599,Süryani Dili ve Edebiyatı
+600,Süs Bitkileri Yetiştiriciliği
+601,Süt Teknolojisi
+602,Süt ve Besi Hayvancılığı
+603,Süt ve Ürünleri Teknolojisi
+604,Şarap Üretim Teknolojisi
+605,Şehir ve Bölge Planlama
+606,Tahribatsız Muayene
+607,Takı Tasarımı
+608,Takı Tasarımı ve İmalatı
+609,Tapu Kadastro
+610,Tapu ve Kadastro
+611,Tarih
+612,Tarih Öğretmenliği
+613,Tarih Öncesi Arkeolojisi
+614,Tarım
+615,Tarım Ekonomisi
+616,Tarım Makineleri
+617,Tarım Makineleri ve Teknolojileri Mühendisliği
+618,Tarım Teknolojisi
+619,Tarım Ticareti ve İşletmeciliği
+620,Tarımsal Biyoteknoloji
+621,Tarımsal Genetik Mühendisliği
+622,Tarımsal İşletmecilik
+623,Tarımsal Ürünler Muhafaza ve Depolama Teknolojisi
+624,Tarımsal Yapılar ve Sulama
+625,Tarla Bitkileri
+626,Taşınabilir Kültür Varlıklarını Koruma ve Onarım
+627,Teknoloji ve Bilgi Yönetimi
+628,Tekstil Mühendisliği
+629,Tekstil Tasarımı
+630,Tekstil Teknolojisi
+631,Tekstil ve Halı Makineleri
+632,Tekstil ve Moda Tasarımı
+633,Televizyon Haberciliği ve Programcılığı
+634,Tıbbi Dokümantasyon ve Sekreterlik
+635,Tıbbi Görüntüleme Teknikleri
+636,Tıbbi Laboratuvar Teknikleri
+637,Tıbbi Tanıtım ve Pazarlama
+638,Tıbbi ve Aromatik Bitkiler
+639,Tıp
+640,Tıp Fakültesi
+641,Tıp Mühendisliği
+642,Tiyatro Eleştirmenliği ve Dramaturji
+643,Tohum Bilimi ve Teknolojisi
+644,Tohumculuk Teknolojisi
+645,Toprak Bilimi ve Bitki Besleme
+646,Turist Rehberliği
+647,Turizm Animasyonu
+648,Turizm İşletmeciliği
+649,Turizm İşletmeciliği ve Otelcilik
+650,Turizm Rehberliği
+651,Turizm ve Otel İşletmeciliği
+652,Turizm ve Otelcilik
+653,Turizm ve Seyahat Hizmetleri
+654,Türk Dili ve Edebiyatı
+655,Türk Dili ve Edebiyatı Öğretmenliği
+656,Türk Halkbilimi
+657,Türk İslam Arkeolojisi
+658,Türkçe Öğretmenliği
+659,Türkoloji
+660,Tütün Eksperliği
+661,Uçak Bakım ve Onarım
+662,Uçak Elektrik-Elektronik
+663,Uçak Elektrik ve Elektroniği
+664,Uçak Gövde-Motor Bakım
+665,Uçak Gövde ve Motor Bakımı
+666,Uçak Mühendisliği
+667,Uçak Teknolojisi
+668,Uçak ve Uzay Mühendisliği
+669,Uçuş Harekat Yöneticiliği
+670,Ukrayna Dili ve Edebiyatı
+671,Ulaştırma Mühendisliği
+672,Ulaştırma ve Lojistik
+673,Ulaştırma ve Trafik Hizmetleri
+674,Uluslararası Ekonomi
+675,Uluslararası Ekonomik İlişkiler
+676,Uluslararası Finans
+677,Uluslararası Finans ve Bankacılık
+678,Uluslararası Girişimcilik
+679,Uluslararası İlişkiler
+680,Uluslararası İşletme Yönetimi
+681,Uluslararası İşletmecilik
+682,Uluslararası İşletmecilik ve Ticaret
+683,Uluslararası Lojistik ve Taşımacılık
+684,Uluslararası Lojistik Yönetimi
+685,Uluslararası Ticaret
+686,Uluslararası Ticaret ve Finans
+687,Uluslararası Ticaret ve Finansman
+688,Uluslararası Ticaret ve İşletmecilik
+689,Uluslararası Ticaret ve Lojistik
+690,Uluslararası Ticaret ve Lojistik Yönetimi
+691,Uluslararası Ulaştırma Sistemleri
+692,Un ve Unlu Mamuller Teknolojisi
+693,Urdu Dili ve Edebiyatı
+694,Uygulamalı İngilizce Çevirmenlik
+695,Uygulamalı İngilizce ve Çevirmenlik
+696,Uygulamalı İspanyolca Çevirmenlik
+697,Uygulamalı İspanyolca ve Çevirmenlik
+698,Uygulamalı Rusça Çevirmenlik
+699,Uygulamalı Rusça ve Çevirmenlik
+700,Uzay Bilimleri ve Teknolojileri
+701,Uzay Mühendisliği
+702,Uzay ve Uydu Mühendisliği
+703,Üç Boyutlu Modelleme ve Animasyon
+704,Üretimde Kalite Kontrol
+705,Veri Bilimi ve Analitiği
+706,Veterinerlik
+707,Web Tasarımı ve Kodlama
+708,Yaban Hayatı Ekolojisi ve Yönetimi
+709,Yağ Endüstrisi
+710,Yapay Zeka Mühendisliği
+711,Yapay Zekâ Operatörlüğü
+712,Yapay Zeka ve Makine Öğrenmesi
+713,Yapay Zeka ve Veri Mühendisliği
+714,Yapı Denetimi
+715,Yapı Ressamlığı
+716,Yapı Tesisat Teknolojisi
+717,Yapı Yalıtım Teknolojisi
+718,Yaşlı Bakımı
+719,Yat Kaptanlığı
+720,Yazılım Geliştirme
+721,Yazılım Mühendisliği
+722,Yeni Medya
+723,Yeni Medya ve Gazetecilik
+724,Yeni Medya ve İletişim
+725,Yerel Yönetimler
+726,Yiyecek ve İçecek İşletmeciliği
+727,Yönetim Bilimleri Programları
+728,Yönetim Bilişim Sistemleri
+729,Yunan Dili ve Edebiyatı
+730,Zaza Dili ve Edebiyatı
+731,Zeytincilik ve Zeytin İşleme Teknolojisi
+732,Ziraat Mühendisliği Programları
+733,Zootekni

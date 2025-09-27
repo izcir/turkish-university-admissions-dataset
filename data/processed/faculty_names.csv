@@ -1,0 +1,1133 @@
+faculty_name_id,faculty_name
+1,Fen-Edebiyat Fakültesi
+2,Serinhisar Meslek Yüksekokulu
+3,Espiye Meslek Yüksekokulu
+4,Şaphane Meslek Yüksekokulu
+5,Türkeli Meslek Yüksekokulu
+6,Şalpazarı Meslek Yüksekokulu
+7,Van Güvenlik Meslek Yüksekokulu
+8,Açık ve Uzaktan Öğretim Fakültesi
+9,Meslek Yüksekokulu
+10,Plato Meslek Yüksekokulu
+11,Açık ve Uzaktan Eğitim Fakültesi
+12,Sağlık Hizmetleri Meslek Yüksekokulu
+13,Suluova Meslek Yüksekokulu
+14,Altınyayla Mehmet Tuğrul Meslek Yüksekokulu
+15,Beypazarı Meslek Yüksekokulu
+16,Kavaklıdere Şehit Mustafa Alper Meslek Yüksekokulu
+17,Altınyayla Mehmet Tuğrul Güvenlik Hizmetleri Meslek Yüksekokulu
+18,Artvin Meslek Yüksekokulu
+19,Şiran Mustafa Beyaz Meslek Yüksekokulu
+20,Türkoğlu Meslek Yüksekokulu
+21,Bulanık Meslek Yüksekokulu
+22,Kaynaşlı Meslek Yüksekokulu
+23,
+24,Açıköğretim Fakültesi
+25,Adapazarı Meslek Yüksekokulu
+26,Sağlık Bilimleri Fakültesi
+27,Keşan Hakkı Yörük Sağlık Yüksekokulu
+28,Sağlık Yüksekokulu
+29,Beyşehir Ali Akkanat Uygulamalı Bilimler Yüksekokulu
+30,Bucak Sağlık Yüksekokulu
+31,Uygulamalı Bilimler Fakültesi (Oltu)
+32,Hamidiye Sağlık Bilimleri Fakültesi
+33,Uygulamalı Bilimler Yüksekokulu
+34,Uygulamalı Bilimler Fakültesi
+35,Çaycuma Meslek Yüksekokulu
+36,Adalet Meslek Yüksekokulu
+37,Bingöl Sosyal Bilimler Meslek Yüksekokulu
+38,Yenice Meslek Yüksekokulu
+39,Kurşunlu Adalet Meslek Yüksekokulu
+40,İpsala Meslek Yüksekokulu
+41,Oğuzeli Meslek Yüksekokulu
+42,KKTC Akademik Birim
+43,Atılım Meslek Yüksekokulu
+44,Sosyal Bilimler Meslek Yüksekokulu
+45,Hukuk Fakültesi Adalet Meslek Yüksekokulu
+46,Cide Rıfat Ilgaz Meslek Yüksekokulu
+47,Ereğli Adalet Meslek Yüksekokulu
+48,Ataşehir Adıgüzel Meslek Yüksekokulu
+49,Gedik Meslek Yüksekokulu
+50,İstanbul Gelişim Meslek Yüksekokulu
+51,Nişantaşı Meslek Yüksekokulu
+52,İstanbul Şişli Meslek Yüksekokulu
+53,İzmir Kavram Meslek Yüksekokulu
+54,Niksar Meslek Yüksekokulu
+55,Tunceli Meslek Yüksekokulu
+56,Yerköy Adalet Meslek Yüksekokulu
+57,Devrek Adalet Meslek Yüksekokulu
+58,Çıldır Meslek Yüksekokulu
+59,Akçakoca Meslek Yüksekokulu
+60,Kapadokya Meslek Yüksekokulu
+61,Çınarcık Meslek Yüksekokulu
+62,Torul Meslek Yüksekokulu
+63,Köprübaşı Meslek Yüksekokulu
+64,Cumhuriyet Sosyal Bilimler Meslek Yüksekokulu
+65,Antakya Meslek Yüksekokulu
+66,Hizan Meslek Yüksekokulu
+67,İhsangazi Meslek Yüksekokulu
+68,Gediz Meslek Yüksekokulu
+69,Pazarcık Meslek Yüksekokulu
+70,Yatağan Meslek Yüksekokulu
+71,Niğde Sosyal Bilimler Meslek Yüksekokulu
+72,Aksaray Sosyal Bilimler Meslek Yüksekokulu
+73,Bartın Meslek Yüksekokulu
+74,Posof Meslek Yüksekokulu
+75,Tuzluca Meslek Yüksekokulu
+76,Mühendislik ve Doğa Bilimleri Fakültesi
+77,Teknoloji Fakültesi
+78,Orman Fakültesi
+79,Atatürk Sağlık Hizmetleri Meslek Yüksekokulu
+80,Mehmet Tanrıkulu Sağlık Hizmetleri Meslek Yüksekokulu
+81,Kırıkhan Meslek Yüksekokulu
+82,Isparta Sağlık Hizmetleri Meslek Yüksekokulu
+83,Faruk Saraç Tasarım Meslek Yüksekokulu
+84,Sakarya Sağlık Hizmetleri Meslek Yüksekokulu
+85,Van Sağlık Hizmetleri Meslek Yüksekokulu
+86,Avrupa Meslek Yüksekokulu
+87,Sağlık Meslek Yüksekokulu
+88,Sağlık Bilimleri Meslek Yüksekokulu
+89,Sağlık Hizmetleri Yüksekokulu
+90,Halil Bayraktar Sağlık Hizmetleri Meslek Yüksekokulu
+91,Şanlıurfa Sağlık Hizmetleri Meslek Yüksekokulu
+92,Abdi Sütcü Sağlık Hizmetleri Meslek Yüksekokulu
+93,İstanbul Sağlık ve Sosyal Bilimler Meslek Yüksekokulu
+94,Hamidiye Sağlık Hizmetleri Meslek Yüksekokulu (İstanbul)
+95,Gülhane Sağlık Meslek Yüksekokulu (Ankara)
+96,Ahmet Erdoğan Sağlık Hizmetleri Meslek Yüksekokulu
+97,Burdur Sağlık Hizmetleri Meslek Yüksekokulu
+98,Tavşanlı Sağlık Hizmetleri Meslek Yüksekokulu
+99,Tokat Sağlık Hizmetleri Meslek Yüksekokulu
+100,İktisadi ve İdari Bilimler Fakültesi
+101,Fen Fakültesi
+102,Bankacılık ve Sigortacılık Yüksekokulu
+103,Finansal Bilimler Fakültesi
+104,Fen ve Edebiyat Fakültesi
+105,İşletme Fakültesi
+106,İnsan ve Toplum Bilimleri Fakültesi
+107,Edebiyat Fakültesi
+108,İnsani ve Sosyal Bilimler Fakültesi
+109,Dil ve Tarih Coğrafya Fakültesi
+110,Yabancı Diller Yüksekokulu
+111,Gazi Eğitim Fakültesi
+112,Eğitim Fakültesi
+113,Buca Eğitim Fakültesi
+114,Ahmet Keleşoğlu Eğitim Fakültesi
+115,Hasan Ali Yücel Eğitim Fakültesi
+116,Ziya Gökalp Eğitim Fakültesi
+117,Kazım Karabekir Eğitim Fakültesi
+118,Atatürk Eğitim Fakültesi
+119,Gama Meslek Yüksekokulu
+120,Tirebolu Mehmet Bayrak Meslek Yüksekokulu
+121,Yahyalı Meslek Yüksekokulu
+122,Uzunçiftlik Nuh Çimento Meslek Yüksekokulu
+123,Karapınar Aydoğanlar Meslek Yüksekokulu
+124,Aksaray Teknik Bilimler Meslek Yüksekokulu
+125,Beşiri Organize Sanayi Bölgesi Meslek Yüksekokulu
+126,Gölyaka Meslek Yüksekokulu
+127,Hacettepe Ankara Sanayi Odası 1. OSB Meslek Yüksekokulu
+128,Sarayköy Meslek Yüksekokulu
+129,Manisa Teknik Bilimler Meslek Yüksekokulu
+130,Bucak Emin Gülmez Teknik Bilimler Meslek Yüksekokulu
+131,Söke Meslek Yüksekokulu
+132,Hacettepe Ankara Sanayi Odası 1. Osb Meslek Yüksekokulu
+133,Buharkent Meslek Yüksekokulu
+134,Bingöl Teknik Bilimler Meslek Yüksekokulu
+135,Çan Meslek Yüksekokulu
+136,Baskil Meslek Yüksekokulu
+137,Mustafa Çıkrıkçıoğlu Meslek Yüksekokulu
+138,Bozkır Meslek Yüksekokulu
+139,Dumlupınar Meslek Yüksekokulu
+140,Muğla Meslek Yüksekokulu
+141,Bor Meslek Yüksekokulu
+142,Teknik Bilimler Meslek Yüksekokulu
+143,Ardahan Teknik Bilimler Meslek Yüksekokulu
+144,Güzel Sanatlar Meslek Yüksekokulu
+145,Söke Sağlık Hizmetleri Meslek Yüksekokulu
+146,Beşeri Bilimler Fakültesi
+147,İnsani Bilimler ve Edebiyat Fakültesi
+148,Çanakkale Sağlık Hizmetleri Meslek Yüksekokulu
+149,Kelkit Sema Doğan Sağlık Hizmetleri Meslek Yüksekokulu
+150,Adana Sağlık Hizmetleri Meslek Yüksekokulu
+151,Aydın Sağlık Hizmetleri Meslek Yüksekokulu
+152,Kocaeli Sağlık Hizmetleri Meslek Yüksekokulu
+153,Kahramanmaraş Sağlık Hizmetleri Meslek Yüksekokulu
+154,Denizli Sağlık Hizmetleri Meslek Yüksekokulu
+155,Hatay Sağlık Hizmetleri Meslek Yüksekokulu
+156,Kütahya Meslek Yüksekokulu
+157,İletişim Fakültesi
+158,Spor Bilimleri Fakültesi
+159,Beden Eğitimi ve Spor Yüksekokulu
+160,Spor Yüksekokulu
+161,Sosyal Bilimler Fakültesi
+162,Sezai Karakoç Edebiyat Fakültesi
+163,"İktisadi, İdari ve Sosyal Bilimler Fakültesi"
+164,Eğitim Bilimleri Fakültesi
+165,"Gıda, Tarım ve Hayvancılık Meslek Yüksekokulu"
+166,Ula Ali Koçman Meslek Yüksekokulu
+167,Yüksekova Meslek Yüksekokulu
+168,Ladik Meslek Yüksekokulu
+169,Bilişim Teknolojileri Meslek Yüksekokulu
+170,Bilişim Teknolojileri Meslek Yüksekokulu (Karasu)
+171,Sanat Fakültesi
+172,Gölbaşı Meslek Yüksekokulu
+173,Manavgat Meslek Yüksekokulu
+174,Gazipaşa Mustafa Rahmi Büyükballı Meslek Yüksekokulu
+175,Didim Meslek Yüksekokulu
+176,Afyon Meslek Yüksekokulu
+177,Emirdağ Meslek Yüksekokulu
+178,Yeşilova İsmail Akın Meslek Yüksekokulu
+179,Diyarbakır Sosyal Bilimler Meslek Yüksekokulu
+180,Turizm ve Otelcilik Meslek Yüksekokulu
+181,Şarkikaraağaç Turizm Meslek Yüksekokulu
+182,Isparta Meslek Yüksekokulu
+183,Mengen Meslek Yüksekokulu
+184,Anadolu Bil Meslek Yüksekokulu
+185,Meram Meslek Yüksekokulu
+186,Pazarlar Meslek Yüksekokulu
+187,Midyat Meslek Yüksekokulu
+188,Datça Kazım Yılmaz Meslek Yüksekokulu
+189,Milas Meslek Yüksekokulu
+190,Marmaris Turizm Meslek Yüksekokulu
+191,Aybastı Meslek Yüksekokulu
+192,Halfeti Meslek Yüksekokulu
+193,Güzelyurt Meslek Yüksekokulu
+194,Eflani Meslek Yüksekokulu
+195,Kadirli Meslek Yüksekokulu
+196,Denizcilik Meslek Yüksekokulu
+197,Silifke Taşucu Meslek Yüksekokulu
+198,Ürgüp Sebahat ve Erol Toksöz Turizm Meslek Yüksekokulu
+199,Devrek Meslek Yüksekokulu
+200,Turizm ve Otel İşletmeciliği Yüksekokulu
+201,Turizm ve Otelcilik Yüksekokulu
+202,Turizm ve Otel İşletmeciliği Meslek Yüksekokulu
+203,Sındırgı Meslek Yüksekokulu
+204,Osmaneli Meslek Yüksekokulu
+205,Ürgüp Sebahat ve Erol Toksöz Meslek Yüksekokulu
+206,Doğubayazıt Ahmed-İ Hani Meslek Yüksekokulu
+207,Davutlar Meslek Yüksekokulu
+208,Daday Nafi ve Ümit Çeri Meslek Yüksekokulu
+209,Amasya Sosyal Bilimler Meslek Yüksekokulu
+210,Mutfak Sanatları Meslek Yüksekokulu
+211,Göynük Mutfak Sanatları Meslek Yüksekokulu
+212,Alanya Ticaret ve Sanayi Odası Turizm Meslek Yüksekokulu
+213,Kuşadası Meslek Yüksekokulu
+214,Söğüt Meslek Yüksekokulu
+215,Burdur Gıda Tarım ve Hayvancılık Meslek Yüksekokulu
+216,Yeşilova İsmail Akın Turizm Meslek Yüksekokulu
+217,Harmancık Meslek Yüksekokulu
+218,Alaca Avni Çelik Meslek Yüksekokulu
+219,Tavas Meslek Yüksekokulu
+220,Arda Meslek Yüksekokulu
+221,Eskişehir Meslek Yüksekokulu
+222,Dereli Meslek Yüksekokulu (Keşap)
+223,Yalvaç Meslek Yüksekokulu
+224,Eğirdir Meslek Yüksekokulu
+225,Anamur Meslek Yüksekokulu
+226,Sarıkamış Meslek Yüksekokulu
+227,Develi Hüseyin Şahin Meslek Yüksekokulu
+228,Pınarhisar Meslek Yüksekokulu
+229,Beyşehir Ali Akkanat Meslek Yüksekokulu
+230,Kale Turizm ve Otel İşletmeciliği Meslek Yüksekokulu
+231,Ortaca Meslek Yüksekokulu
+232,Sapanca Turizm Meslek Yüksekokulu
+233,Gerze Meslek Yüksekokulu
+234,Gürün Meslek Yüksekokulu
+235,Şarköy Meslek Yüksekokulu
+236,Tokat Meslek Yüksekokulu
+237,Şanlıurfa Sosyal Bilimler Meslek Yüksekokulu
+238,Yozgat Meslek Yüksekokulu
+239,Hasankeyf Meslek Yüksekokulu
+240,Iğdır Meslek Yüksekokulu
+241,Yalova Meslek Yüksekokulu
+242,Mennan Pasinli Atçılık Meslek Yüksekokulu
+243,Mahmudiye Atçılık Meslek Yüksekokulu
+244,Konya Ereğli Kemal Akman Meslek Yüksekokulu
+245,Battalgazi Meslek Yüksekokulu
+246,Suruç Meslek Yüksekokulu
+247,Kırıkkale Meslek Yüksekokulu
+248,Sivrice Meslek Yüksekokulu
+249,Veterinerlik Meslek Yüksekokulu
+250,Kartepe Atçılık Meslek Yüksekokulu
+251,Akçadağ Meslek Yüksekokulu
+252,Kazım Karabekir Meslek Yüksekokulu
+253,Aladağ Meslek Yüksekokulu
+254,Sütçüler Prof.Dr.Hasan Gürbüz Meslek Yüksekokulu
+255,Ormancılık Meslek Yüksekokulu
+256,Almus Meslek Yüksekokulu
+257,Büyükorhan Meslek Yüksekokulu
+258,Gıda ve Tarım Meslek Yüksekokulu
+259,İspir Hamza Polat Meslek Yüksekokulu
+260,Yenişarbademli Meslek Yüksekokulu
+261,Araç Rafet Vergili Meslek Yüksekokulu
+262,Ulukışla Meslek Yüksekokulu
+263,Akkuş Meslek Yüksekokulu
+264,Iğdır Teknik Bilimler Meslek Yüksekokulu
+265,Sosyal ve Beşeri Bilimler Fakültesi
+266,Acıpayam Meslek Yüksekokulu
+267,Organize Sanayi Bölgesi Meslek Yüksekokulu
+268,Gerede Meslek Yüksekokulu
+269,Naci Topçuoğlu Meslek Yüksekokulu
+270,Mimarlık ve Tasarım Fakültesi
+271,Filoloji Fakültesi
+272,Alaşehir Meslek Yüksekokulu
+273,Delice Meslek Yüksekokulu
+274,Kalecik Meslek Yüksekokulu
+275,Ziraat Fakültesi
+276,Ziraat Fakültesi (Çivril)
+277,Ziraat Fakültesi (Pazar)
+278,Fethiye Ziraat Fakültesi
+279,Tarım Bilimleri ve Teknolojileri Fakültesi
+280,Seyrani Ziraat Fakültesi
+281,Kahta Meslek Yüksekokulu
+282,Korkuteli Meslek Yüksekokulu
+283,Kumluca Meslek Yüksekokulu
+284,Seben İzzet Baysal Meslek Yüksekokulu
+285,Gemlik Asım Kocabıyık Meslek Yüksekokulu
+286,Mut Meslek Yüksekokulu
+287,Safiye Çıkrıkçıoğlu Meslek Yüksekokulu
+288,Kozan Meslek Yüksekokulu
+289,Pozantı Meslek Yüksekokulu
+290,Finike Meslek Yüksekokulu
+291,Elmalı Meslek Yüksekokulu
+292,Diyarbakır Tarım Meslek Yüksekokulu
+293,Silifke Meslek Yüksekokulu
+294,Ödemiş Meslek Yüksekokulu
+295,Çiçekdağı Meslek Yüksekokulu
+296,Andırın Meslek Yüksekokulu
+297,Gevaş Meslek Yüksekokulu
+298,Fatsa Deniz Bilimleri Fakültesi
+299,Sürmene Deniz Bilimleri Fakültesi
+300,Deniz Bilimleri Fakültesi
+301,Şereflikoçhisar Uygulamalı Bilimler Fakültesi
+302,Gerede Uygulamalı Bilimler Yüksekokulu
+303,Görele Uygulamalı Bilimler Yüksekokulu
+304,Ticari Bilimler Fakültesi
+305,Burhaniye Uygulamalı Bilimler Yüksekokulu
+306,Biga Uygulamalı Bilimler Fakültesi
+307,Göksun Uygulamalı Bilimler Yüksekokulu
+308,Fındıklı Uygulamalı Bilimler Yüksekokulu
+309,Uygulamalı Sosyal Bilimler Yüksekokulu
+310,Zara Veysel Dursun Uygulamalı Bilimler Yüksekokulu
+311,Oltu Beşeri ve Sosyal Bilimler Fakültesi
+312,İşletme ve Finans Yüksekokulu
+313,Bolvadin Uygulamalı Bilimler Yüksekokulu
+314,Bolvadin Meslek Yüksekokulu
+315,Başmakçı Meslek Yüksekokulu
+316,Gümüşhacıköy Hasan Duman Meslek Yüksekokulu
+317,Hopa Meslek Yüksekokulu
+318,Bozüyük Meslek Yüksekokulu
+319,Pazaryeri Meslek Yüksekokulu
+320,Ağlasun Meslek Yüksekokulu
+321,Keles Meslek Yüksekokulu
+322,Lapseki Meslek Yüksekokulu
+323,Ayvacık Meslek Yüksekokulu
+324,Çivril Atasay Kamer Meslek Yüksekokulu
+325,Buldan Meslek Yüksekokulu
+326,Keşan Yusuf Çapraz Uygulamalı Bilimler Yüksekokulu
+327,Edirne Sosyal Bilimler Meslek Yüksekokulu
+328,Kemah Meslek Yüksekokulu
+329,Narman Meslek Yüksekokulu
+330,Pasinler Meslek Yüksekokulu
+331,Oltu Meslek Yüksekokulu
+332,Nizip Meslek Yüksekokulu
+333,Alucra Turan Bulutçu Meslek Yüksekokulu
+334,Çankaya Meslek Yüksekokulu
+335,Alanya Ticaret ve Sanayi Odası Meslek Yüksekokulu
+336,Nazilli Meslek Yüksekokulu
+337,Yenipazar Meslek Yüksekokulu
+338,Bigadiç Meslek Yüksekokulu
+339,Manyas Meslek Yüksekokulu
+340,Erdemli Meslek Yüksekokulu
+341,İşletme ve Yönetim Bilimleri Fakültesi
+342,Babaeski Meslek Yüksekokulu
+343,Mucur Meslek Yüksekokulu
+344,Kandıra Meslek Yüksekokulu
+345,Yunak Meslek Yüksekokulu
+346,Hadim Meslek Yüksekokulu
+347,Akşehir Meslek Yüksekokulu
+348,Simav Meslek Yüksekokulu
+349,Kütahya Sosyal Bilimler Meslek Yüksekokulu
+350,Domaniç Hayme Ana Meslek Yüksekokulu
+351,Arapgir Meslek Yüksekokulu
+352,Demirci Meslek Yüksekokulu
+353,Malazgirt Meslek Yüksekokulu
+354,Ardeşen Meslek Yüksekokulu
+355,Geyve Meslek Yüksekokulu
+356,Yıldızeli Meslek Yüksekokulu
+357,Kangal Meslek Yüksekokulu
+358,Hafik Kamer Örnek Meslek Yüksekokulu
+359,Zara Ahmet Çuhadaroğlu Meslek Yüksekokulu
+360,Pazar Meslek Yüksekokulu
+361,Vakfıkebir Meslek Yüksekokulu
+362,Pertek Sakine Genç Meslek Yüksekokulu
+363,Ulubey Meslek Yüksekokulu
+364,Ortaköy Meslek Yüksekokulu
+365,Ahmetli Meslek Yüksekokulu
+366,Göksun Meslek Yüksekokulu
+367,Gülşehir Meslek Yüksekokulu
+368,Çarşamba Ticaret Borsası Meslek Yüksekokulu
+369,Alaplı Meslek Yüksekokulu
+370,İşletme ve Ekonomi Fakültesi
+371,Çine Meslek Yüksekokulu
+372,Şebinkarahisar Sosyal Bilimler Meslek Yüksekokulu
+373,Yayladağı Sosyal Bilimler Meslek Yüksekokulu
+374,Gülşehir Sosyal Bilimler Meslek Yüksekokulu
+375,Büyükkutlu Uygulamalı Bilimler Fakültesi (Yalvaç)
+376,Bolu Meslek Yüksekokulu
+377,Çölemerik Meslek Yüksekokulu
+378,Divriği Nuri Demirağ Meslek Yüksekokulu
+379,Uzunköprü Uygulamalı Bilimler Yüksekokulu
+380,Sapanca Meslek Yüksekokulu
+381,Besni Ali Erdemoğlu Meslek Yüksekokulu
+382,Bolvadin Uygulamalı Bilimler Fakültesi
+383,Sultandağı Meslek Yüksekokulu
+384,Eleşkirt Meslek Yüksekokulu
+385,Kepsut Meslek Yüksekokulu
+386,Gölpazarı Meslek Yüksekokulu
+387,Ahlat Meslek Yüksekokulu
+388,Gölhisar Meslek Yüksekokulu
+389,Bekilli Meslek Yüksekokulu
+390,Honaz Meslek Yüksekokulu
+391,Çermik Meslek Yüksekokulu
+392,Havsa Meslek Yüksekokulu
+393,Giresun Meslek Yüksekokulu
+394,Şebinkarahisar Meslek Yüksekokulu
+395,Reyhanlı Sosyal Bilimler Meslek Yüksekokulu
+396,Keçiborlu Meslek Yüksekokulu
+397,Aksu Mehmet Süreyya Demiraslan Meslek Yüksekokulu
+398,Gönen Meslek Yüksekokulu
+399,Taşköprü Meslek Yüksekokulu
+400,Pınarbaşı Meslek Yüksekokulu
+401,Vize Meslek Yüksekokulu
+402,Taşkent Meslek Yüksekokulu
+403,Doğanhisar Meslek Yüksekokulu
+404,Akören Ali Rıza Ercan Meslek Yüksekokulu
+405,Hisarcık Meslek Yüksekokulu
+406,Malatya Meslek Yüksekokulu
+407,Savur Meslek Yüksekokulu
+408,İkizce Meslek Yüksekokulu
+409,Kurtalan Meslek Yüksekokulu
+410,Şarkışla Aşık Veysel Meslek Yüksekokulu
+411,Suşehri Timur Karabal Meslek Yüksekokulu
+412,Gemerek Meslek Yüksekokulu
+413,Hayrabolu Meslek Yüksekokulu
+414,Turhal Uygulamalı Bilimler Fakültesi
+415,Erbaa Meslek Yüksekokulu
+416,Zile Meslek Yüksekokulu
+417,Çemişgezek Meslek Yüksekokulu
+418,Hilvan Meslek Yüksekokulu
+419,Eşme Meslek Yüksekokulu
+420,Erciş Meslek Yüksekokulu
+421,Akdağmadeni Meslek Yüksekokulu
+422,Silopi Meslek Yüksekokulu
+423,Bahçe Meslek Yüksekokulu
+424,Polatlı Sosyal Bilimler Meslek Yüksekokulu
+425,Diyarbakır Teknik Bilimler Meslek Yüksekokulu
+426,Porsuk Meslek Yüksekokulu
+427,Ege Meslek Yüksekokulu
+428,Sakarya Meslek Yüksekokulu
+429,İskenderun Meslek Yüksekokulu
+430,Merzifon Meslek Yüksekokulu
+431,Aydın Meslek Yüksekokulu
+432,Edirne Teknik Bilimler Meslek Yüksekokulu
+433,Samsun Meslek Yüksekokulu
+434,İletişim Bilimleri Fakültesi
+435,Güroymak Meslek Yüksekokulu
+436,Sağlık Bilimleri Yüksekokulu
+437,Nezahat Keleşoğlu Sağlık Bilimleri Fakültesi
+438,Gülhane Sağlık Bilimleri Fakültesi
+439,Bor Sağlık Bilimleri Fakültesi
+440,Atatürk Sağlık Bilimleri Fakültesi
+441,Kulu Sağlık Bilimleri Fakültesi
+442,Akşehir Kadir Yallagöz Sağlık Yüksekokulu
+443,Fethiye Sağlık Bilimleri Fakültesi
+444,Genç Meslek Yüksekokulu
+445,Karadeniz Ereğli Meslek Yüksekokulu
+446,Düziçi Meslek Yüksekokulu
+447,Bilgisayar ve Bilişim Bilimleri Fakültesi
+448,Huğlu Meslek Yüksekokulu
+449,Bilgisayar ve Bilişim Fakültesi
+450,Uluborlu Selahattin Karasoy Meslek Yüksekokulu
+451,Güneysınır Meslek Yüksekokulu
+452,Eskipazar Meslek Yüksekokulu
+453,Kadirli Sosyal ve Beşeri Bilimler Fakültesi
+454,Tasarım Meslek Yüksekokulu
+455,Karaisalı Meslek Yüksekokulu
+456,Kazım Karabekir Teknik Bilimler Meslek Yüksekokulu
+457,Kaynarca Seyfettin Selim Meslek Yüksekokulu
+458,Çarşıbaşı Meslek Yüksekokulu
+459,Mühendislik Fakültesi
+460,Mühendislik-Mimarlık Fakültesi
+461,Mühendislik ve Mimarlık Fakültesi
+462,ODTÜ Kuzey Kıbrıs Kampusu (KKTC-Güzelyurt)
+463,Rafet Kayış Mühendislik Fakültesi
+464,"Mühendislik, Mimarlık ve Tasarım Fakültesi"
+465,Elektrik-Elektronik Fakültesi
+466,İTÜ-KKTC Eğitim Araştırma Yerleşkesi (Gazimağusa)
+467,Seydişehir Ahmet Cengiz Mühendislik Fakültesi
+468,Çorlu Mühendislik Fakültesi
+469,Mimarlık ve Mühendislik Fakültesi
+470,Bilgisayar ve Bilişim Teknolojileri Fakültesi
+471,ODTÜ Kuzey Kıbrıs Kampusu
+472,Mühendislik ve Teknoloji Fakültesi
+473,Kütahya Teknik Bilimler Meslek Yüksekokulu
+474,Engelliler Entegre Yüksekokulu
+475,Adana Meslek Yüksekokulu
+476,Sinanpaşa Meslek Yüksekokulu
+477,Patnos Meslek Yüksekokulu
+478,Elmadağ Meslek Yüksekokulu
+479,Başkent Organize Sanayi Bölgesi Teknik Bilimler Meslek Yüksekokulu
+480,Akseki Meslek Yüksekokulu
+481,Altınoluk Meslek Yüksekokulu
+482,Bandırma Meslek Yüksekokulu
+483,Adilcevaz Meslek Yüksekokulu
+484,Çanakkale Teknik Bilimler Meslek Yüksekokulu
+485,Bismil Meslek Yüksekokulu
+486,Balıkesir Meslek Yüksekokulu
+487,Elazığ Organize Sanayi Bölgesi Meslek Yüksekokulu
+488,Üzümlü Meslek Yüksekokulu
+489,Tercan Meslek Yüksekokulu
+490,Tortum Meslek Yüksekokulu
+491,Gümüşhane Meslek Yüksekokulu
+492,Senirkent Meslek Yüksekokulu
+493,Uzaktan Eğitim Meslek Yüksekokulu
+494,Mersin Meslek Yüksekokulu
+495,Beykoz Lojistik Meslek Yüksekokulu
+496,İzmir Meslek Yüksekokulu
+497,Tire Kutsan Meslek Yüksekokulu
+498,Kocaeli Meslek Yüksekokulu
+499,Seydişehir Meslek Yüksekokulu
+500,Sarayönü Meslek Yüksekokulu
+501,Tavşanlı Meslek Yüksekokulu
+502,Malatya Osb Meslek Yüksekokulu
+503,Doğanşehir Vahap Küçük Meslek Yüksekokulu
+504,Salihli Meslek Yüksekokulu
+505,Kırkağaç Meslek Yüksekokulu
+506,Afşin Meslek Yüksekokulu
+507,Mesudiye Meslek Yüksekokulu
+508,Ünye Meslek Yüksekokulu
+509,Karasu Meslek Yüksekokulu
+510,Vezirköprü Meslek Yüksekokulu
+511,Sivas Teknik Bilimler Meslek Yüksekokulu
+512,Turhal Meslek Yüksekokulu
+513,Trabzon Meslek Yüksekokulu
+514,Siverek Meslek Yüksekokulu
+515,Viranşehir Meslek Yüksekokulu
+516,Şanlıurfa Teknik Bilimler Meslek Yüksekokulu
+517,Lüleburgaz Meslek Yüksekokulu
+518,Köseköy Meslek Yüksekokulu
+519,Ticaret ve Sanayi Meslek Yüksekokulu
+520,Ermenek Meslek Yüksekokulu
+521,Bilgisayar ve Teknoloji Yüksekokulu
+522,Erzin Organize Sanayi Bölgesi Meslek Yüksekokulu
+523,Özalp Meslek Yüksekokulu
+524,Türkistan Meslek Yüksekokulu
+525,Bolu Teknik Bilimler Meslek Yüksekokulu
+526,Sivrihisar Meslek Yüksekokulu
+527,Karakoçan Meslek Yüksekokulu
+528,Turgutlu Meslek Yüksekokulu
+529,Sorgun Meslek Yüksekokulu
+530,Denizli Teknik Bilimler Meslek Yüksekokulu
+531,Yalvaç Teknik Bilimler Meslek Yüksekokulu
+532,Hacıbektaş Teknik Bilimler Meslek Yüksekokulu
+533,Ceyhan Meslek Yüksekokulu
+534,Dinar Meslek Yüksekokulu
+535,Sandıklı Meslek Yüksekokulu
+536,Amasya Teknik Bilimler Meslek Yüksekokulu
+537,Nallıhan Meslek Yüksekokulu
+538,Tusaş-Kazan Meslek Yüksekokulu
+539,Edremit Meslek Yüksekokulu
+540,Karacabey Meslek Yüksekokulu
+541,Orhangazi Yeniköy Asil Çelik Meslek Yüksekokulu
+542,Orhangazi Meslek Yüksekokulu
+543,Osmancık Ömer Derindere Meslek Yüksekokulu
+544,Sungurlu Meslek Yüksekokulu
+545,Silvan Meslek Yüksekokulu
+546,Ergani Meslek Yüksekokulu
+547,Kovancılar Meslek Yüksekokulu
+548,Horasan Meslek Yüksekokulu
+549,Kelkit Aydın Doğan Meslek Yüksekokulu
+550,Hassa Meslek Yüksekokulu (Kırıkhan)
+551,Atabey Meslek Yüksekokulu
+552,Tunca Meslek Yüksekokulu
+553,Bergama Meslek Yüksekokulu
+554,Kulu Meslek Yüksekokulu
+555,Ilgın Meslek Yüksekokulu
+556,Akhisar Meslek Yüksekokulu
+557,Hendek Meslek Yüksekokulu
+558,Bafra Meslek Yüksekokulu
+559,Reşadiye Meslek Yüksekokulu
+560,Birecik Meslek Yüksekokulu
+561,Karahallı Meslek Yüksekokulu
+562,Başkale Meslek Yüksekokulu
+563,Van Meslek Yüksekokulu
+564,Boğazlıyan Meslek Yüksekokulu
+565,Sivas Meslek Yüksekokulu
+566,Cizre Meslek Yüksekokulu
+567,Türkiye Odalar ve Borsalar Birliği Teknik Bilimler Meslek Yüksekokulu
+568,Osmaniye Meslek Yüksekokulu
+569,Tatvan Meslek Yüksekokulu
+570,Safranbolu Şefik Yılmaz Dizdar Meslek Yüksekokulu
+571,İmamoğlu Meslek Yüksekokulu
+572,Safranbolu Meslek Yüksekokulu
+573,Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu
+574,Gölhisar Uygulamalı Bilimler Yüksekokulu
+575,Erdemli Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu
+576,Necatibey Eğitim Fakültesi
+577,Şebinkarahisar Teknik Bilimler Meslek Yüksekokulu
+578,Bucak Bilgisayar ve Bilişim Fakültesi
+579,Bucak Teknoloji Fakültesi
+580,Şarkışla Uygulamalı Bilimler Yüksekokulu
+581,Bucak Zeliha Tolunay Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu
+582,Yusufeli Meslek Yüksekokulu
+583,Sultanhisar Meslek Yüksekokulu
+584,Yenişehir İbrahim Orhan Meslek Yüksekokulu
+585,Samandağ Meslek Yüksekokulu
+586,Arslanbey Meslek Yüksekokulu
+587,Sivaslı Meslek Yüksekokulu
+588,Tarım Bilimleri ve Teknoloji Fakültesi
+589,Ziraat Fakültesi (Kahta)
+590,Yeşilhisar Meslek Yüksekokulu
+591,Köyceğiz Meslek Yüksekokulu
+592,Tarım ve Doğa Bilimleri Fakültesi
+593,Kars Meslek Yüksekokulu
+594,Maçka Meslek Yüksekokulu
+595,Polatlı Fen-Edebiyat Fakültesi
+596,Fatih Eğitim Fakültesi
+597,Yeşilyurt Meslek Yüksekokulu
+598,Zonguldak Meslek Yüksekokulu
+599,Hacılar Hüseyin Aytemiz Meslek Yüksekokulu
+600,Tosya Meslek Yüksekokulu
+601,Soma Meslek Yüksekokulu
+602,Hacıbektaş Meslek Yüksekokulu
+603,Yeşilyurt Demir Çelik Meslek Yüksekokulu
+604,Zonguldak Meslek Yüksekokulu (Kilimli)
+605,Kimya-Metalurji Fakültesi
+606,Yaşam ve Doğa Bilimleri Fakültesi
+607,Ziraat ve Doğa Bilimleri Fakültesi
+608,Ereğli Ziraat Fakültesi
+609,Hereke Asım Kocabıyık Meslek Yüksekokulu
+610,Arhavi Meslek Yüksekokulu
+611,Atça Meslek Yüksekokulu
+612,Bucak Hikmet Tolunay Meslek Yüksekokulu
+613,Orhaneli Meslek Yüksekokulu
+614,Dörtyol Meslek Yüksekokulu
+615,Kaman Meslek Yüksekokulu
+616,Gazanfer Bilge Meslek Yüksekokulu
+617,Hereke Ömer İsmet Uzunyol Meslek Yüksekokulu
+618,Gördes Meslek Yüksekokulu
+619,Ömerli Meslek Yüksekokulu
+620,Havza Meslek Yüksekokulu
+621,Marmara Ereğlisi Meslek Yüksekokulu
+622,Çerkezköy Meslek Yüksekokulu
+623,Tokat Sosyal Bilimler Meslek Yüksekokulu
+624,Şırnak Meslek Yüksekokulu
+625,Dr. Engin Pak Cumayeri Meslek Yüksekokulu
+626,Çanakkale Sosyal Bilimler Meslek Yüksekokulu
+627,Havran Meslek Yüksekokulu
+628,Tefenni Meslek Yüksekokulu
+629,Uzunköprü Meslek Yüksekokulu
+630,Aşkale Meslek Yüksekokulu
+631,Şarkikaraağaç Meslek Yüksekokulu
+632,Devrekani Türkiye Odalar ve Borsalar Birliği Meslek Yüksekokulu
+633,Elbistan Meslek Yüksekokulu
+634,Beşikdüzü Meslek Yüksekokulu
+635,Fatma Şenses Sosyal Bilimler Meslek Yüksekokulu
+636,Ulus Meslek Yüksekokulu
+637,Ardahan Sosyal Bilimler Meslek Yüksekokulu
+638,Güzel Sanatlar Fakültesi
+639,Maden Fakültesi
+640,İrfan Can Köse Meslek Yüksekokulu
+641,Güvenlik ve Koruma Bilimleri Meslek Yüksekokulu
+642,Yerköy Meslek Yüksekokulu
+643,Çumra Meslek Yüksekokulu
+644,Kavak Meslek Yüksekokulu
+645,Adana Organize Sanayi Bölgesi Teknik Bilimler Meslek Yüksekokulu
+646,Ayaş Meslek Yüksekokulu
+647,Boyabat Meslek Yüksekokulu
+648,Ardahan İnsani Bilimler ve Edebiyat Fakültesi
+649,Şefaatli Meslek Yüksekokulu
+650,Alaçam Meslek Yüksekokulu
+651,Artova Meslek Yüksekokulu
+652,Siyasal Bilgiler Fakültesi
+653,Nazilli İktisadi ve İdari Bilimler Fakültesi
+654,İktisat Fakültesi
+655,Ünye İktisadi ve İdari Bilimler Fakültesi
+656,Yalova İktisadi ve İdari Bilimler Fakültesi
+657,Biga İktisadi ve İdari Bilimler Fakültesi
+658,İzmit Meslek Yüksekokulu
+659,Fethiye Ali Sıtkı-Mefharet Koçman Meslek Yüksekokulu
+660,Çorlu Meslek Yüksekokulu
+661,Bozova Meslek Yüksekokulu
+662,Keban Meslek Yüksekokulu
+663,İnşaat Fakültesi
+664,İnşaat ve Çevre Mühendisliği Fakültesi
+665,Eldivan Sağlık Hizmetleri Meslek Yüksekokulu
+666,Şabanözü Meslek Yüksekokulu
+667,Iğdır Sağlık Hizmetleri Meslek Yüksekokulu
+668,Serik Gülsün-Süleyman Süral Meslek Yüksekokulu
+669,Bayındır Meslek Yüksekokulu
+670,Kütahya Güzel Sanatlar Meslek Yüksekokulu
+671,İznik Meslek Yüksekokulu
+672,Güzel Sanatlar Tasarım ve Mimarlık Fakültesi
+673,Sanat ve Tasarım Fakültesi
+674,Çay Meslek Yüksekokulu
+675,Sabuncuoğlu Şerefeddin Sağlık Hizmetleri Meslek Yüksekokulu
+676,Solhan Sağlık Hizmetleri Meslek Yüksekokulu
+677,Gölhisar Sağlık Hizmetleri Meslek Yüksekokulu
+678,Bayramiç Meslek Yüksekokulu
+679,Kale Meslek Yüksekokulu
+680,Refahiye Sağlık Hizmetleri Meslek Yüksekokulu
+681,Refahiye Bahar Yıldırım Sağlık Hizmetleri Meslek Yüksekokulu
+682,Yunus Emre Sağlık Hizmetleri Meslek Yüksekokulu
+683,Eynesil Kamil Nalbant Meslek Yüksekokulu
+684,İzmir Ödemiş Sağlık Yüksekokulu
+685,Emet Meslek Yüksekokulu
+686,Gediz Sağlık Hizmetleri Meslek Yüksekokulu
+687,Niğde Zübeyde Hanım Sağlık Hizmetleri Meslek Yüksekokulu
+688,Eruh Meslek Yüksekokulu
+689,Çekerek Fuat Oktay Sağlık Hizmetleri Meslek Yüksekokulu
+690,Keskin Meslek Yüksekokulu
+691,Bartın Sağlık Hizmetleri Meslek Yüksekokulu
+692,Ardahan Sağlık Hizmetleri Meslek Yüksekokulu
+693,Eğirdir Sağlık Hizmetleri Meslek Yüksekokulu
+694,Ödemiş Sağlık Bilimleri Fakültesi
+695,Sandıklı Uygulamalı Bilimler Yüksekokulu
+696,Kumluca Sağlık Bilimleri Fakültesi
+697,Borçka Acarlar Meslek Yüksekokulu
+698,Koçarlı Meslek Yüksekokulu
+699,İnegöl Meslek Yüksekokulu
+700,Keşan Meslek Yüksekokulu
+701,Hınıs Meslek Yüksekokulu
+702,Araban Meslek Yüksekokulu
+703,Gümüşhane Sağlık Hizmetleri Meslek Yüksekokulu
+704,Fatsa Meslek Yüksekokulu
+705,Ayancık Meslek Yüksekokulu
+706,Aydıntepe Meslek Yüksekokulu
+707,Sason Meslek Yüksekokulu
+708,Kozluk Meslek Yüksekokulu
+709,İdil Meslek Yüksekokulu
+710,Deniz İşletmeciliği ve Yönetimi Fakültesi
+711,İTÜ-KKTC Eğitim Araştırma Yerleşkesi
+712,Denizcilik Fakültesi
+713,Turgut Kıran Denizcilik Fakültesi
+714,Denizcilik ve Ulaştırma Yüksekokulu
+715,Deniz Bilimleri ve Teknolojisi Fakültesi
+716,Barbaros Hayrettin Gemi İnşaatı ve Denizcilik Fakültesi
+717,Karamürsel Meslek Yüksekokulu
+718,Denizcilik Meslek Yüksekokulu (Kocaali)
+719,Karamürsel Denizcilik Meslek Yüksekokulu
+720,Urla Denizcilik Meslek Yüksekokulu
+721,Gelibolu Piri Reis Meslek Yüksekokulu
+722,Denizcilik Teknolojileri Meslek Yüksekokulu
+723,İnebolu Meslek Yüksekokulu
+724,Kemer Denizcilik Fakültesi
+725,Bor Halil-Zöhre Ataman Meslek Yüksekokulu
+726,Araklı Ali Cevat Özyurt Meslek Yüksekokulu
+727,1. Organize Sanayi Bölgesi Meslek Yüksekokulu
+728,"Sanat, Tasarım ve Mimarlık Fakültesi"
+729,Sanat ve Sosyal Bilimler Fakültesi
+730,"Güzel Sanatlar, Tasarım ve Mimarlık Fakültesi"
+731,Bodrum Güzel Sanatlar Fakültesi
+732,Diş Hekimliği Fakültesi
+733,Gülhane Diş Hekimliği Fakültesi (Ankara)
+734,Hamidiye Diş Hekimliği Fakültesi
+735,Ahmet Keleşoğlu Diş Hekimliği Fakültesi
+736,Gülhane Sağlık Meslek Yüksekokulu
+737,Doğubayazıt Ahmed-i Hani Meslek Yüksekokulu
+738,Kahramankazan Meslek Yüksekokulu
+739,Kazan Meslek Yüksekokulu
+740,Yeniçağa Yaşar Çelik Meslek Yüksekokulu
+741,Ezine Gıda İhtisas Organize Sanayi Bölgesi Meslek Yüksekokulu
+742,Gölcük Meslek Yüksekokulu
+743,Nusaybin Meslek Yüksekokulu
+744,Dalaman Meslek Yüksekokulu
+745,Pamukova Meslek Yüksekokulu
+746,Akyazı Meslek Yüksekokulu
+747,Yumurtalık Meslek Yüksekokulu
+748,Karacasu Memnune İnci Meslek Yüksekokulu
+749,Ezine Meslek Yüksekokulu
+750,Gökçeada Meslek Yüksekokulu
+751,Denizli Sosyal Bilimler Meslek Yüksekokulu
+752,Keşap Meslek Yüksekokulu
+753,Hereke Meslek Yüksekokulu
+754,Cihanbeyli Meslek Yüksekokulu
+755,Terme Meslek Yüksekokulu
+756,Saray Meslek Yüksekokulu
+757,Şiran Sağlık Hizmetleri Meslek Yüksekokulu
+758,İncesu Ayşe ve Saffet Arslan Sağlık Hizmetleri Meslek Yüksekokulu
+759,Şiran Dursun Keleş Sağlık Hizmetleri Meslek Yüksekokulu
+760,Torbalı Meslek Yüksekokulu
+761,Abana Sabahat Mesut Yılmaz Meslek Yüksekokulu
+762,Niğde Teknik Bilimler Meslek Yüksekokulu
+763,Arsin Meslek Yüksekokulu
+764,İçel Sağlık Yüksekokulu
+765,Niğde Zübeyde Hanım Sağlık Yüksekokulu
+766,Hemşirelik Yüksekokulu
+767,Hemşirelik Fakültesi
+768,Sağlık Bilimleri Fakültesi (Piraziz)
+769,Zübeyde Hanım Sağlık Bilimleri Fakültesi
+770,Eczacılık Fakültesi
+771,Gülhane Eczacılık Fakültesi (Ankara)
+772,Hamidiye Eczacılık Fakültesi
+773,Köyceğiz Sağlık Hizmetleri Meslek Yüksekokulu
+774,Ermenek Uysal ve Hasan Kalan Sağlık Hizmetleri Meslek Yüksekokulu
+775,Tavas Sağlık Hizmetleri Meslek Yüksekokulu
+776,Gelendost Meslek Yüksekokulu
+777,Kağızman Meslek Yüksekokulu
+778,Elbistan Sağlık Hizmetleri Meslek Yüksekokulu
+779,Varto Meslek Yüksekokulu
+780,Durağan Meslek Yüksekokulu
+781,Nihat Delibalta Göle Meslek Yüksekokulu
+782,Aydın İktisat Fakültesi
+783,Söke İşletme Fakültesi
+784,Yönetim Bilimleri Fakültesi
+785,Fethiye İşletme Fakültesi
+786,Serik İşletme Fakültesi
+787,Bucak İşletme Fakültesi
+788,Dazkırı Meslek Yüksekokulu
+789,Bulancak Meslek Yüksekokulu
+790,Aliağa Meslek Yüksekokulu
+791,Germencik Yamantürk Meslek Yüksekokulu
+792,Biga Meslek Yüksekokulu
+793,Malkara Meslek Yüksekokulu
+794,Sürmene Abdullah Kanca Meslek Yüksekokulu
+795,Simav Teknoloji Fakültesi
+796,Tufanbeyli Meslek Yüksekokulu
+797,İliç Dursun Yıldırım Meslek Yüksekokulu
+798,Gölköy Meslek Yüksekokulu
+799,Hasan Ferdi Turgutlu Teknoloji Fakültesi
+800,Anadolu OSB Meslek Yüksekokulu
+801,Bozkurt Meslek Yüksekokulu
+802,Mersin Tarsus Organize Sanayi Bölgesi Teknik Bilimler Meslek Yüksekokulu
+803,Of Teknoloji Fakültesi
+804,Tapu Kadastro Yüksekokulu
+805,Ali Rıza Veziroğlu Meslek Yüksekokulu
+806,Savaştepe Meslek Yüksekokulu
+807,Makine Fakültesi
+808,Mimarlık Fakültesi
+809,Güzel Sanatlar ve Tasarım Fakültesi
+810,Dinar Uygulamalı Bilimler Yüksekokulu
+811,Safranbolu Fethi Toker Güzel Sanatlar ve Tasarım Fakültesi
+812,Çerkeş Meslek Yüksekokulu
+813,Ford Otosan İhsaniye Otomotiv Meslek Yüksekokulu
+814,Tasarım Fakültesi
+815,Mimarlık ve Güzel Sanatlar Fakültesi
+816,Çanakkale Uygulamalı Bilimler Fakültesi
+817,Çatalzeytin Meslek Yüksekokulu
+818,Sanat ve Tasarım Meslek Yüksekokulu
+819,Nazilli Sağlık Hizmetleri Meslek Yüksekokulu
+820,Tonya Meslek Yüksekokulu
+821,Erbaa Sağlık Hizmetleri Meslek Yüksekokulu
+822,Dede Korkut Eğitim Fakültesi
+823,Eğitim Fakültesi (Demirci)
+824,Eğitim Fakültesi (Çayeli)
+825,Ereğli Eğitim Fakültesi
+826,Kilisli Muallim Rıfat Eğitim Fakültesi
+827,Eğitim Fakültesi (Hendek)
+828,Mustafa Baysan Meslek Yüksekokulu
+829,Burhaniye Uygulamalı Bilimler Fakültesi
+830,Gerede Uygulamalı Bilimler Fakültesi
+831,Kütahya Uygulamalı Bilimler Fakültesi
+832,Uygulamalı Bilimler Fakültesi (Lüleburgaz)
+833,Uygulamalı Bilimler Yüksekokulu (Devrek)
+834,Temel Bilimler Fakültesi
+835,Simav Sağlık Hizmetleri Meslek Yüksekokulu
+836,Kozaklı Meslek Yüksekokulu
+837,Akyazı Sağlık Hizmetleri Meslek Yüksekokulu
+838,Termal Meslek Yüksekokulu
+839,Kızılcahamam Sağlık Hizmetleri Meslek Yüksekokulu
+840,Haymana Meslek Yüksekokulu
+841,Atayalvaç Sağlık Hizmetleri Meslek Yüksekokulu
+842,Seydişehir Sağlık Hizmetleri Meslek Yüksekokulu
+843,Termal Sağlık Hizmetleri Meslek Yüksekokulu
+844,Fizik Tedavi ve Rehabilitasyon Fakültesi
+845,Fizyoterapi ve Rehabilitasyon Fakültesi
+846,Fizik Tedavi ve Rehabilitasyon Yüksekokulu
+847,Sağlık Bilimleri Fakültesi (Akyazı)
+848,Gülhane Fizyoterapi ve Rehabilitasyon Fakültesi
+849,Güneysu Fizik Tedavi ve Rehabilitasyon Yüksekokulu
+850,Sarıkaya Fizyoterapi ve Rehabilitasyon Yüksekokulu
+851,Turizm Fakültesi
+852,Manavgat Turizm Fakültesi
+853,Turizm İşletmeciliği ve Otelcilik Yüksekokulu
+854,Gökçeada Uygulamalı Bilimler Yüksekokulu
+855,Güzel Sanatlar ve Mimarlık Fakültesi
+856,Reha Midilli Foça Turizm Fakültesi
+857,Uygulamalı Yönetim Bilimleri Yüksekokulu
+858,Beyşehir Ali Akkanat Turizm Fakültesi
+859,Tavşanlı Uygulamalı Bilimler Fakültesi
+860,Ardeşen Turizm Fakültesi
+861,Zile Dinçerler Turizm İşletmeciliği ve Otelcilik Yüksekokulu
+862,Kadirli Uygulamalı Bilimler Yüksekokulu
+863,Akçakoca Turizm İşletmeciliği ve Otelcilik Yüksekokulu
+864,Turizm ve Mutfak Sanatları Yüksekokulu
+865,Seferihisar Fevziye Hepkon Uygulamalı Bilimler Yüksekokulu
+866,Kadirli Uygulamalı Bilimler Fakültesi
+867,Kanık Uygulamalı Bilimler Yüksekokulu (Ahlat)
+868,Kemaliye Hacı Ali Akın Uygulamalı Bilimler Yüksekokulu
+869,Turizm Fakültesi (Keşap)
+870,Sarıkamış Turizm Fakültesi
+871,Turizm Fakültesi (Sapanca)
+872,Safranbolu Turizm Fakültesi
+873,Boyabat İktisadi ve İdari Bilimler Fakültesi
+874,Tokat Teknik Bilimler Meslek Yüksekokulu
+875,Tirebolu İletişim Fakültesi
+876,İletişim Fakültesi (Çarşamba)
+877,Türker İnanoğlu İletişim Fakültesi
+878,Gazetecilik Fakültesi
+879,Dursunbey Meslek Yüksekokulu
+880,Şehit Ressam Hasan Rıza Güzel Sanatlar Meslek Yüksekokulu
+881,Müzik ve Güzel Sanatlar Meslek Yüksekokulu
+882,Bodrum Denizcilik Meslek Yüksekokulu
+883,Deniz Teknolojileri Meslek Yüksekokulu
+884,Altınova Meslek Yüksekokulu
+885,Gemi İnşaatı ve Deniz Bilimleri Fakültesi
+886,Gemi İnşaatı ve Denizcilik Fakültesi
+887,Köşk Meslek Yüksekokulu
+888,Altıntaş Meslek Yüksekokulu
+889,Çaycuma Gıda ve Tarım Meslek Yüksekokulu
+890,Armutlu Meslek Yüksekokulu
+891,Susurluk Tarım ve Orman Meslek Yüksekokulu
+892,Susurluk Meslek Yüksekokulu
+893,Akşehir Mühendislik ve Mimarlık Fakültesi
+894,Şuhut Meslek Yüksekokulu
+895,Şebinkarahisar Uygulamalı Bilimler Yüksekokulu
+896,Altınözü Tarım Bilimleri Meslek Yüksekokulu
+897,Saruhanlı Meslek Yüksekokulu
+898,Mustafakemalpaşa Meslek Yüksekokulu
+899,Çal Meslek Yüksekokulu
+900,Efes Meslek Yüksekokulu (Selçuk)
+901,Darende Bekir Ilıcak Meslek Yüksekokulu
+902,Emel Akın Meslek Yüksekokulu
+903,Sanat ve Tasarım Fakültesi (Arhavi)
+904,Güzel Sanatlar Fakültesi (Hacıbektaş)
+905,Görele Güzel Sanatlar Fakültesi
+906,Ferizli Meslek Yüksekokulu
+907,"Mimarlık, Tasarım ve Güzel Sanatlar Fakültesi"
+908,İskilip Meslek Yüksekokulu
+909,Seydikemer Uygulamalı Bilimler Yüksekokulu
+910,Ömer Seyfettin Uygulamalı Bilimler Fakültesi
+911,Niksar Uygulamalı Bilimler Fakültesi
+912,Kula Meslek Yüksekokulu
+913,Bozdoğan Meslek Yüksekokulu
+914,Gökçebey Mithat-Mehmet Çanakçı Meslek Yüksekokulu
+915,Tomarza Mustafa Akıncıoğlu Meslek Yüksekokulu
+916,Sarıgöl Meslek Yüksekokulu
+917,Kadınhanı Faik İçil Meslek Yüksekokulu
+918,Muradiye Meslek Yüksekokulu
+919,Ankara Havacılık Meslek Yüksekokulu
+920,İzmir Havacılık Meslek Yüksekokulu
+921,Ali Cavit Çelebioğlu Sivil Havacılık Yüksekokulu
+922,Havacılık ve Uzay Bilimleri Fakültesi
+923,Sivil Havacılık Yüksekokulu
+924,Özdemir Bayraktar Havacılık ve Uzay Bilimleri Fakültesi
+925,Merzifon İktisadi ve İdari Bilimler Fakültesi
+926,Gazipaşa Havacılık ve Uzay Bilimleri Fakültesi
+927,Dalaman Sivil Havacılık Yüksekokulu
+928,Havacılık Yüksekokulu
+929,Edremit Sivil Havacılık Yüksekokulu
+930,Sivil Havacılık Yüksekokulu (Keçiborlu)
+931,Celal Oruç Hayvansal Üretim Yüksekokulu
+932,Celal Oruç Hayvansal Üretim Yüksekokulu (Eleşkirt)
+933,Diyarbakır Atatürk Sağlık Yüksekokulu
+934,Florence Nightingale Hastanesi Hemşirelik Yüksekokulu
+935,Florence Nightingale Hemşirelik Fakültesi
+936,Gülhane Hemşirelik Fakültesi
+937,Seydişehir Kamil Akkanat Sağlık Bilimleri Fakültesi
+938,Suşehri Sağlık Yüksekokulu
+939,Hamidiye Hemşirelik Fakültesi
+940,Seydişehir Sağlık Bilimleri Fakültesi
+941,Afşin Sağlık Yüksekokulu
+942,Semra ve Vefa Küçük Sağlık Bilimleri Fakültesi
+943,Erbaa Sağlık Bilimleri Fakültesi
+944,Viranşehir Sağlık Yüksekokulu
+945,Akdağmadeni Sağlık Yüksekokulu
+946,Yusuf Şerefoğlu Sağlık Bilimleri Fakültesi
+947,Arifiye Meslek Yüksekokulu
+948,Hukuk Fakültesi
+949,KKTC Akademik Birim (Lefkoşa)
+950,ASBÜ-Kuzey Kıbrıs Yerleşkesi (KKTC-Lefkoşa)
+951,Hukuk Fakültesi (Burslu)
+952,Ali Fuad Başgil Hukuk Fakültesi (Çarşamba)
+953,Hukuk Fakültesi (Gemlik)
+954,Hekimhan Mehmet Emin Sungur Meslek Yüksekokulu
+955,Banaz Meslek Yüksekokulu
+956,Uçak ve Uzay Bilimleri Fakültesi
+957,Hopa İktisadi ve İdari Bilimler Fakültesi
+958,İslahiye İktisadi ve İdari Bilimler Fakültesi
+959,Gümüşhane İktisadi ve İdari Bilimler Fakültesi
+960,Akçakoca Bey Siyasal Bilgiler Fakültesi
+961,Ekonomi ve Yönetim Bilimleri Fakültesi
+962,Salihli İktisadi ve İdari Bilimler Fakültesi
+963,İlahiyat Fakültesi
+964,Birgivi İlahiyat Fakültesi
+965,Ahmet Keleşoğlu İlahiyat Fakültesi
+966,İslami İlimler Fakültesi
+967,Dini İlimler Fakültesi
+968,Polatlı İlahiyat Fakültesi
+969,İlahiyat Fakültesi (Hopa)
+970,Erbaa Sosyal ve Beşeri Bilimler Fakültesi
+971,Şuhut Sağlık Hizmetleri Meslek Yüksekokulu
+972,Konya Sağlık Hizmetleri Meslek Yüksekokulu
+973,İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+974,Şebinkarahisar Sağlık Hizmetleri Meslek Yüksekokulu
+975,Manisa Sağlık Hizmetleri Meslek Yüksekokulu
+976,Fethiye Sağlık Hizmetleri Meslek Yüksekokulu
+977,Kelkit Sağlık Hizmetleri Meslek Yüksekokulu
+978,Gaziantep Eğitim Fakültesi
+979,Dr. Fazıl Küçük Eğitim Fakültesi
+980,Nizip Eğitim Fakültesi
+981,Bayburt Eğitim Fakültesi
+982,Yabancı Diller Fakültesi
+983,Filoloji ve Yabancı Dil Öğretmenliği Fakültesi
+984,Milli Kültür Fakültesi
+985,Bayat Meslek Yüksekokulu
+986,Havacılık Meslek Yüksekokulu
+987,İslahiye Meslek Yüksekokulu
+988,Birgivi İslami İlimler Fakültesi
+989,Develi İslami İlimler Fakültesi
+990,İslami İlimler Fakültesi (Türkoğlu)
+991,Küre Meslek Yüksekokulu
+992,İscehisar Meslek Yüksekokulu
+993,Demirözü Meslek Yüksekokulu
+994,Çavdır Meslek Yüksekokulu
+995,Çan Uygulamalı Bilimler Fakültesi
+996,İmranlı Meslek Yüksekokulu
+997,Gümüşova Meslek Yüksekokulu
+998,Beyşehir Ali Akkanat İşletme Fakültesi
+999,Kozan İşletme Fakültesi
+1000,İnegöl İşletme Fakültesi
+1001,Akşehir İktisadi ve İdari Bilimler Fakültesi
+1002,Erciş İşletme Fakültesi
+1003,Silifke Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu
+1004,Manavgat Sosyal ve Beşeri Bilimler Fakültesi
+1005,Şereflikoçhisar Berat Cömertoğlu Meslek Yüksekokulu
+1006,Mudurnu Süreyya Astarcı Meslek Yüksekokulu
+1007,Muratlı Meslek Yüksekokulu
+1008,Kuyucak Meslek Yüksekokulu
+1009,Ayvalık Meslek Yüksekokulu
+1010,Burhaniye Meslek Yüksekokulu
+1011,İskenderun Organize Sanayi Bölgesi Kaynakçılık Meslek Yüksekokulu
+1012,Ceyhan Mühendislik Fakültesi
+1013,Çeşme Turizm Fakültesi
+1014,Çardak Organize Sanayi Bölgesi Meslek Yüksekokulu
+1015,Midyat Sanat ve Tasarım Fakültesi
+1016,Değirmendere Ali Özbay Meslek Yüksekokulu
+1017,Kültür Varlıklarını Koruma ve Onarım Yüksekokulu
+1018,Kültür ve Sosyal Bilimler Fakültesi
+1019,Çayırlı Meslek Yüksekokulu
+1020,Kemaliye Hacı Ali Akın Meslek Yüksekokulu
+1021,Menemen Meslek Yüksekokulu
+1022,Derinkuyu Emineana ve Yaşar Ertaş Tarım ve Hayvancılık Meslek Yüksekokulu
+1023,Eskil Meslek Yüksekokulu
+1024,Çilimli Meslek Yüksekokulu
+1025,Acıgöl Teknik Bilimler Meslek Yüksekokulu
+1026,Uygulamalı Bilimler Meslek Yüksekokulu
+1027,Ulaştırma Meslek Yüksekokulu
+1028,Bulancak Kadir Karabaş Uygulamalı Bilimler Yüksekokulu
+1029,Ulaştırma ve Lojistik Fakültesi
+1030,Karatay Meslek Yüksekokulu
+1031,Susuz Meslek Yüksekokulu
+1032,Aırbus-Tusaş Havacılık Meslek Yüksekokulu
+1033,Asım Kocabıyık Meslek Yüksekokulu
+1034,Kamil Özdağ Fen Fakültesi
+1035,Isparta Osb Meslek Yüksekokulu
+1036,Avanos Güzel Sanatlar Meslek Yüksekokulu
+1037,Avanos Meslek Yüksekokulu
+1038,"Mimarlık, Güzel Sanatlar ve Tasarım Fakültesi"
+1039,Safranbolu Başak Cengiz Mimarlık Fakültesi
+1040,Başak Cengiz Mimarlık Fakültesi
+1041,Moda ve Tasarım Yüksekokulu
+1042,Akçakale Meslek Yüksekokulu
+1043,Aydıncık Meslek Yüksekokulu (Anamur)
+1044,"Okul Öncesi Eğitim, Psikolojik Danışmanlık ve İşitme Engelliler Fakültesi"
+1045,Muğla Sağlık Hizmetleri Meslek Yüksekokulu (Marmaris)
+1046,Kızıltepe Meslek Yüksekokulu
+1047,Uygulamalı Bilimler Fakültesi (Çivril)
+1048,Çumra Uygulamalı Bilimler Yüksekokulu
+1049,Bartın Orman Fakültesi
+1050,Kürtün Meslek Yüksekokulu
+1051,Koyulhisar Meslek Yüksekokulu
+1052,Bünyan Meslek Yüksekokulu
+1053,Oltu Yer Bilimleri Fakültesi
+1054,Nurdağı Meslek Yüksekokulu
+1055,Hava Ulaştırma Fakültesi
+1056,Refahiye Meslek Yüksekokulu
+1057,Taşova Yüksel Akın Meslek Yüksekokulu
+1058,İnsani Bilimler Fakültesi
+1059,Fen Edebiyat Fakültesi
+1060,Hamidiye Yaşam Bilimleri Fakültesi
+1061,Sosyal Bilimler ve Psikoloji Fakültesi
+1062,Necat Hepkon Spor Bilimleri Fakültesi (Seferihisar)
+1063,Yaşar Doğu Spor Bilimleri Fakültesi
+1064,Turizm Fakültesi (Eğirdir)
+1065,Uluslararası İlişkiler ve Yabancı Diller Fakültesi
+1066,Bolvadin Sağlık Hizmetleri Meslek Yüksekokulu
+1067,Şavşat Meslek Yüksekokulu
+1068,Turhal Sağlık Hizmetleri Meslek Yüksekokulu
+1069,Erdek Meslek Yüksekokulu
+1070,Develi Sosyal ve Beşeri Bilimler Fakültesi
+1071,Kağızman Uygulamalı Bilimler Yüksekokulu
+1072,Turizm Fakültesi (Kuşadası)
+1073,Siber Güvenlik Meslek Yüksekokulu
+1074,Bafra İşletme Fakültesi
+1075,Kapadokya Meslek Yüksekokulu (İstanbul)
+1076,Sivil Havacılık Meslek Yüksekokulu
+1077,Siyasal Bilimler Fakültesi
+1078,Patnos Sosyal Hizmetler Yüksekokulu
+1079,Spor Bilimleri ve Teknolojisi Yüksekokulu
+1080,Hasan Doğan Beden Eğitimi ve Spor Yüksekokulu
+1081,Hasan Doğan Spor Bilimleri Fakültesi
+1082,Su Bilimleri Fakültesi
+1083,Su Ürünleri Fakültesi
+1084,Eğirdir Su Ürünleri Fakültesi
+1085,Bala Meslek Yüksekokulu
+1086,Takı Teknolojisi ve Tasarımı Yüksekokulu
+1087,Çameli Meslek Yüksekokulu
+1088,Çarşamba İnsan ve Toplum Bilimleri Fakültesi
+1089,Tarih Fakültesi
+1090,Iğdır Ziraat Fakültesi
+1091,Ceylanpınar Tarım Meslek Yüksekokulu
+1092,Kızıltepe Tarım Bilimleri ve Teknolojileri Fakültesi
+1093,Tekstil Teknolojileri ve Tasarımı Fakültesi
+1094,Çifteler Meslek Yüksekokulu
+1095,Dörtyol Sağlık Hizmetleri Meslek Yüksekokulu
+1096,Ereğli Sağlık Hizmetleri Meslek Yüksekokulu
+1097,Muğla Sağlık Hizmetleri Meslek Yüksekokulu
+1098,Kızılırmak Meslek Yüksekokulu
+1099,Tıp Fakültesi
+1100,Uluslararası Tıp Fakültesi
+1101,İstanbul Tıp Fakültesi
+1102,Cerrahpaşa Tıp Fakültesi
+1103,Hamidiye Tıp Fakültesi
+1104,Adana Tıp Fakültesi
+1105,Gülhane Tıp Fakültesi
+1106,Bursa Tıp Fakültesi
+1107,İzmir Tıp Fakültesi
+1108,Kayseri Tıp Fakültesi
+1109,Tayfur Ata Sökmen Tıp Fakültesi
+1110,Trabzon Tıp Fakültesi
+1111,Erzurum Tıp Fakültesi
+1112,Hamidiye Uluslararası Tıp Fakültesi
+1113,Meram Tıp Fakültesi
+1114,Demre Dr. Hasan Ünal Meslek Yüksekokulu
+1115,Çavdarhisar Meslek Yüksekokulu
+1116,Kartepe Turizm Meslek Yüksekokulu
+1117,Ilgaz Turizm ve Otelcilik Yüksekokulu
+1118,Turizm Fakültesi (Bafra)
+1119,Karadeniz Ereğli Turizm Fakültesi
+1120,Kanık Uygulamalı Bilimler Yüksekokulu
+1121,Bafra Turizm Meslek Yüksekokulu
+1122,Tütün Eksperliği Yüksekokulu
+1123,Uluslararası İlişkiler ve Ekonomi Fakültesi
+1124,Uluslararası İlişkiler ve İşletme Fakültesi
+1125,Yalvaç Büyükkutlu Uygulamalı Bilimler Yüksekokulu
+1126,Siverek Uygulamalı Bilimler Fakültesi
+1127,Veteriner Fakültesi
+1128,Veteriner Fakültesi (Ereğli)
+1129,Ceyhan Veteriner Fakültesi
+1130,Veteriner Fakültesi (Kiraz)
+1131,Milas Veteriner Fakültesi
+1132,Kaman Uygulamalı Bilimler Yüksekokulu
