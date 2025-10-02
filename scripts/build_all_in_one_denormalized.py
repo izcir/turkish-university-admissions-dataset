@@ -70,9 +70,7 @@ def main():
             merged['year'] = merged['year_str']
             merged.drop(columns=['year_str'], inplace=True)
     else:
-        merged = dept_year_expanded.copy()
-
-    # RANK kolonlarini kesin olarak Int64 (nullable) formatina zorla
+        merged = dept_year_expanded.copy()    # RANK kolonlarini kesin olarak Int64 (nullable) formatina zorla
     for rank_col in ['final_rank_012', 'final_rank_018']:
         if rank_col in merged.columns:
             merged[rank_col] = pd.to_numeric(merged[rank_col], errors='coerce').round(0).astype('Int64')
@@ -81,7 +79,8 @@ def main():
         'program_code', 'year', 'university_name', 'city', 'university_type', 'department_name',
         'faculty_name', 'score_type', 'scholarship_type', 'is_undergraduate', 'all_tags',
         'total_quota', 'total_enrolled', 'male', 'female', 'final_score_012', 'final_rank_012',
-        'final_score_018', 'final_rank_018'
+        'final_score_018', 'final_rank_018', 'initial_placement_rate', 'not_registered', 
+        'additional_placement', 'avg_obp_012', 'avg_obp_018'
     ]
 
     for c in final_cols:

@@ -43,3 +43,7 @@ Thumbs.db
 # ---------- Misc ----------
 *.swp
 *.bak
+
+deneme.py
+deneme.ipynb
+merge_csv.py

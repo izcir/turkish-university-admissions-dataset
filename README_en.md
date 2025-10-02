@@ -67,7 +67,7 @@ Your analysis will likely start with one of these two fundamental tables:
 
 *   **`department_stats.csv` (Annual Performance Data)**
     *   **What does each row represent?** The performance of a single department in a specific year (quota, enrollment, rank, etc.).
-    *   **Key Columns:** `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`.
+    *   **Key Columns:** `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`, `initial_placement_rate`, `not_registered`, `additional_placement`, `avg_obp_012`, `avg_obp_018`.
 
 *   **`departments_normalized.csv` (Static Department Information)**
     *   **What does each row represent?** The time-invariant core attributes of a department (which university and faculty it belongs to, its score type, etc.).

@@ -69,7 +69,7 @@ Analizlerinizin büyük ihtimalle başlayacağı iki temel tablo bunlardır:
 
 *   **`department_stats.csv` (Yıllık Performans Verileri)**
     *   **Her satırı ne anlama geliyor?** Bir bölümün, belirli bir yıldaki performansını (kontenjan, yerleşen, sıralama vb.) gösterir.
-    *   **Önemli Sütunlar:** `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`.
+    *   **Önemli Sütunlar:** `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`, `initial_placement_rate`, `not_registered`, `additional_placement`, `avg_obp_012`, `avg_obp_018`.
 
 *   **`departments_normalized.csv` (Bölümlerin Sabit Bilgileri)**
     *   **Her satırı ne anlama geliyor?** Bir bölümün zamanla değişmeyen temel özelliklerini (hangi üniversiteye ve fakülteye ait olduğu, puan türü vb.) içerir.
