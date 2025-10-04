@@ -15,7 +15,7 @@ Bu veri seti, aşağıdaki istatistiksel özetle tanımlanabilir:
 *   **Benzersiz Varlıklar:** 235 Üniversite, 733 Bölüm Adı, 1.131 Fakülte
 
 
-> **Önemli Not:** Bu repodaki veriler iki aşamalı bir süreçten geçmiştir. İlk olarak, `YokAPI` ile çekilen ham veriler, **[`CLEANING_NOTES.md`]([CLEANING_NOTES.md](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/cleaning_notes.md)** dosyasında detaylandırılan adımlarla temizlenmiştir. Bu ilk aşamada tutarsız ID'ler ayıklanmış, üniversite ve bölüm isimleri en güncel halleriyle standartlaştırılmıştır. `data/raw/` klasöründeki dosyalar bu ilk temizleme aşamasının çıktısıdır. İkinci aşamada ise `scripts/` klasöründeki betikler, bu temizlenmiş verileri alıp `data/processed/` altında normalize edilmiş, ilişkisel bir yapıya dönüştürür ve son olarak `all_in_one_denormalized.csv` dosyasını oluşturur. `all_in_one_denormalized.csv` dosyası bütün verilerin ayrıştırılmadan bırakılmış halidir. Veri tekrarını önlemek ve veriyi daha düzenli hale getirmek için `data/processed/` klasöründeki dosyalar tercih edilmelidir.
+> **Önemli Not:** Bu repodaki veriler iki aşamalı bir süreçten geçmiştir. İlk olarak, `YokAPI` ile çekilen ham veriler, **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes.md)** dosyasında detaylandırılan adımlarla temizlenmiştir. Bu ilk aşamada tutarsız ID'ler ayıklanmış, üniversite ve bölüm isimleri en güncel halleriyle standartlaştırılmıştır. `data/raw/` klasöründeki dosyalar bu ilk temizleme aşamasının çıktısıdır. İkinci aşamada ise `scripts/` klasöründeki betikler, bu temizlenmiş verileri alıp `data/processed/` altında normalize edilmiş, ilişkisel bir yapıya dönüştürür ve son olarak `all_in_one_denormalized.csv` dosyasını oluşturur. `all_in_one_denormalized.csv` dosyası bütün verilerin ayrıştırılmadan bırakılmış halidir. Veri tekrarını önlemek ve veriyi daha düzenli hale getirmek için `data/processed/` klasöründeki dosyalar tercih edilmelidir.
 
 ## 📌 Veri Setinin Amacı ve Değeri
 
@@ -116,7 +116,7 @@ department_stats.csv (program_code, year)
     └── department_tags.csv (program_code -> tag_id)
         └── tags.csv (tag_id)
 ```
-Tüm veri temizleme ve dönüşüm süreçlerinin teknik detayları için: **[CLEANING_NOTES.md](CLEANING_NOTES.md)**
+Tüm veri temizleme ve dönüşüm süreçlerinin teknik detayları için: **[CLEANING_NOTES.md](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes.md)**
 
 ## 🐍 Kullanım Örnekleri (Python & Pandas)
 

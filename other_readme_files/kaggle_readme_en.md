@@ -39,7 +39,7 @@ This folder contains multiple CSV files designed with a relational database sche
 *   **`department_stats.csv`**: This is the **heart of the dataset**. It contains critical metrics for each program for each year, such as quota, number of enrolled students, gender distribution, and minimum admission scores and ranks.
 *   **`departments_normalized.csv`**: Contains the time-invariant core information for each program (e.g., its department name, faculty, university, and score type).
 
-> For full technical details on the data cleaning process and decisions made, please refer to the **[`CLEANING_NOTES.md` file in the project's GitHub repository](https://github.com/izcir/yok-atlas-veri-seti/blob/main/CLEANING_NOTES.md)**. <!-- UPDATE THE GITHUB LINK -->
+> For full technical details on the data cleaning process and decisions made, please refer to the **[`CLEANING_NOTES.md` file in the project's GitHub repository](https://github.com/izcir/yok-atlas-veri-seti/blob/main/other_readme_files/CLEANING_NOTES.md)**. <!-- UPDATE THE GITHUB LINK -->
 
 ### Usage Notes & Data Dictionary
 *   **`program_code`**: Should be read as a `string` to preserve leading zeros.

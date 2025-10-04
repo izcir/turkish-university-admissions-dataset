@@ -14,7 +14,7 @@ This dataset can be described with the following statistical summary:
 *   **Unique Programs:** 32,505 (`program_code`)
 *   **Unique Entities:** 235 Universities, 733 Department Names, 1,131 Faculties
 
-> **Important Note:** The data in this repository has undergone a two-stage process. First, the raw data scraped by `YokAPI` was cleaned according to the steps detailed in **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/cleaning_notes.md)**. In this initial stage, inconsistent IDs were filtered out, and university/department names were standardized to their most recent versions. The files in the `data/raw/` folder are the output of this first cleaning stage. In the second stage, the scripts in the `scripts/` folder take this cleaned data, transform it into a relational, normalized structure under `data/processed/`, and finally create the `all_in_one_denormalized.csv` file for quick analysis. For data integrity and advanced queries, using the normalized files in `data/processed/` is recommended, while `all_in_one_denormalized.csv` is provided for convenience.
+> **Important Note:** The data in this repository has undergone a two-stage process. First, the raw data scraped by `YokAPI` was cleaned according to the steps detailed in **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes_en.md)**. In this initial stage, inconsistent IDs were filtered out, and university/department names were standardized to their most recent versions. The files in the `data/raw/` folder are the output of this first cleaning stage. In the second stage, the scripts in the `scripts/` folder take this cleaned data, transform it into a relational, normalized structure under `data/processed/`, and finally create the `all_in_one_denormalized.csv` file for quick analysis. For data integrity and advanced queries, using the normalized files in `data/processed/` is recommended, while `all_in_one_denormalized.csv` is provided for convenience.
 
 ## 📌 Purpose and Value of the Dataset
 
@@ -111,7 +111,7 @@ department_stats.csv (program_code, year)
     └── department_tags.csv (program_code -> tag_id)
         └── tags.csv (tag_id)
 ```
-For full technical details on the data cleaning and transformation process, see: **[CLEANING_NOTES.md](CLEANING_NOTES.md)**
+For full technical details on the data cleaning and transformation process, see: **[CLEANING_NOTES.md](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes_en.md)**
 
 ## 🐍 Usage Examples (Python & Pandas)
 

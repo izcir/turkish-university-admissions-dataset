@@ -39,7 +39,7 @@ Bu klasör, veritabanı mantığıyla tasarlanmış, birbiriyle ilişkili ve nor
 *   **`department_stats.csv`**: **Veri setinin kalbidir.** Her bir programın her yıl için kontenjan, yerleşen sayısı, cinsiyet dağılımı, en düşük giriş puanı ve en düşük giriş sıralaması gibi kritik metriklerini içerir.
 *   **`departments_normalized.csv`**: Her bir programın zamanla değişmeyen temel bilgilerini (bölüm adı, fakülte, üniversite, puan türü vb.) içerir.
 
-> Veri temizleme sürecinin tüm teknik detayları ve alınan kararlar için projenin **[GitHub reposundaki CLEANING_NOTES.md](https://github.com/izcir/yok-atlas-veri-seti/blob/main/CLEANING_NOTES.md)** dosyasını inceleyebilirsiniz. <!-- GITHUB LİNKİNİ GÜNCELLE -->
+> Veri temizleme sürecinin tüm teknik detayları ve alınan kararlar için projenin **[GitHub reposundaki CLEANING_NOTES.md](https://github.com/izcir/yok-atlas-veri-seti/blob/main/other_readme_files/CLEANING_NOTES.md)** dosyasını inceleyebilirsiniz. <!-- GITHUB LİNKİNİ GÜNCELLE -->
 
 ### Kullanım Notları ve Veri Sözlüğü
 *   **`program_code`**: Başındaki sıfırların kaybolmaması için `string` (metin) olarak okunmalıdır.
