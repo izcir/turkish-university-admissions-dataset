@@ -4,17 +4,17 @@
 
 This repository contains university department data for the years 2019–2024, obtained from official sources like YÖK Atlas and ÖSYM using the [YokAPI](https://github.com/izcir/YokAPI/) Python-based scraper. The data has been prepared for analysis through a two-stage process: **Cleaning** and **Normalization**.
 
-This dataset also serves as the core database for my website, [sinavizcisi.com](https://sinavizcisi.com), a platform designed to facilitate the university selection process with data-driven insights.
+This dataset also serves as the core database for my website, [sinavizcisi.com](https://sinavizcisi.com), a platform designed to facilitate the university selection process with AI-powered analyses.
 
-### A Quick Look at the Dataset
+### Dataset at a Glance
 
-This dataset can be described with the following statistical summary:
 *   **Covered Period:** 2019-2024 (Total of 6 years) *(2025 statistics will be added upon release)*
-*   **Total Records:** 128,352 (Rows representing the status of each program in each year)
+*   **Total Records:** 128,352 (Rows representing the core stats of each program in each year)
 *   **Unique Programs:** 32,505 (`program_code`)
 *   **Unique Entities:** 235 Universities, 733 Department Names, 1,131 Faculties
 
-> **Important Note:** The data in this repository has undergone a two-stage process. First, the raw data scraped by `YokAPI` was cleaned according to the steps detailed in **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes_en.md)**. In this initial stage, inconsistent IDs were filtered out, and university/department names were standardized to their most recent versions. The files in the `data/raw/` folder are the output of this first cleaning stage. In the second stage, the scripts in the `scripts/` folder take this cleaned data, transform it into a relational, normalized structure under `data/processed/`, and finally create the `all_in_one_denormalized.csv` file for quick analysis. For data integrity and advanced queries, using the normalized files in `data/processed/` is recommended, while `all_in_one_denormalized.csv` is provided for convenience.
+
+> **Important Note:** The data in this repository has undergone a two-stage process. First, raw data was cleaned according to the steps detailed in **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes.md)**. The files in `data/raw/` are the output of this stage. Second, scripts in the `scripts/` folder transform this data into a normalized, relational structure under `data/processed/` and finally create the `all_in_one_denormalized.csv` file. For quick analyses, the `all_in_one_denormalized.csv` file is convenient. For more in-depth and flexible queries, the normalized structure in `data/processed/`, which prevents data redundancy, is recommended.
 
 ## 📌 Purpose and Value of the Dataset
 
@@ -57,40 +57,36 @@ This is a living dataset that will be continuously improved. My goal is to creat
 *   Average YKS Exam Net Scores of Enrolled Students
 *   Preference Trends of Enrolled Students (e.g., average choice rank)
 
-## 📊 Data Model and File Contents
+## 📊 Data Model and Schema
 
 The data in the `processed/` folder is structured into multiple files to prevent redundancy and organize the information logically. For instance, the name "Boğaziçi Üniversitesi" is stored once instead of being repeated thousands of times. The model consists of two core tables and several auxiliary tables that enrich them.
 
-### 1. Core Tables (The Heart of the Data)
+### 1. Fact Tables
+These tables contain the core, measurable events or states in the dataset.
 
-Your analysis will likely start with one of these two fundamental tables:
+| File Name | Granularity (Each Row is...) | Description & Key Columns |
+| :--- | :--- | :--- |
+| **`department_stats.csv`** | The performance of one **program** in one **year**. | Contains fundamental metrics like quota, enrollment, and admission rank. This is the starting point for most analyses.<br>*(Columns: `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`)* |
+| **`department_avg_net_stats.csv`** | The average net score for one **lesson** in one **program** in one **year**. | Contains the academic profile of enrolled students on a per-subject basis.<br>*(Columns: `program_code`, `year`, `lesson_id`, `coefficient_type`, `average_net`)* |
 
-*   **`department_stats.csv` (Annual Performance Data)**
-    *   **What does each row represent?** The performance of a single department in a specific year (quota, enrollment, rank, etc.).
-    *   **Key Columns:** `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`, `initial_placement_rate`, `not_registered`, `additional_placement`, `avg_obp_012`, `avg_obp_018`.
+### 2. Dimension and Lookup Tables
+These tables contain the descriptive information that corresponds to the IDs in the fact tables.
 
-*   **`departments_normalized.csv` (Static Department Information)**
-    *   **What does each row represent?** The time-invariant core attributes of a department (which university and faculty it belongs to, its score type, etc.).
-    *   **Purpose:** It serves as a bridge to all other descriptive tables.
-    *   **Key Columns:** `program_code`, `university_id`, `department_name_id`, `faculty_name_id`, `score_type_id`.
+| File Name | Purpose | Example |
+| :--- | :--- | :--- |
+| **`departments_normalized.csv`** | Stores time-invariant attributes of each program and acts as a bridge to other dimensions. | `101490226` → `university_id: 101`, `department_name_id: 25`, ... |
+| **`universities_normalized.csv`** | Contains core information about universities (name, type, city). | `101` → "BOĞAZİÇİ ÜNİVERSİTESİ", `type_id: 1`, `city_id: 34` |
+| **`lessons.csv`** | Contains information about exam subjects (name, exam type, question count). | `1` → "TYT Temel Matematik", "TYT", 40 |
+| **`department_names.csv`** | Translates department IDs to names. | `25` → "Bilgisayar Mühendisliği" |
+| *... (other lookup tables)* | | |
 
-### 2. Descriptive "Lookup" Tables
+### 3. Bridge Tables
+These tables manage "many-to-many" relationships. For example, a single department can have multiple tags.
 
-These tables translate the ID numbers (`..._id`) from the core tables into human-readable text.
+| File Name | Purpose |
+| :--- | :--- |
+| **`department_tags.csv`** | Links `program_code` to `tag_id`, allowing one program to have multiple tags. |
 
-*   `department_names.csv`: Translates department IDs to names (e.g., `1` → `"Bilgisayar Mühendisliği"`).
-*   `faculty_names.csv`: Translates faculty IDs to names (e.g., `5` → `"Mühendislik Fakültesi"`).
-*   `universities_normalized.csv`: Translates university IDs to university information.
-*   `university_cities.csv`: Translates city IDs to city names (e.g., `34` → `"İSTANBUL"`).
-*   And so on for `university_types`, `score_types`, `scholarship_types`, and `tags`.
-
-### 3. Bridge Tables for Relationships
-
-Some information cannot be linked directly. For instance, a department can have multiple tags. These bridge tables manage such complex relationships.
-
-*   **`department_tags.csv`**
-    *   **Purpose:** Allows a department to have multiple tags. With this file, a department can be marked as both `"İngilizce"` and `"Burslu"`.
-    *   **Structure:** Each row links a `program_code` to a `tag_id`.
 
 ---
 #### Schema Relationship Summary
@@ -181,18 +177,20 @@ print(boun_cmpe_stats[['year', 'total_quota', 'final_rank_012']])
 
 This dataset is a rich resource for both beginners practicing their skills and experienced analysts conducting in-depth studies.
 
-#### Starter Analyses for Beginners
+#### Analysis Exercises and Real-World Questions
 *   **Exploratory Data Analysis:** What were the top 20 departments with the highest admission ranks for the "SAY" score type in 2024?
 *   **Filtering and Grouping:** Compare the total quotas for full-scholarship ("Burslu") "Bilgisayar Mühendisliği" programs at private ("vakif") universities in "İSTANBUL".
 *   **Simple Trends:** How have the quotas for "Tıp" faculties at public ("devlet") universities in "ANKARA" changed over the last 5 years?
 *   **Visualization:** Create a pie chart showing the distribution of university types ("Devlet", "Vakıf", "KKTC") across Turkey.
-
-#### Advanced & Real-World Analyses
 *   **Competition Analysis:** How have admission ranks (`final_rank_012`) for a specific major (e.g., "Tıp") evolved over time? Which universities are becoming more competitive?
 *   **Quota and Occupancy Rate Analysis:** How successful is universities' quota planning? Which departments consistently have high/low occupancy rates (`total_enrolled` / `total_quota`)?
 *   **Gender Distribution Trends:** Is the ratio of female students (`female` / `total_enrolled`) in engineering fields increasing over time? How does this ratio vary by university type ("devlet"/"vakif") or city?
 *   **Scholarship Strategies:** Is the gap in admission ranks between "100% Burslu" and "Ücretli" programs at private universities widening or narrowing?
 *   **Predictive Modeling:** Develop a machine learning model to predict a department's future performance based on its historical rank and quota data.
+*   **Academic Profile Comparison:** Is there a significant difference in the AYT Math and Physics net averages between students of the same major at different universities (e.g., METU vs. ITU Computer Eng.)?
+*   **Correlation between Admission Rank and Net Scores:** What is the correlation between a department's `final_rank_012` (admission rank) and the TYT Turkish or AYT Math net averages of its students? Which subject's net score is a better predictor of the admission rank?
+*   **Longitudinal Improvement:** Are the TYT Science net averages for students in a specific major (e.g., Medicine) increasing or decreasing over the years?
+*   **Major Characteristic Analysis:** What is the average TYT Math score for students enrolled in Social Science ("SÖZ") majors, versus the average TYT Social Sciences score for students in STEM ("SAY") majors?
 
 ## 🌐 Related Project: sinavizcisi.com
 

@@ -9,13 +9,13 @@ Ayrıca bu veri seti, üniversite tercih sürecini kolaylaştıran ve yapay zeka
 ### Veri Setine Hızlı Bakış
 
 Bu veri seti, aşağıdaki istatistiksel özetle tanımlanabilir:
-*   **Kapsanan Dönem:** 2019-2024 (Toplam 6 yıl) (2025 verileri eklenecektir)
-*   **Toplam Kayıt Sayısı:** 128.352 (Her bir programın her bir yıldaki durumunu gösteren satır)
-*   **Benzersiz Program Sayısı:** 32.505 (`program_code`)
-*   **Benzersiz Varlıklar:** 235 Üniversite, 733 Bölüm Adı, 1.131 Fakülte
+*   **Kapsanan Dönem:** 2019-2024 (Toplam 6 yıl) *(2025 istatistikleri eklenecektir)*
+*   **Toplam Kayıt Sayısı:** 128,352 (Her bir programın her bir yıldaki temel istatistiklerini gösteren satır)
+*   **Benzersiz Program Sayısı:** 32,505 (`program_code`)
+*   **Benzersiz Varlıklar:** 235 Üniversite, 733 Bölüm Adı, 1,131 Fakülte
 
 
-> **Önemli Not:** Bu repodaki veriler iki aşamalı bir süreçten geçmiştir. İlk olarak, `YokAPI` ile çekilen ham veriler, **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes.md)** dosyasında detaylandırılan adımlarla temizlenmiştir. Bu ilk aşamada tutarsız ID'ler ayıklanmış, üniversite ve bölüm isimleri en güncel halleriyle standartlaştırılmıştır. `data/raw/` klasöründeki dosyalar bu ilk temizleme aşamasının çıktısıdır. İkinci aşamada ise `scripts/` klasöründeki betikler, bu temizlenmiş verileri alıp `data/processed/` altında normalize edilmiş, ilişkisel bir yapıya dönüştürür ve son olarak `all_in_one_denormalized.csv` dosyasını oluşturur. `all_in_one_denormalized.csv` dosyası bütün verilerin ayrıştırılmadan bırakılmış halidir. Veri tekrarını önlemek ve veriyi daha düzenli hale getirmek için `data/processed/` klasöründeki dosyalar tercih edilmelidir.
+> **Önemli Not:** Bu repodaki veriler iki aşamalı bir süreçten geçmiştir. İlk olarak, `YokAPI` ile çekilen ham veriler, **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes.md)** dosyasında detaylandırılan adımlarla temizlenmiştir. `data/raw/` klasöründeki dosyalar bu ilk temizleme aşamasının çıktısıdır. İkinci aşamada ise `scripts/` klasöründeki betikler bu verileri alıp `data/processed/` altında normalize edilmiş, ilişkisel bir yapıya dönüştürür ve son olarak `all_in_one_denormalized.csv` dosyasını oluşturur. Hızlı analizler için `all_in_one_denormalized.csv` dosyası, daha derinlemesine ve esnek sorgular için ise veri tekrarını önleyen `data/processed/` klasöründeki normalize edilmiş yapı önerilmektedir.
 
 ## 📌 Veri Setinin Amacı ve Değeri
 
@@ -63,40 +63,31 @@ Bu veri seti, yaşayan ve sürekli gelişen bir projedir. Hedefim, Türkiye'deki
 
 `processed/` klasöründeki veriler, bilgi tekrarını önlemek ve veriyi daha düzenli hale getirmek için birden fazla dosyaya ayrılmıştır. Bu yapı sayesinde, örneğin "Boğaziçi Üniversitesi" ismi binlerce kez tekrarlanmak yerine tek bir yerde tutulur. Model, iki ana tablo ve onları zenginleştiren yardımcı tablolardan oluşur.
 
-### 1. Ana Tablolar (Verinin Kalbi)
+### 1. Çekirdek (Fact) Tabloları
+Bu tablolar, veri setindeki en temel ve ölçülebilir olayları içerir.
 
-Analizlerinizin büyük ihtimalle başlayacağı iki temel tablo bunlardır:
+| Dosya Adı | Granülarite (Her Satır...) | Açıklama ve Ana Sütunlar |
+| :--- | :--- | :--- |
+| **`department_stats.csv`** | Bir **programın** bir **yıldaki** performansı | Kontenjan, yerleşen, sıralama gibi temel metrikleri barındırır. Analizlerin başlangıç noktasıdır.<br>*(Sütunlar: `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`)* |
+| **`department_avg_net_stats.csv`** | Bir **programın** bir **yıldaki** tek bir **derse** ait net ortalaması | Bölümlere yerleşenlerin ders bazlı akademik profilini içerir.<br>*(Sütunlar: `program_code`, `year`, `lesson_id`, `coefficient_type`, `average_net`)* |
 
-*   **`department_stats.csv` (Yıllık Performans Verileri)**
-    *   **Her satırı ne anlama geliyor?** Bir bölümün, belirli bir yıldaki performansını (kontenjan, yerleşen, sıralama vb.) gösterir.
-    *   **Önemli Sütunlar:** `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`, `initial_placement_rate`, `not_registered`, `additional_placement`, `avg_obp_012`, `avg_obp_018`.
+### 2. Boyut (Dimension) ve Lookup Tabloları
+Bu tablolar, çekirdek tablolardaki ID'lere karşılık gelen açıklayıcı bilgileri içerir.
 
-*   **`departments_normalized.csv` (Bölümlerin Sabit Bilgileri)**
-    *   **Her satırı ne anlama geliyor?** Bir bölümün zamanla değişmeyen temel özelliklerini (hangi üniversiteye ve fakülteye ait olduğu, puan türü vb.) içerir.
-    *   **Amacı:** Diğer tüm açıklayıcı tablolara bir köprü görevi görür.
-    *   **Önemli Sütunlar:** `program_code`, `university_id`, `department_name_id`, `faculty_name_id`, `score_type_id`.
+| Dosya Adı | Amaç | Örnek |
+| :--- | :--- | :--- |
+| **`departments_normalized.csv`** | Her programın zamanla değişmeyen niteliklerini tutar ve diğer boyutlara köprü görevi görür. | `101490226` → `university_id: 101`, `department_name_id: 25`, ... |
+| **`universities_normalized.csv`** | Üniversitelerin temel bilgilerini (ad, tür, şehir) içerir. | `101` → "BOĞAZİÇİ ÜNİVERSİTESİ", `type_id: 1`, `city_id: 34` |
+| **`lessons.csv`** | Derslerin bilgilerini (ad, sınav türü, soru sayısı) içerir. | `1` → "TYT Temel Matematik", "TYT", 40 |
+| **`department_names.csv`** | Bölüm ID'lerini isimlere çevirir. | `25` → "Bilgisayar Mühendisliği" |
+| *... (diğer lookup tabloları)* | | |
 
-### 2. Açıklayıcı "Lookup" Tabloları
+### 3. Köprü (Bridge) Tabloları
+Bu tablolar, "çok-a-çok" ilişkileri yönetir. Örneğin, bir bölümün birden fazla etiketi olabilir.
 
-Bu tablolar, ana tablolardaki kimlik numaralarını (`..._id`) herkesin anlayabileceği metinlere çevirir.
-
-*   `department_names.csv`: Bölüm ID'lerini isimlere çevirir (Örn: `1` → `"Bilgisayar Mühendisliği"`).
-*   `faculty_names.csv`: Fakülte ID'lerini isimlere çevirir (Örn: `5` → `"Mühendislik Fakültesi"`).
-*   `universities_normalized.csv`: Üniversite ID'lerini üniversite bilgilerine çevirir.
-*   `university_cities.csv`: Şehir ID'lerini şehir isimlerine çevirir (Örn: `34` → `"İSTANBUL"`).
-*   `university_types.csv`: Üniversite türü ID'lerini tür isimlerine çevirir (Örn: `1` → `"devlet"`).
-*   `score_types.csv`: Puan türü ID'lerini isimlerine çevirir (Örn: `2` → `"SAY"`).
-*   `scholarship_types.csv`: Burs türü ID'lerini isimlerine çevirir (Örn: `3` → `"%50 İndirimli"`).
-*   `tags.csv`: Etiket ID'lerini isimlerine çevirir (Örn: `24` → `"İngilizce"`).
-
-### 3. İlişki Kuran Köprü Tabloları
-
-Bazı bilgileri basitçe bağlamak mümkün değildir. Örneğin, bir bölümün birden fazla etiketi olabilir. Bu köprü tabloları, bu tür karmaşık ilişkileri yönetir.
-
-*   **`department_tags.csv`**
-    *   **Amacı:** Bir bölümün birden fazla etikete sahip olabilmesini sağlar. Bu dosya sayesinde bir bölüm hem `"İngilizce"` hem de `"Burslu"` olarak işaretlenebilir.
-    *   **Yapısı:** Her satırı, bir `program_code` ile bir `tag_id`'yi birbirine bağlar.
-
+| Dosya Adı | Amaç |
+| :--- | :--- |
+| **`department_tags.csv`** | `program_code` ile `tag_id`'yi eşleştirerek bir programın birden fazla etikete sahip olmasını sağlar. |
 ---
 #### Tabloların Birbiriyle İlişkisi (Özet)
 ```
@@ -186,18 +177,20 @@ print(boun_cmpe_stats[['year', 'total_quota', 'final_rank_012']])
 
 Bu veri seti, hem veri bilimine yeni başlayanlar için alıştırma yapabilecekleri hem de deneyimli analistlerin derinlemesine çalışmalar yürütebileceği zengin bir kaynaktır.
 
-#### Yeni Başlayanlar İçin Analiz Alıştırmaları
+#### Analiz Alıştırmaları ve Gerçek Dünya Soruları
 *   **Keşifsel Veri Analizi:** 2024 yılında SAY puan türünde en yüksek sıralama ile öğrenci alan ilk 20 bölüm hangileridir?
 *   **Filtreleme ve Gruplama:** İstanbul'daki vakıf üniversitelerinde bulunan "Bilgisayar Mühendisliği" bölümlerinin tam burslu kontenjan sayılarını karşılaştırın.
 *   **Basit Trendler:** Ankara'daki devlet üniversitelerinde Tıp fakültesi kontenjanları son 5 yılda nasıl değişti?
 *   **Görselleştirme:** Türkiye genelinde üniversite türlerinin (Devlet, Vakıf, KKTC) dağılımını bir pasta grafiği ile gösterin.
-
-#### İleri Seviye ve Gerçek Dünya Analizleri
 *   **Rekabet Analizi:** Belirli bir bölümün (örneğin Tıp) giriş sıralamaları (`final_rank_012`) yıllar içinde nasıl bir değişim gösterdi? Hangi üniversiteler daha rekabetçi hale geliyor?
 *   **Kontenjan ve Doluluk Oranı Analizi:** Üniversitelerin kontenjan planlaması ne kadar başarılı? Hangi bölümlerin doluluk oranları (`total_enrolled` / `total_quota`) sürekli yüksek/düşük seyrediyor?
 *   **Cinsiyet Dağılımı Trendleri:** Mühendislik gibi alanlarda kadın öğrenci oranı (`female` / `total_enrolled`) yıllar içinde artıyor mu? Bu oran üniversite tipine (devlet/vakıf) veya şehre göre farklılık gösteriyor mu?
 *   **Burs Stratejileri:** Vakıf üniversitelerinde `%100 Burslu` programların giriş sıralamaları ile `Ücretli` programlar arasındaki makas açılıyor mu, daralıyor mu?
 *   **Tahminleme Modelleri:** Bir bölümün geçmiş yıllardaki sıralama ve doluluk oranlarına bakarak bir sonraki yılki performansını tahmin eden bir makine öğrenmesi modeli geliştirin.
+*   **Akademik Profil Karşılaştırması:** Aynı bölümün farklı üniversitelerdeki (örneğin ODTÜ vs. İTÜ Bilgisayar Müh.) öğrencilerinin AYT Matematik ve Fizik net ortalamaları arasında anlamlı bir fark var mı?
+*   **Başarı Sırası ve Net İlişkisi:** Bir bölümün `final_rank_012` (başarı sırası) ile o bölüme yerleşenlerin TYT Türkçe veya AYT Matematik net ortalamaları arasında nasıl bir korelasyon var? Hangi dersin neti başarı sırasını daha iyi tahmin ediyor?
+*   **Yıllara Göre Gelişim:** Belirli bir bölümdeki (örneğin Tıp) öğrencilerin TYT Fen Bilimleri net ortalamaları yıllar içinde artıyor mu, azalıyor mu?
+*   **Bölüm Karakteristiği Analizi:** SÖZ bölümlerine yerleşenlerin TYT Matematik ortalaması ile SAY bölümlerine yerleşenlerin TYT Sosyal Bilimler ortalaması ne durumda?
 
 ## 🌐 İlgili Proje: sinavizcisi.com
 
