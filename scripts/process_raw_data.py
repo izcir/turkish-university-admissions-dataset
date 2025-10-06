@@ -152,7 +152,97 @@ def main():
     ]]
     universities_final.to_csv(os.path.join(PROCESSED_DIR, "universities_normalized.csv"), index=False)
 
+    # --------------------------------------------------
+    # Lessons Dimension + Net Stats Fact Table
+    # --------------------------------------------------
+    print("Processing lesson net averages...")
 
-if __name__ == "__main__":  # Script entry point
+    lessons_data = [
+        {'lesson_name': 'AYT Biyoloji', 'exam_type': 'AYT', 'max_questions': 13},
+        {'lesson_name': 'AYT Coğrafya-1', 'exam_type': 'AYT', 'max_questions': 6},
+        {'lesson_name': 'AYT Coğrafya-2', 'exam_type': 'AYT', 'max_questions': 11},
+        {'lesson_name': 'AYT Din Kültürü ve Ahlak Bilgisi', 'exam_type': 'AYT', 'max_questions': 6},
+        {'lesson_name': 'AYT Felsefe Grubu', 'exam_type': 'AYT', 'max_questions': 12},
+        {'lesson_name': 'AYT Fizik', 'exam_type': 'AYT', 'max_questions': 14},
+        {'lesson_name': 'AYT Kimya', 'exam_type': 'AYT', 'max_questions': 13},
+        {'lesson_name': 'AYT Matematik', 'exam_type': 'AYT', 'max_questions': 40},
+        {'lesson_name': 'AYT Tarih-1', 'exam_type': 'AYT', 'max_questions': 10},
+        {'lesson_name': 'AYT Tarih-2', 'exam_type': 'AYT', 'max_questions': 11},
+        {'lesson_name': 'AYT Türk Dili ve Edebiyatı', 'exam_type': 'AYT', 'max_questions': 24},
+        {'lesson_name': 'TYT Fen Bilimleri', 'exam_type': 'TYT', 'max_questions': 20},
+        {'lesson_name': 'TYT Temel Matematik', 'exam_type': 'TYT', 'max_questions': 40},
+        {'lesson_name': 'TYT Sosyal Bilimler', 'exam_type': 'TYT', 'max_questions': 20},
+        {'lesson_name': 'TYT Türkçe', 'exam_type': 'TYT', 'max_questions': 40},
+        {'lesson_name': 'YDT Yabancı Dil', 'exam_type': 'YDT', 'max_questions': 80}
+    ]
+    
+    lesson_column_map = {
+        'AYT Biyoloji': 'ayt_bio',
+        'AYT Coğrafya-1': 'ayt_cog1',
+        'AYT Coğrafya-2': 'ayt_cog2',
+        'AYT Din Kültürü ve Ahlak Bilgisi': 'ayt_dk',
+        'AYT Felsefe Grubu': 'ayt_fel',
+        'AYT Fizik': 'ayt_fiz',
+        'AYT Kimya': 'ayt_kim',
+        'AYT Matematik': 'ayt_mat',
+        'AYT Tarih-1': 'ayt_tar1',
+        'AYT Tarih-2': 'ayt_tar2',
+        'AYT Türk Dili ve Edebiyatı': 'ayt_tr',
+        'TYT Fen Bilimleri': 'tyt_fen',
+        'TYT Temel Matematik': 'tyt_mat',
+        'TYT Sosyal Bilimler': 'tyt_sos',
+        'TYT Türkçe': 'tyt_tr',
+        'YDT Yabancı Dil': 'ydt_dil'
+    }
+
+    lessons_df = pd.DataFrame(lessons_data)
+    lessons_df['lesson_id'] = range(1, len(lessons_df) + 1)
+
+    lessons_df = lessons_df[['lesson_id', 'lesson_name', 'exam_type', 'max_questions']]
+    lessons_df.to_csv(os.path.join(PROCESSED_DIR, "lessons.csv"), index=False)
+
+    nets_012_df = pd.read_csv(os.path.join(RAW_DIR, "department_avg_nets_012.csv"))
+    nets_018_df = pd.read_csv(os.path.join(RAW_DIR, "department_avg_nets_018.csv"))
+
+    nets_012_df['coefficient_type'] = '0.12'
+    nets_018_df['coefficient_type'] = '0.18'
+
+    all_nets_df = pd.concat([nets_012_df, nets_018_df], ignore_index=True)
+
+    id_vars = ['program_code', 'year', 'coefficient_type']
+    value_vars = list(lesson_column_map.values())
+
+    long_format_nets = pd.melt(
+        all_nets_df,
+        id_vars=id_vars,
+        value_vars=value_vars,
+        var_name='lesson_column',
+        value_name='average_net'
+    )
+
+    long_format_nets.dropna(subset=['average_net'], inplace=True)
+    
+    column_to_lesson_df = pd.DataFrame(list(lesson_column_map.items()), columns=['lesson_name', 'lesson_column'])
+    column_to_lesson_df = pd.merge(column_to_lesson_df, lessons_df[['lesson_id', 'lesson_name']], on='lesson_name')
+
+    final_net_stats = pd.merge(
+        long_format_nets,
+        column_to_lesson_df[['lesson_column', 'lesson_id']],
+        on='lesson_column'
+    )
+    
+    department_net_stats_df = final_net_stats[[
+        'program_code',
+        'year',
+        'lesson_id',
+        'coefficient_type',
+        'average_net'
+    ]].reset_index(drop=True)
+
+    department_net_stats_df.to_csv(os.path.join(PROCESSED_DIR, "department_avg_net_stats.csv"), index=False)
+    print(f"{len(department_net_stats_df)} net average records processed and saved.")
+
+
+if __name__ == "__main__":  
     main()
 

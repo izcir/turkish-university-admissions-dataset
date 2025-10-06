@@ -70,7 +70,7 @@ def main():
             merged['year'] = merged['year_str']
             merged.drop(columns=['year_str'], inplace=True)
     else:
-        merged = dept_year_expanded.copy()    # RANK kolonlarini kesin olarak Int64 (nullable) formatina zorla
+        merged = dept_year_expanded.copy()    
     for rank_col in ['final_rank_012', 'final_rank_018']:
         if rank_col in merged.columns:
             merged[rank_col] = pd.to_numeric(merged[rank_col], errors='coerce').round(0).astype('Int64')
@@ -87,7 +87,6 @@ def main():
         if c not in merged.columns:
             merged[c] = pd.NA
 
-    # Sort by university_name primarily (then department_name, program_code, year for determinism)
     final_df = (merged[final_cols]
                 .sort_values(['university_name', 'department_name', 'program_code', 'year'])
                 .reset_index(drop=True))

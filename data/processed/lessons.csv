@@ -1,0 +1,17 @@
+lesson_id,lesson_name,exam_type,max_questions
+1,AYT Biyoloji,AYT,13
+2,AYT Coğrafya-1,AYT,6
+3,AYT Coğrafya-2,AYT,11
+4,AYT Din Kültürü ve Ahlak Bilgisi,AYT,6
+5,AYT Felsefe Grubu,AYT,12
+6,AYT Fizik,AYT,14
+7,AYT Kimya,AYT,13
+8,AYT Matematik,AYT,40
+9,AYT Tarih-1,AYT,10
+10,AYT Tarih-2,AYT,11
+11,AYT Türk Dili ve Edebiyatı,AYT,24
+12,TYT Fen Bilimleri,TYT,20
+13,TYT Temel Matematik,TYT,40
+14,TYT Sosyal Bilimler,TYT,20
+15,TYT Türkçe,TYT,40
+16,YDT Yabancı Dil,YDT,80
