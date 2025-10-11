@@ -22,8 +22,8 @@ def main():
     dept_tags = pd.read_csv(os.path.join(PROCESSED_DIR, 'department_tags.csv'))
     tags = pd.read_csv(os.path.join(PROCESSED_DIR, 'tags.csv'))
     stats = pd.read_csv(os.path.join(PROCESSED_DIR, 'department_stats.csv'))
-    # Raw stats (already partially cleaned but not normalized)
-    #stats = pd.read_csv(os.path.join(RAW_DIR, 'department_stats_raw.csv'))
+    # Eklenen tercih verisi
+    preferences = pd.read_csv(os.path.join(PROCESSED_DIR, 'department_preferences.csv'))
 
     # Build tags aggregated per program_code
     tags_full = dept_tags.merge(tags, on='tag_id', how='left')
@@ -70,7 +70,12 @@ def main():
             merged['year'] = merged['year_str']
             merged.drop(columns=['year_str'], inplace=True)
     else:
-        merged = dept_year_expanded.copy()    
+        merged = dept_year_expanded.copy()
+
+    # Tercih verisini ekle
+    preferences['year'] = preferences['year'].astype(int)
+    merged = merged.merge(preferences, on=['program_code', 'year'], how='left')
+
     for rank_col in ['final_rank_012', 'final_rank_018']:
         if rank_col in merged.columns:
             merged[rank_col] = pd.to_numeric(merged[rank_col], errors='coerce').round(0).astype('Int64')
@@ -80,7 +85,9 @@ def main():
         'faculty_name', 'score_type', 'scholarship_type', 'is_undergraduate', 'all_tags',
         'total_quota', 'total_enrolled', 'male', 'female', 'final_score_012', 'final_rank_012',
         'final_score_018', 'final_rank_018', 'initial_placement_rate', 'not_registered', 
-        'additional_placement', 'avg_obp_012', 'avg_obp_018'
+        'additional_placement', 'avg_obp_012', 'avg_obp_018',
+        # Eklenen sütunlar
+        'total_preferences', 'demand_per_quota', 'avg_preference_rank'
     ]
 
     for c in final_cols:
