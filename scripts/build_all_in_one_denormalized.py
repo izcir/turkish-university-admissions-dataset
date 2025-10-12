@@ -24,6 +24,8 @@ def main():
     stats = pd.read_csv(os.path.join(PROCESSED_DIR, 'department_stats.csv'))
     # Eklenen tercih verisi
     preferences = pd.read_csv(os.path.join(PROCESSED_DIR, 'department_preferences.csv'))
+    # Eklenen placed tercih verisi
+    placed_preferences = pd.read_csv(os.path.join(PROCESSED_DIR, 'department_placed_preferences.csv'))
 
     # Build tags aggregated per program_code
     tags_full = dept_tags.merge(tags, on='tag_id', how='left')
@@ -76,6 +78,10 @@ def main():
     preferences['year'] = preferences['year'].astype(int)
     merged = merged.merge(preferences, on=['program_code', 'year'], how='left')
 
+    # Placed tercih verisini ekle
+    placed_preferences['year'] = placed_preferences['year'].astype(int)
+    merged = merged.merge(placed_preferences, on=['program_code', 'year'], how='left')
+
     for rank_col in ['final_rank_012', 'final_rank_018']:
         if rank_col in merged.columns:
             merged[rank_col] = pd.to_numeric(merged[rank_col], errors='coerce').round(0).astype('Int64')
@@ -87,7 +93,8 @@ def main():
         'final_score_018', 'final_rank_018', 'initial_placement_rate', 'not_registered', 
         'additional_placement', 'avg_obp_012', 'avg_obp_018',
         # Eklenen sütunlar
-        'total_preferences', 'demand_per_quota', 'avg_preference_rank'
+        'total_preferences', 'demand_per_quota', 'avg_preference_rank', "top_1_pref_count", "top_3_pref_count", "top_9_pref_count"
+        'placed_count', 'placed_pref_rank_avg', 'placed_top_1_pref_count', 'placed_top_3_pref_count', 'placed_top_10_pref_count'
     ]
 
     for c in final_cols:
