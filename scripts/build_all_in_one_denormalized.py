@@ -82,6 +82,26 @@ def main():
     placed_preferences['year'] = placed_preferences['year'].astype(int)
     merged = merged.merge(placed_preferences, on=['program_code', 'year'], how='left')
 
+    placed_uni_type = pd.read_csv(os.path.join(PROCESSED_DIR, 'department_placed_pref_uni_type.csv'))
+    placed_uni_type_pivot = placed_uni_type.pivot_table(
+        index=['program_code', 'year'],
+        columns='university_type_id',
+        values='placed_pref_count',
+        fill_value=0
+    ).reset_index()
+    placed_uni_type_pivot = placed_uni_type_pivot.rename(columns={
+        1: 'placed_pref_uni_devlet_count',
+        2: 'placed_pref_uni_vakif_count',
+        3: 'placed_pref_uni_kktc_count',
+        4: 'placed_pref_uni_yurt_disi_count'
+    })
+    merged = merged.merge(placed_uni_type_pivot, on=['program_code', 'year'], how='left')
+
+    # Ensure placed_pref_uni_* columns are Int64 (nullable integer)
+    for col in ['placed_pref_uni_devlet_count', 'placed_pref_uni_vakif_count', 'placed_pref_uni_kktc_count', 'placed_pref_uni_yurt_disi_count']:
+        if col in merged.columns:
+            merged[col] = pd.to_numeric(merged[col], errors='coerce').fillna(0).round(0).astype('Int64')
+
     for rank_col in ['final_rank_012', 'final_rank_018']:
         if rank_col in merged.columns:
             merged[rank_col] = pd.to_numeric(merged[rank_col], errors='coerce').round(0).astype('Int64')
@@ -93,8 +113,10 @@ def main():
         'final_score_018', 'final_rank_018', 'initial_placement_rate', 'not_registered', 
         'additional_placement', 'avg_obp_012', 'avg_obp_018',
         # Eklenen sütunlar
-        'total_preferences', 'demand_per_quota', 'avg_preference_rank', "top_1_pref_count", "top_3_pref_count", "top_9_pref_count"
-        'placed_count', 'placed_pref_rank_avg', 'placed_top_1_pref_count', 'placed_top_3_pref_count', 'placed_top_10_pref_count'
+        'total_preferences', 'demand_per_quota', 'avg_preference_rank', "top_1_pref_count", "top_3_pref_count", "top_9_pref_count",
+        'placed_count', 'placed_pref_rank_avg', 'placed_top_1_pref_count', 'placed_top_3_pref_count', 'placed_top_10_pref_count',
+        # Yeni eklenen sütunlar
+        'placed_pref_uni_devlet_count', 'placed_pref_uni_vakif_count', 'placed_pref_uni_kktc_count', 'placed_pref_uni_yurt_disi_count'
     ]
 
     for c in final_cols:
