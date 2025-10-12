@@ -155,7 +155,6 @@ def main():
     # --------------------------------------------------
     # Lessons Dimension + Net Stats Fact Table
     # --------------------------------------------------
-    print("Processing lesson net averages...")
 
     lessons_data = [
         {'lesson_name': 'AYT Biyoloji', 'exam_type': 'AYT', 'max_questions': 13},
@@ -240,19 +239,15 @@ def main():
     ]].reset_index(drop=True)
 
     department_net_stats_df.to_csv(os.path.join(PROCESSED_DIR, "department_avg_net_stats.csv"), index=False)
-    print(f"{len(department_net_stats_df)} net average records processed and saved.")
 
     # --------------------------------------------------
     # Department Preferences Fact Table + Preference Ranks Bridge Table
     # --------------------------------------------------
-    print("Processing department preferences...")
 
     preferences_df = pd.read_csv(os.path.join(RAW_DIR, "department_preference_raw.csv"))
 
-    # Ensure program_code is string to preserve leading zeros
     preferences_df['program_code'] = preferences_df['program_code'].astype(str)
 
-    # Core preferences table (fact table for main metrics)
     department_preferences_df = preferences_df[[
         'program_code',
         'year',
@@ -265,11 +260,9 @@ def main():
     ]].copy()
     department_preferences_df.to_csv(os.path.join(PROCESSED_DIR, "department_preferences.csv"), index=False)
 
-    # Preference ranks table (normalized long format for rank counts)
     rank_columns = [f'rank_{i}_count' for i in range(1, 10)] + ['rank_10_plus_count']
     rank_levels = [str(i) for i in range(1, 10)] + ['10+']
 
-    # Melt the rank columns into long format
     preferences_ranks_long = pd.melt(
         preferences_df,
         id_vars=['program_code', 'year'],
@@ -278,11 +271,9 @@ def main():
         value_name='count'
     )
 
-    # Map rank_column to rank_level (e.g., 'rank_1_count' -> '1')
     rank_mapping = {col: level for col, level in zip(rank_columns, rank_levels)}
     preferences_ranks_long['rank_level'] = preferences_ranks_long['rank_column'].map(rank_mapping)
 
-    # Drop the intermediate column and keep only relevant ones
     department_preference_ranks_df = preferences_ranks_long[[
         'program_code',
         'year',
@@ -291,7 +282,48 @@ def main():
     ]].dropna(subset=['count']).reset_index(drop=True)
 
     department_preference_ranks_df.to_csv(os.path.join(PROCESSED_DIR, "department_preference_ranks.csv"), index=False)
-    print(f"{len(department_preferences_df)} preference records and {len(department_preference_ranks_df)} rank records processed and saved.")
+
+    # --------------------------------------------------
+    # Department Placed Preferences Fact Table + Placed Preference Ranks Bridge Table
+    # --------------------------------------------------
+
+    placed_df = pd.read_csv(os.path.join(RAW_DIR, "department_placed_preference_raw.csv"))
+
+    placed_df['program_code'] = placed_df['program_code'].astype(str)
+
+    department_placed_preferences_df = placed_df[[
+        'program_code',
+        'year',
+        'placed_count',
+        'placed_pref_rank_avg',
+        'placed_top_1_pref_count',
+        'placed_top_3_pref_count',
+        'placed_top_10_pref_count'
+    ]].copy()
+    department_placed_preferences_df.to_csv(os.path.join(PROCESSED_DIR, "department_placed_preferences.csv"), index=False)
+
+    rank_columns = [f'placed_rank_{i}_count' for i in range(1, 25)]
+    rank_levels = [str(i) for i in range(1, 25)]
+
+    placed_ranks_long = pd.melt(
+        placed_df,
+        id_vars=['program_code', 'year'],
+        value_vars=rank_columns,
+        var_name='rank_column',
+        value_name='count'
+    )
+
+    rank_mapping = {col: level for col, level in zip(rank_columns, rank_levels)}
+    placed_ranks_long['rank_level'] = placed_ranks_long['rank_column'].map(rank_mapping)
+
+    department_placed_preference_ranks_df = placed_ranks_long[[
+        'program_code',
+        'year',
+        'rank_level',
+        'count'
+    ]].dropna(subset=['count']).reset_index(drop=True)
+
+    department_placed_preference_ranks_df.to_csv(os.path.join(PROCESSED_DIR, "department_placed_preference_ranks.csv"), index=False)
 
 
 if __name__ == "__main__":  
