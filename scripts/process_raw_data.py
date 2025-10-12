@@ -325,6 +325,46 @@ def main():
 
     department_placed_preference_ranks_df.to_csv(os.path.join(PROCESSED_DIR, "department_placed_preference_ranks.csv"), index=False)
 
+    # --------------------------------------------------
+    # University Types (for placed university type fact table)
+    # --------------------------------------------------
+    # university_types_long = [
+    #     {'university_type_id': 1, 'university_type': 'devlet'},
+    #     {'university_type_id': 2, 'university_type': 'vakif'},
+    #     {'university_type_id': 3, 'university_type': 'kktc'},
+    #     {'university_type_id': 4, 'university_type': 'yurt_disi'},
+    # ]
+    # university_types_df = pd.DataFrame(university_types_long)
+    # university_types_df.to_csv(os.path.join(PROCESSED_DIR, 'university_types.csv'), index=False)
+
+    # --------------------------------------------------
+    # Department Placed University Type Fact Table (long format with id)
+    # --------------------------------------------------
+    placed_uni_type_df = pd.read_csv(os.path.join(RAW_DIR, "department_placed_pref_uni_type_raw.csv"))
+    placed_uni_type_df['program_code'] = placed_uni_type_df['program_code'].astype(str)
+    # Melt to long format
+    placed_long = placed_uni_type_df.melt(
+        id_vars=['program_code', 'year'],
+        value_vars=[
+            'placed_pref_uni_devlet_count',
+            'placed_pref_uni_vakif_count',
+            'placed_pref_uni_kktc_count',
+            'placed_pref_uni_yurt_disi_count'
+        ],
+        var_name='university_type_col',
+        value_name='placed_pref_count'
+    )
+    # Map to university_type_id
+    uni_type_map = {
+        'placed_pref_uni_devlet_count': 1,
+        'placed_pref_uni_vakif_count': 2,
+        'placed_pref_uni_kktc_count': 3,
+        'placed_pref_uni_yurt_disi_count': 4
+    }
+    placed_long['university_type_id'] = placed_long['university_type_col'].map(uni_type_map)
+    department_placed_uni_type_long = placed_long[['program_code', 'year', 'university_type_id', 'placed_pref_count']].copy()
+    department_placed_uni_type_long.to_csv(os.path.join(PROCESSED_DIR, "department_placed_pref_uni_type.csv"), index=False)
+
 
 if __name__ == "__main__":  
     main()
