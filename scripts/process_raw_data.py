@@ -342,7 +342,6 @@ def main():
     # --------------------------------------------------
     placed_uni_type_df = pd.read_csv(os.path.join(RAW_DIR, "department_placed_pref_uni_type_raw.csv"))
     placed_uni_type_df['program_code'] = placed_uni_type_df['program_code'].astype(str)
-    # Melt to long format
     placed_long = placed_uni_type_df.melt(
         id_vars=['program_code', 'year'],
         value_vars=[
@@ -354,7 +353,6 @@ def main():
         var_name='university_type_col',
         value_name='placed_pref_count'
     )
-    # Map to university_type_id
     uni_type_map = {
         'placed_pref_uni_devlet_count': 1,
         'placed_pref_uni_vakif_count': 2,
