@@ -2,6 +2,9 @@
 
 🌐 [English](README_en.md) | [Türkçe](README.md)
 
+[![Kaggle](https://img.shields.io/badge/View%20on-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/ramazanizci/turkish-university-admissions)
+
+
 Bu repo, [YokAPI](https://github.com/izcir/YokAPI/) adlı Python tabanlı scraper aracılığıyla YÖK Atlas ve ÖSYM kaynaklarından elde edilen 2019–2024 yılları arasındaki üniversite bölüm verilerini içerir. Veriler, iki aşamalı bir süreçle analize hazır hale getirilmiştir: **Temizleme** ve **Normalleştirme**.
 
 Ayrıca bu veri seti, üniversite tercih sürecini kolaylaştıran ve yapay zeka destekli analizler sunan kendi sitemin ([sinavizcisi.com](https://sinavizcisi.com)) veritabanının da temelini oluşturmaktadır.
