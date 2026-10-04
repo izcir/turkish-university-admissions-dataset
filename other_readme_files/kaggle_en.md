@@ -1,9 +1,9 @@
-### **Turkish University Admissions & Stats (2019-2024)**
+### **Turkish University Admissions & Stats (2019-2025)**
 A comprehensive dataset of department quotas, placements, scores, and rankings from Turkey's Higher Education Council (YÖK). Ideal for analyzing educational trends and building predictive models.
 
 For a complete overview of the data collection, cleaning, and standardization methodology, please refer to the official [GitHub repository](https://github.com/izcir/turkish-university-admissions-dataset).
 
-> **(TR) Bu veri seti, Türkiye'deki üniversitelerin 2019-2024 arası kontenjan, yerleşen sayısı, taban puan ve sıralama gibi detaylı istatistiklerini içerir. Ana dosya olan `01_university_admissions_turkey_2019_2024.csv`, tüm bu verilerin analiz için birleştirilmiş pratik halidir. Veriyi daha iyi anlamak ve analizlere başlamak için Türkçe hazırlanan başlangıç notebook'larına göz atabilirsiniz.**
+> **(TR) Bu veri seti, Türkiye'deki üniversitelerin 2019-2025 arası kontenjan, yerleşen sayısı, taban puan ve sıralama gibi detaylı istatistiklerini içerir. Ana dosya olan `01_university_admissions_turkey_2019_2025.csv`, tüm bu verilerin analiz için birleştirilmiş pratik halidir. Veriyi daha iyi anlamak ve analizlere başlamak için Türkçe hazırlanan başlangıç notebook'larına göz atabilirsiniz.**
 
 ### **Starter Notebooks**
 We have prepared two notebooks to help you get started:
@@ -11,16 +11,16 @@ We have prepared two notebooks to help you get started:
 * **Data Quality & Inconsistencies Analysis:** A crucial analysis of the dataset's known issues and limitations. **It is highly recommended to review this notebook before conducting in-depth analysis.**
 
 ### **Files**
-* **`01_university_admissions_turkey_2019_2024.csv`**: The main, analysis-ready file. **Recommended for most users.**
+* **`01_university_admissions_turkey_2019_2025.csv`**: The main, analysis-ready file. **Recommended for most users.**
 * **Individual CSV Files (`universities_normalized.csv`, `department_stats.csv`, etc.)**: A collection of all the individual relational tables used to build the main file. These are ideal for advanced users or for running the starter notebooks.
-* **Detailed Preference Files (`department_preference_ranks.csv` & `department_placed_preference_ranks.csv`):** For advanced preference analysis, these files provide row-level detail on the exact preference ranks of all students and of those who were placed. This granular data is **not** aggregated in the main `..._2024.csv` file and is **not** used in the starter notebooks.
+* **Detailed Preference Files (`department_preference_ranks.csv` & `department_placed_preference_ranks.csv`):** For advanced preference analysis, these files provide row-level detail on the exact preference ranks of all students and of those who were placed. This granular data is **not** aggregated in the main `..._2025.csv` file and is **not** used in the starter notebooks.
 
 ### **Source & Methodology**
 The data is sourced from Turkey's Higher Education Council (YÖK) Atlas and ÖSYM. The data was collected programmatically via the [YokAPI Python package](https://github.com/izcir/YokAPI). Key decisions regarding data standardization are documented in the [`cleaning_notes.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes.md) file within the GitHub repository.
 
 ---
 
-### **Data Dictionary / Veri Sözlüğü for `01_university_admissions_turkey_2019_2024.csv`**
+### **Data Dictionary / Veri Sözlüğü for `01_university_admissions_turkey_2019_2025.csv`**
 
 | Column Name / Sütun Adı | Description / Açıklama |
 |---|---|
@@ -63,3 +63,5 @@ The data is sourced from Turkey's Higher Education Council (YÖK) Atlas and ÖSY
 | `placed_pref_uni_vakif_count`| Among placed students, the total number of Foundation university preferences in their lists. / *Yerleşen öğrencilerin tercih listelerindeki Vakıf üniversitesi sayısı.* |
 | `placed_pref_uni_kktc_count`| Among placed students, the total number of TRNC university preferences in their lists. / *Yerleşen öğrencilerin tercih listelerindeki KKTC üniversitesi sayısı.* |
 | `placed_pref_uni_yurt_disi_count`| Among placed students, the total number of International university preferences in their lists. / *Yerleşen öğrencilerin tercih listelerindeki Yurtdışı üniversitesi sayısı.* |
+
+For 2025, `avg_obp_012` and `avg_obp_018` are empty.

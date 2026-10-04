@@ -1,21 +1,21 @@
-# Türkiye Üniversite Bölüm Verileri & İstatistikleri (2019-2024)
+# Türkiye Üniversite Bölüm Verileri & İstatistikleri (2019-2025)
 
 🌐 [English](README_en.md) | [Türkçe](README.md)
 
 [![Kaggle](https://img.shields.io/badge/View%20on-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/ramazanizci/turkish-university-admissions)
 
 
-Bu repo, [YokAPI](https://github.com/izcir/YokAPI/) adlı Python tabanlı scraper aracılığıyla YÖK Atlas ve ÖSYM kaynaklarından elde edilen 2019–2024 yılları arasındaki üniversite bölüm verilerini içerir. Veriler, iki aşamalı bir süreçle analize hazır hale getirilmiştir: **Temizleme** ve **Normalleştirme**.
+Bu repo, [YokAPI](https://github.com/izcir/YokAPI/) adlı Python tabanlı scraper aracılığıyla YÖK Atlas ve ÖSYM kaynaklarından elde edilen 2019–2025 yılları arasındaki üniversite bölüm verilerini içerir. Veriler, iki aşamalı bir süreçle analize hazır hale getirilmiştir: **Temizleme** ve **Normalleştirme**.
 
 Ayrıca bu veri seti, üniversite tercih sürecini kolaylaştıran ve yapay zeka destekli analizler sunan kendi sitemin ([sinavizcisi.com](https://sinavizcisi.com)) veritabanının da temelini oluşturmaktadır.
 
 ### Veri Setine Hızlı Bakış
 
 Bu veri seti, aşağıdaki istatistiksel özetle tanımlanabilir:
-*   **Kapsanan Dönem:** 2019-2024 (Toplam 6 yıl) *(2025 istatistikleri eklenecektir)*
-*   **Toplam Kayıt Sayısı:** 128,352 (Her bir programın her bir yıldaki temel istatistiklerini gösteren satır)
-*   **Benzersiz Program Sayısı:** 32,505 (`program_code`)
-*   **Benzersiz Varlıklar:** 235 Üniversite, 733 Bölüm Adı, 1,131 Fakülte
+*   **Kapsanan Dönem:** 2019-2025 (Toplam 7 yıl).
+*   **Toplam Kayıt Sayısı:** 149,954 (Her bir programın her bir yıldaki temel istatistiklerini gösteren satır)
+*   **Benzersiz Program Sayısı:** 34,474 (`program_code`)
+*   **Benzersiz Varlıklar:** 237 Üniversite, 767 Bölüm Adı, 1,153 Fakülte
 
 
 > **Önemli Not:** Bu repodaki veriler iki aşamalı bir süreçten geçmiştir. İlk olarak, `YokAPI` ile çekilen ham veriler, **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes.md)** dosyasında detaylandırılan adımlarla temizlenmiştir. `data/raw/` klasöründeki dosyalar bu ilk temizleme aşamasının çıktısıdır. İkinci aşamada ise `scripts/` klasöründeki betikler bu verileri alıp `data/processed/` altında normalize edilmiş, ilişkisel bir yapıya dönüştürür ve son olarak `all_in_one_denormalized.csv` dosyasını oluşturur. Hızlı analizler için `all_in_one_denormalized.csv` dosyası, daha derinlemesine ve esnek sorgular için ise veri tekrarını önleyen `data/processed/` klasöründeki normalize edilmiş yapı önerilmektedir.
@@ -51,8 +51,7 @@ README.md
 ## 🔍 Veri Kaynakları ve Gelecek Vizyonu
 
 #### Mevcut Durum (2019-2025)
-*   **2019–2024 yılları:** Tüm istatistikler (puan, sıralama, kontenjan vb.) YÖK Atlas üzerinden çekilmiştir.
-*   **2025 yılı:** YÖK Atlas henüz 2025 verilerini yayınlamadığı için, bu yıla ait bölümler yalnızca ÖSYM kılavuzundan alınmıştır ve istatistik verileri boştur.
+*   **2019–2025 yılları:** Kontenjan, yerleşen, puan, sıralama, tercih ve net istatistikleri YÖK Atlas verileriyle yer alır.
 
 #### Gelecek Vizyonu ve Eklenecek Veriler
 Bu veri seti, yaşayan ve sürekli gelişen bir projedir. Hedefim, Türkiye'deki en kapsamlı yükseköğretim veri setlerinden birini oluşturmaktır. Gelecek güncellemelerde YÖK Atlas'tan aşağıdaki verilerin de eklenmesi planlanmaktadır:
@@ -73,6 +72,8 @@ Bu tablolar, veri setindeki en temel ve ölçülebilir olayları içerir.
 | :--- | :--- | :--- |
 | **`department_stats.csv`** | Bir **programın** bir **yıldaki** performansı | Kontenjan, yerleşen, sıralama gibi temel metrikleri barındırır. Analizlerin başlangıç noktasıdır.<br>*(Sütunlar: `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`)* |
 | **`department_avg_net_stats.csv`** | Bir **programın** bir **yıldaki** tek bir **derse** ait net ortalaması | Bölümlere yerleşenlerin ders bazlı akademik profilini içerir.<br>*(Sütunlar: `program_code`, `year`, `lesson_id`, `coefficient_type`, `average_net`)* |
+
+2025 yılı satırlarında ortalama OBP sütunları (`avg_obp_012`, `avg_obp_018`) boştur.
 
 ### 2. Boyut (Dimension) ve Lookup Tabloları
 Bu tablolar, çekirdek tablolardaki ID'lere karşılık gelen açıklayıcı bilgileri içerir.

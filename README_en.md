@@ -1,17 +1,17 @@
-# Turkey University Department Data & Statistics (2019-2024)
+# Turkey University Department Data & Statistics (2019-2025)
 
 🌐 [English](README_en.md) | [Türkçe](README.md)
 
-This repository contains university department data for the years 2019–2024, obtained from official sources like YÖK Atlas and ÖSYM using the [YokAPI](https://github.com/izcir/YokAPI/) Python-based scraper. The data has been prepared for analysis through a two-stage process: **Cleaning** and **Normalization**.
+This repository contains university department data for the years 2019–2025, obtained from official sources like YÖK Atlas and ÖSYM using the [YokAPI](https://github.com/izcir/YokAPI/) Python-based scraper. The data has been prepared for analysis through a two-stage process: **Cleaning** and **Normalization**.
 
 This dataset also serves as the core database for my website, [sinavizcisi.com](https://sinavizcisi.com), a platform designed to facilitate the university selection process with AI-powered analyses.
 
 ### Dataset at a Glance
 
-*   **Covered Period:** 2019-2024 (Total of 6 years) *(2025 statistics will be added upon release)*
-*   **Total Records:** 128,352 (Rows representing the core stats of each program in each year)
-*   **Unique Programs:** 32,505 (`program_code`)
-*   **Unique Entities:** 235 Universities, 733 Department Names, 1,131 Faculties
+*   **Covered Period:** 2019-2025 (Total of 7 years).
+*   **Total Records:** 149,954 (Rows representing the core stats of each program in each year)
+*   **Unique Programs:** 34,474 (`program_code`)
+*   **Unique Entities:** 237 Universities, 767 Department Names, 1,153 Faculties
 
 
 > **Important Note:** The data in this repository has undergone a two-stage process. First, raw data was cleaned according to the steps detailed in **[`CLEANING_NOTES.md`](https://github.com/izcir/turkish-university-admissions-dataset/blob/main/other_readme_files/cleaning_notes.md)**. The files in `data/raw/` are the output of this stage. Second, scripts in the `scripts/` folder transform this data into a normalized, relational structure under `data/processed/` and finally create the `all_in_one_denormalized.csv` file. For quick analyses, the `all_in_one_denormalized.csv` file is convenient. For more in-depth and flexible queries, the normalized structure in `data/processed/`, which prevents data redundancy, is recommended.
@@ -47,8 +47,7 @@ README.md
 ## 🔍 Data Sources and Future Vision
 
 #### Current Status (2019-2025)
-*   **2019–2024:** All statistics (scores, ranks, quotas, etc.) have been scraped from YÖK Atlas.
-*   **2025:** As YÖK Atlas has not yet released the 2025 statistics, the department data for this year is sourced only from the ÖSYM guide, and thus statistical columns are empty.
+*   **2019–2025:** Quota, enrollment, score, rank, preference, and net statistics come from YÖK Atlas.
 
 #### Future Vision and Planned Additions
 This is a living dataset that will be continuously improved. My goal is to create one of the most comprehensive higher education datasets for Turkey by incorporating other valuable data from YÖK Atlas. Planned future additions include:
@@ -68,6 +67,8 @@ These tables contain the core, measurable events or states in the dataset.
 | :--- | :--- | :--- |
 | **`department_stats.csv`** | The performance of one **program** in one **year**. | Contains fundamental metrics like quota, enrollment, and admission rank. This is the starting point for most analyses.<br>*(Columns: `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`)* |
 | **`department_avg_net_stats.csv`** | The average net score for one **lesson** in one **program** in one **year**. | Contains the academic profile of enrolled students on a per-subject basis.<br>*(Columns: `program_code`, `year`, `lesson_id`, `coefficient_type`, `average_net`)* |
+
+For 2025, the average OBP columns (`avg_obp_012` and `avg_obp_018`) are empty.
 
 ### 2. Dimension and Lookup Tables
 These tables contain the descriptive information that corresponds to the IDs in the fact tables.

@@ -16636,7 +16636,7 @@ program_code,department_name,university_name,university_id,faculty_name,is_under
 300310932,İngilizce Öğretmenliği-Elt,LEFKE AVRUPA ÜNİVERSİTESİ,287,Dr. Fazıl Küçük Eğitim Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025","%50 İndirimli,İngilizce"
 300110061,İngilizce Öğretmenliği-Elt,DOĞU AKDENİZ ÜNİVERSİTESİ,131,Eğitim Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025","İngilizce,Ücretli"
 300510048,İngilizce Öğretmenliği-Elt,YAKIN DOĞU ÜNİVERSİTESİ,219,Atatürk Eğitim Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025","Burslu,İngilizce"
-300390307,İngilizce Öğretmenliği-Elt,LEFKE AVRUPA ÜNİVERSİTESİ,287,Dr. Fazıl Küçük Eğitim Fakültesi,True,"2020,2021,2022","İngilizce,Ücretli"
+300390307,İngilizce Öğretmenliği-ELT,LEFKE AVRUPA ÜNİVERSİTESİ,287,Dr. Fazıl Küçük Eğitim Fakültesi,True,"2020,2021,2022","İngilizce,Ücretli"
 202190179,"İngilizce, Fransızca Mütercim ve Tercümanlık",İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ,143,İnsani Bilimler ve Edebiyat Fakültesi,True,"2020,2021,2022,2023,2024,2025",Burslu
 105990135,"İngilizce, Fransızca Mütercim ve Tercümanlık",KAFKAS ÜNİVERSİTESİ,150,Fen-Edebiyat Fakültesi,True,"2020,2021,2022,2023,2024,2025",
 102690212,"İngilizce, Fransızca Mütercim ve Tercümanlık",SİVAS CUMHURİYET ÜNİVERSİTESİ,106,Edebiyat Fakültesi,True,"2020,2021,2022,2023,2024,2025",
@@ -26006,38 +26006,38 @@ program_code,department_name,university_name,university_id,faculty_name,is_under
 202712073,Restorasyon ve Konservasyon,İSTANBUL GELİŞİM ÜNİVERSİTESİ,185,Uygulamalı Bilimler Yüksekokulu,True,2019,Burslu
 105590230,Robotik ve Otonom Sistemleri Mühendisliği,İSTANBUL TEKNİK ÜNİVERSİTESİ,112,Elektrik-Elektronik Fakültesi,True,2024,İngilizce
 105590237,Robotik ve Otonom Sistemleri Mühendisliği,İSTANBUL TEKNİK ÜNİVERSİTESİ,112,Elektrik-Elektronik Fakültesi,True,2024,
-109490377,Robotik ve Yapay Zekâ,TRAKYA ÜNİVERSİTESİ,312,Edirne Teknik Bilimler Meslek Yüksekokulu,False,"2024,2025",
-104290402,Robotik ve Yapay Zekâ,GAZİANTEP ÜNİVERSİTESİ,120,Teknik Bilimler Meslek Yüksekokulu,False,"2024,2025",
-111890336,Robotik ve Yapay Zekâ,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,191,Hendek Meslek Yüksekokulu,False,"2024,2025",
-105090333,Robotik ve Yapay Zekâ,HARRAN ÜNİVERSİTESİ,266,Şanlıurfa Teknik Bilimler Meslek Yüksekokulu,False,"2024,2025",
-112490489,Robotik ve Yapay Zekâ,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,192,Bilişim Teknolojileri Meslek Yüksekokulu,False,"2024,2025",
-106990792,Robotik ve Yapay Zekâ,KOCAELİ ÜNİVERSİTESİ,348,Ford Otosan İhsaniye Otomotiv Meslek Yüksekokulu,False,"2024,2025",
-102790595,Robotik ve Yapay Zekâ,ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ,138,Çanakkale Teknik Bilimler Meslek Yüksekokulu,False,2025,
-109790640,Robotik ve Yapay Zekâ,BURSA ULUDAĞ ÜNİVERSİTESİ,250,Teknik Bilimler Meslek Yüksekokulu,False,2025,
-201991462,Robotik ve Yapay Zekâ,HALİÇ ÜNİVERSİTESİ,268,Meslek Yüksekokulu,False,2025,Ücretli
-107990234,Robotik ve Yapay Zekâ,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,309,Teknik Bilimler Meslek Yüksekokulu,False,2025,
-208910321,Robotik ve Yapay Zekâ,İZMİR KAVRAM MESLEK YÜKSEKOKULU,373,İzmir Kavram Meslek Yüksekokulu,False,2025,%50 İndirimli
-207651027,Robotik ve Yapay Zekâ,BİRUNİ ÜNİVERSİTESİ,262,Meslek Yüksekokulu,False,2025,%50 İndirimli
-108190457,Robotik ve Yapay Zekâ,NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ,347,Niğde Teknik Bilimler Meslek Yüksekokulu,False,2025,
-109490412,Robotik ve Yapay Zekâ,TRAKYA ÜNİVERSİTESİ,312,Edirne Teknik Bilimler Meslek Yüksekokulu,False,2025,KKTC Uyruklu
-109790647,Robotik ve Yapay Zekâ,BURSA ULUDAĞ ÜNİVERSİTESİ,250,Teknik Bilimler Meslek Yüksekokulu,False,2025,KKTC Uyruklu
-100790630,Robotik ve Yapay Zekâ,AKDENİZ ÜNİVERSİTESİ,341,Teknik Bilimler Meslek Yüksekokulu,False,2025,KKTC Uyruklu
-106490290,Robotik ve Yapay Zekâ,KASTAMONU ÜNİVERSİTESİ,380,Tosya Meslek Yüksekokulu,False,2025,
-103390293,Robotik ve Yapay Zekâ,DÜZCE ÜNİVERSİTESİ,115,Meslek Yüksekokulu,False,2025,
-208910314,Robotik ve Yapay Zekâ,İZMİR KAVRAM MESLEK YÜKSEKOKULU,373,İzmir Kavram Meslek Yüksekokulu,False,2025,Burslu
-200690955,Robotik ve Yapay Zekâ,BAŞKENT ÜNİVERSİTESİ,369,Kahramankazan Meslek Yüksekokulu,False,2025,Burslu
-101690169,Robotik ve Yapay Zekâ,BARTIN ÜNİVERSİTESİ,139,Bartın Meslek Yüksekokulu,False,2025,
-108290579,Robotik ve Yapay Zekâ,ONDOKUZ MAYIS ÜNİVERSİTESİ,364,Yeşilyurt Demir Çelik Meslek Yüksekokulu,False,2025,
-201290614,Robotik ve Yapay Zekâ,DOĞUŞ ÜNİVERSİTESİ,181,Meslek Yüksekokulu,False,2025,Burslu
-100790623,Robotik ve Yapay Zekâ,AKDENİZ ÜNİVERSİTESİ,341,Teknik Bilimler Meslek Yüksekokulu,False,2025,
-201290621,Robotik ve Yapay Zekâ,DOĞUŞ ÜNİVERSİTESİ,181,Meslek Yüksekokulu,False,2025,%50 İndirimli
-207651020,Robotik ve Yapay Zekâ,BİRUNİ ÜNİVERSİTESİ,262,Meslek Yüksekokulu,False,2025,Burslu
-200690962,Robotik ve Yapay Zekâ,BAŞKENT ÜNİVERSİTESİ,369,Kahramankazan Meslek Yüksekokulu,False,2025,%50 İndirimli
-112490552,Robotik ve Yapay Zekâ,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,192,Bilişim Teknolojileri Meslek Yüksekokulu,False,2025,KKTC Uyruklu
-100390439,Robotik ve Yapay Zekâ,AYDIN ADNAN MENDERES ÜNİVERSİTESİ,296,Söke Meslek Yüksekokulu,False,2025,
-110390342,Robotik ve Yapay Zekâ,ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ,326,Alaplı Meslek Yüksekokulu,False,2025,
-201991469,Robotik ve Yapay Zekâ,HALİÇ ÜNİVERSİTESİ,268,Meslek Yüksekokulu,False,2025,%25 İndirimli
-201991455,Robotik ve Yapay Zekâ,HALİÇ ÜNİVERSİTESİ,268,Meslek Yüksekokulu,False,2025,Burslu
+109490377,Robotik ve Yapay Zeka,TRAKYA ÜNİVERSİTESİ,312,Edirne Teknik Bilimler Meslek Yüksekokulu,False,"2024,2025",
+104290402,Robotik ve Yapay Zeka,GAZİANTEP ÜNİVERSİTESİ,120,Teknik Bilimler Meslek Yüksekokulu,False,"2024,2025",
+111890336,Robotik ve Yapay Zeka,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,191,Hendek Meslek Yüksekokulu,False,"2024,2025",
+105090333,Robotik ve Yapay Zeka,HARRAN ÜNİVERSİTESİ,266,Şanlıurfa Teknik Bilimler Meslek Yüksekokulu,False,"2024,2025",
+112490489,Robotik ve Yapay Zeka,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,192,Bilişim Teknolojileri Meslek Yüksekokulu,False,"2024,2025",
+106990792,Robotik ve Yapay Zeka,KOCAELİ ÜNİVERSİTESİ,348,Ford Otosan İhsaniye Otomotiv Meslek Yüksekokulu,False,"2024,2025",
+102790595,Robotik ve Yapay Zeka,ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ,138,Çanakkale Teknik Bilimler Meslek Yüksekokulu,False,2025,
+109790640,Robotik ve Yapay Zeka,BURSA ULUDAĞ ÜNİVERSİTESİ,250,Teknik Bilimler Meslek Yüksekokulu,False,2025,
+201991462,Robotik ve Yapay Zeka,HALİÇ ÜNİVERSİTESİ,268,Meslek Yüksekokulu,False,2025,Ücretli
+107990234,Robotik ve Yapay Zeka,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,309,Teknik Bilimler Meslek Yüksekokulu,False,2025,
+208910321,Robotik ve Yapay Zeka,İZMİR KAVRAM MESLEK YÜKSEKOKULU,373,İzmir Kavram Meslek Yüksekokulu,False,2025,%50 İndirimli
+207651027,Robotik ve Yapay Zeka,BİRUNİ ÜNİVERSİTESİ,262,Meslek Yüksekokulu,False,2025,%50 İndirimli
+108190457,Robotik ve Yapay Zeka,NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ,347,Niğde Teknik Bilimler Meslek Yüksekokulu,False,2025,
+109490412,Robotik ve Yapay Zeka,TRAKYA ÜNİVERSİTESİ,312,Edirne Teknik Bilimler Meslek Yüksekokulu,False,2025,KKTC Uyruklu
+109790647,Robotik ve Yapay Zeka,BURSA ULUDAĞ ÜNİVERSİTESİ,250,Teknik Bilimler Meslek Yüksekokulu,False,2025,KKTC Uyruklu
+100790630,Robotik ve Yapay Zeka,AKDENİZ ÜNİVERSİTESİ,341,Teknik Bilimler Meslek Yüksekokulu,False,2025,KKTC Uyruklu
+106490290,Robotik ve Yapay Zeka,KASTAMONU ÜNİVERSİTESİ,380,Tosya Meslek Yüksekokulu,False,2025,
+103390293,Robotik ve Yapay Zeka,DÜZCE ÜNİVERSİTESİ,115,Meslek Yüksekokulu,False,2025,
+208910314,Robotik ve Yapay Zeka,İZMİR KAVRAM MESLEK YÜKSEKOKULU,373,İzmir Kavram Meslek Yüksekokulu,False,2025,Burslu
+200690955,Robotik ve Yapay Zeka,BAŞKENT ÜNİVERSİTESİ,369,Kahramankazan Meslek Yüksekokulu,False,2025,Burslu
+101690169,Robotik ve Yapay Zeka,BARTIN ÜNİVERSİTESİ,139,Bartın Meslek Yüksekokulu,False,2025,
+108290579,Robotik ve Yapay Zeka,ONDOKUZ MAYIS ÜNİVERSİTESİ,364,Yeşilyurt Demir Çelik Meslek Yüksekokulu,False,2025,
+201290614,Robotik ve Yapay Zeka,DOĞUŞ ÜNİVERSİTESİ,181,Meslek Yüksekokulu,False,2025,Burslu
+100790623,Robotik ve Yapay Zeka,AKDENİZ ÜNİVERSİTESİ,341,Teknik Bilimler Meslek Yüksekokulu,False,2025,
+201290621,Robotik ve Yapay Zeka,DOĞUŞ ÜNİVERSİTESİ,181,Meslek Yüksekokulu,False,2025,%50 İndirimli
+207651020,Robotik ve Yapay Zeka,BİRUNİ ÜNİVERSİTESİ,262,Meslek Yüksekokulu,False,2025,Burslu
+200690962,Robotik ve Yapay Zeka,BAŞKENT ÜNİVERSİTESİ,369,Kahramankazan Meslek Yüksekokulu,False,2025,%50 İndirimli
+112490552,Robotik ve Yapay Zeka,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,192,Bilişim Teknolojileri Meslek Yüksekokulu,False,2025,KKTC Uyruklu
+100390439,Robotik ve Yapay Zeka,AYDIN ADNAN MENDERES ÜNİVERSİTESİ,296,Söke Meslek Yüksekokulu,False,2025,
+110390342,Robotik ve Yapay Zeka,ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ,326,Alaplı Meslek Yüksekokulu,False,2025,
+201991469,Robotik ve Yapay Zeka,HALİÇ ÜNİVERSİTESİ,268,Meslek Yüksekokulu,False,2025,%25 İndirimli
+201991455,Robotik ve Yapay Zeka,HALİÇ ÜNİVERSİTESİ,268,Meslek Yüksekokulu,False,2025,Burslu
 406210165,Rus Dili Öğretmenliği,NAHCİVAN DEVLET ÜNİVERSİTESİ,100,Uluslararası İlişkiler ve Yabancı Diller Fakültesi,True,2019,Ücretli
 100510208,Rus Dili ve Edebiyatı,AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ,145,Fen-Edebiyat Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
 111710148,Rus Dili ve Edebiyatı,ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ,151,Edebiyat Fakültesi,True,"2019,2020,2021,2022,2023,2024",
@@ -33166,46 +33166,46 @@ program_code,department_name,university_name,university_id,faculty_name,is_under
 207590807,Veri Bilimi ve Analitiği,İSTANBUL ESENYURT ÜNİVERSİTESİ,257,Uygulamalı Bilimler Yüksekokulu,True,2025,Burslu
 101490936,Veri Bilimi ve Analitiği,ATATÜRK ÜNİVERSİTESİ,127,Fen Fakültesi,True,2025,
 202791236,Veri Bilimi ve Analitiği,İSTANBUL GELİŞİM ÜNİVERSİTESİ,185,Uygulamalı Bilimler Fakültesi,True,2025,Burslu
-100490213,Veterinerlik,AFYON KOCATEPE ÜNİVERSİTESİ,329,Veteriner Fakültesi,True,"2021,2022,2023,2024,2025",KKTC Uyruklu
-101110784,Veterinerlik,ANKARA ÜNİVERSİTESİ,207,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-101190514,Veterinerlik,ANKARA ÜNİVERSİTESİ,207,Veteriner Fakültesi,True,"2021,2022,2023,2024,2025","İngilizce,KKTC Uyruklu"
-100310167,Veterinerlik,AYDIN ADNAN MENDERES ÜNİVERSİTESİ,296,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-102010225,Veterinerlik,BİNGÖL ÜNİVERSİTESİ,363,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-109710375,Veterinerlik,BURSA ULUDAĞ ÜNİVERSİTESİ,250,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-103010222,Veterinerlik,DİCLE ÜNİVERSİTESİ,336,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-111610864,Veterinerlik,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,351,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-111690749,Veterinerlik,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,351,Veteriner Fakültesi,True,"2024,2025",İngilizce
-105910216,Veterinerlik,KAFKAS ÜNİVERSİTESİ,150,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-103510429,Veterinerlik,ERCİYES ÜNİVERSİTESİ,267,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-107090431,Veterinerlik,NECMETTİN ERBAKAN ÜNİVERSİTESİ,335,Veteriner Fakültesi (Ereğli),True,"2024,2025",KKTC Uyruklu
-108910755,Veterinerlik,SELÇUK ÜNİVERSİTESİ,111,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-108210374,Veterinerlik,ONDOKUZ MAYIS ÜNİVERSİTESİ,364,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-109010231,Veterinerlik,SİİRT ÜNİVERSİTESİ,290,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-107910413,Veterinerlik,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,309,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-110210278,Veterinerlik,VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ,304,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-100810408,Veterinerlik,AKSARAY ÜNİVERSİTESİ,343,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-106610243,Veterinerlik,KIRIKKALE ÜNİVERSİTESİ,190,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-300511055,Veterinerlik,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025","Burslu,İngilizce"
-300590341,Veterinerlik,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",Burslu
-300511204,Veterinerlik,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025","%50 İndirimli,İngilizce"
-102910897,Veterinerlik,ÇUKUROVA ÜNİVERSİTESİ,297,Ceyhan Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-100410324,Veterinerlik,AFYON KOCATEPE ÜNİVERSİTESİ,329,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-101111331,Veterinerlik,ANKARA ÜNİVERSİTESİ,207,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",İngilizce
-101510471,Veterinerlik,BALIKESİR ÜNİVERSİTESİ,184,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-107310119,Veterinerlik,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,226,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-103910373,Veterinerlik,FIRAT ÜNİVERSİTESİ,159,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-101410533,Veterinerlik,ATATÜRK ÜNİVERSİTESİ,127,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-107710178,Veterinerlik,HATAY MUSTAFA KEMAL ÜNİVERSİTESİ,392,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-103190493,Veterinerlik,DOKUZ EYLÜL ÜNİVERSİTESİ,239,Veteriner Fakültesi (Kiraz),True,"2019,2020,2021,2022,2023,2024,2025",
-106490147,Veterinerlik,KASTAMONU ÜNİVERSİTESİ,380,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-107090222,Veterinerlik,NECMETTİN ERBAKAN ÜNİVERSİTESİ,335,Veteriner Fakültesi (Ereğli),True,"2020,2021,2022,2023,2024,2025",
-107690152,Veterinerlik,MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ,216,Milas Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-102610591,Veterinerlik,SİVAS CUMHURİYET ÜNİVERSİTESİ,106,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-105010173,Veterinerlik,HARRAN ÜNİVERSİTESİ,266,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-102390088,Veterinerlik,YOZGAT BOZOK ÜNİVERSİTESİ,269,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-405210335,Veterinerlik,KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ,352,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
-300590374,Veterinerlik,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,2019,%75 İndirimli
-300590432,Veterinerlik,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,"2020,2021,2022,2023,2024,2025",%50 İndirimli
+100490213,Veteriner,AFYON KOCATEPE ÜNİVERSİTESİ,329,Veteriner Fakültesi,True,"2021,2022,2023,2024,2025",KKTC Uyruklu
+101110784,Veteriner,ANKARA ÜNİVERSİTESİ,207,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+101190514,Veteriner,ANKARA ÜNİVERSİTESİ,207,Veteriner Fakültesi,True,"2021,2022,2023,2024,2025","İngilizce,KKTC Uyruklu"
+100310167,Veteriner,AYDIN ADNAN MENDERES ÜNİVERSİTESİ,296,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+102010225,Veteriner,BİNGÖL ÜNİVERSİTESİ,363,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+109710375,Veteriner,BURSA ULUDAĞ ÜNİVERSİTESİ,250,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+103010222,Veteriner,DİCLE ÜNİVERSİTESİ,336,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+111610864,Veteriner,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,351,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+111690749,Veteriner,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,351,Veteriner Fakültesi,True,"2024,2025",İngilizce
+105910216,Veteriner,KAFKAS ÜNİVERSİTESİ,150,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+103510429,Veteriner,ERCİYES ÜNİVERSİTESİ,267,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+107090431,Veteriner,NECMETTİN ERBAKAN ÜNİVERSİTESİ,335,Veteriner Fakültesi (Ereğli),True,"2024,2025",KKTC Uyruklu
+108910755,Veteriner,SELÇUK ÜNİVERSİTESİ,111,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+108210374,Veteriner,ONDOKUZ MAYIS ÜNİVERSİTESİ,364,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+109010231,Veteriner,SİİRT ÜNİVERSİTESİ,290,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+107910413,Veteriner,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,309,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+110210278,Veteriner,VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ,304,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+100810408,Veteriner,AKSARAY ÜNİVERSİTESİ,343,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+106610243,Veteriner,KIRIKKALE ÜNİVERSİTESİ,190,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+300511055,Veteriner,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025","Burslu,İngilizce"
+300590341,Veteriner,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",Burslu
+300511204,Veteriner,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025","%50 İndirimli,İngilizce"
+102910897,Veteriner,ÇUKUROVA ÜNİVERSİTESİ,297,Ceyhan Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+100410324,Veteriner,AFYON KOCATEPE ÜNİVERSİTESİ,329,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+101111331,Veteriner,ANKARA ÜNİVERSİTESİ,207,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",İngilizce
+101510471,Veteriner,BALIKESİR ÜNİVERSİTESİ,184,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+107310119,Veteriner,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,226,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+103910373,Veteriner,FIRAT ÜNİVERSİTESİ,159,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+101410533,Veteriner,ATATÜRK ÜNİVERSİTESİ,127,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+107710178,Veteriner,HATAY MUSTAFA KEMAL ÜNİVERSİTESİ,392,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+103190493,Veteriner,DOKUZ EYLÜL ÜNİVERSİTESİ,239,Veteriner Fakültesi (Kiraz),True,"2019,2020,2021,2022,2023,2024,2025",
+106490147,Veteriner,KASTAMONU ÜNİVERSİTESİ,380,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+107090222,Veteriner,NECMETTİN ERBAKAN ÜNİVERSİTESİ,335,Veteriner Fakültesi (Ereğli),True,"2020,2021,2022,2023,2024,2025",
+107690152,Veteriner,MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ,216,Milas Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+102610591,Veteriner,SİVAS CUMHURİYET ÜNİVERSİTESİ,106,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+105010173,Veteriner,HARRAN ÜNİVERSİTESİ,266,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+102390088,Veteriner,YOZGAT BOZOK ÜNİVERSİTESİ,269,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+405210335,Veteriner,KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ,352,Veteriner Fakültesi,True,"2019,2020,2021,2022,2023,2024,2025",
+300590374,Veteriner,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,2019,%75 İndirimli
+300590432,Veteriner,YAKIN DOĞU ÜNİVERSİTESİ,219,Veteriner Fakültesi,True,"2020,2021,2022,2023,2024,2025",%50 İndirimli
 209510257,Web Tasarımı ve Kodlama,ANKARA BİLİM ÜNİVERSİTESİ,160,Meslek Yüksekokulu,False,"2024,2025",%50 İndirimli
 110670180,Web Tasarımı ve Kodlama,BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ,122,Gönen Meslek Yüksekokulu,False,"2021,2022,2023,2024,2025",
 102090147,Web Tasarımı ve Kodlama,BİNGÖL ÜNİVERSİTESİ,363,Bingöl Teknik Bilimler Meslek Yüksekokulu,False,"2022,2023,2024",

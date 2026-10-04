@@ -83,11 +83,15 @@ def main():
     merged = merged.merge(placed_preferences, on=['program_code', 'year'], how='left')
 
     placed_uni_type = pd.read_csv(os.path.join(PROCESSED_DIR, 'department_placed_pref_uni_type.csv'))
+    # 2019-2024 has an explicit row for every university type, including real zeros.
+    # 2025 omits yurt dışı (type 4): YokAtlas published 0 for every program while 2024
+    # had hundreds of positive programs, so that 0 is treated as missing, not a count.
+    # Do not fill_value=0; a missing 2025 type-4 cell must stay null.
     placed_uni_type_pivot = placed_uni_type.pivot_table(
         index=['program_code', 'year'],
         columns='university_type_id',
         values='placed_pref_count',
-        fill_value=0
+        aggfunc='first',
     ).reset_index()
     placed_uni_type_pivot = placed_uni_type_pivot.rename(columns={
         1: 'placed_pref_uni_devlet_count',
@@ -97,10 +101,16 @@ def main():
     })
     merged = merged.merge(placed_uni_type_pivot, on=['program_code', 'year'], how='left')
 
-    # Ensure placed_pref_uni_* columns are Int64 (nullable integer)
-    for col in ['placed_pref_uni_devlet_count', 'placed_pref_uni_vakif_count', 'placed_pref_uni_kktc_count', 'placed_pref_uni_yurt_disi_count']:
+    # Devlet / vakıf / KKTC rows exist for every program-year. fillna(0) only covers a
+    # join miss and does not change 2019-2024 values. Yurt dışı is left nullable so the
+    # omitted 2025 rows are not written as a fake 0.
+    for col in ['placed_pref_uni_devlet_count', 'placed_pref_uni_vakif_count', 'placed_pref_uni_kktc_count']:
         if col in merged.columns:
             merged[col] = pd.to_numeric(merged[col], errors='coerce').fillna(0).round(0).astype('Int64')
+    if 'placed_pref_uni_yurt_disi_count' in merged.columns:
+        merged['placed_pref_uni_yurt_disi_count'] = pd.to_numeric(
+            merged['placed_pref_uni_yurt_disi_count'], errors='coerce'
+        ).round(0).astype('Int64')
 
     for rank_col in ['final_rank_012', 'final_rank_018']:
         if rank_col in merged.columns:

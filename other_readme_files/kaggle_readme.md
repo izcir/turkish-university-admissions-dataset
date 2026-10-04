@@ -1,4 +1,4 @@
-# Türkiye Üniversite Bölümleri & İstatistikleri (2019-2024)
+# Türkiye Üniversite Bölümleri & İstatistikleri (2019-2025)
 
 ### Kontekst (Neden Bu Veri Seti?)
 
@@ -10,12 +10,12 @@ Amacım, hem veri bilimine yeni başlayanlar için **alıştırma yapabilecekler
 
 ### Veri Seti Özeti (Dataset at a Glance)
 
-*   **Zaman Aralığı:** 2019-2024 (6 Yıl) (2025 verileri eklenecektir)
-*   **Toplam Satır:** `all_in_one_denormalized.csv` dosyasında **128.352** kayıt bulunmaktadır.
+*   **Zaman Aralığı:** 2019-2025 (7 Yıl).
+*   **Toplam Satır:** `all_in_one_denormalized.csv` dosyasında **149.954** kayıt bulunmaktadır.
 *   **Benzersiz Varlıklar:**
-    *   **32.505** farklı Program (`program_code`)
-    *   **235** farklı Üniversite
-    *   **733** farklı Bölüm Adı
+    *   **34.474** farklı Program (`program_code`)
+    *   **237** farklı Üniversite
+    *   **767** farklı Bölüm Adı
     *   **27** farklı Etiket (`tag`)
 *   **En Yaygın Etiketler:** `Burslu` (5.6k+ program), `%50 İndirimli` (5.4k+ program), `İngilizce` (5.2k+ program)
 
@@ -45,6 +45,7 @@ Bu klasör, veritabanı mantığıyla tasarlanmış, birbiriyle ilişkili ve nor
 *   **`program_code`**: Başındaki sıfırların kaybolmaması için `string` (metin) olarak okunmalıdır.
 *   **`final_rank_*`**: Bazı satırlarda boş olabilir (`NaN`). Analizlerinizde bu eksik değerleri yönetmeniz gerekebilir. Pandas'ta bu kolonları `pd.to_numeric(df['col'], errors='coerce').astype('Int64')` ile *nullable integer*'a (boş bırakılabilir tamsayı) çevirebilirsiniz.
 *   **`all_tags`**: Bir programın birden fazla etiketini içeren, virgülle ayrılmış bir metin alanıdır. Analiz için `split(',')` metodu ile bir listeye dönüştürülebilir.
+*   **`avg_obp_012` / `avg_obp_018`**: 2025 yılı satırlarında ortalama OBP sütunları boştur.
 *   **Fakülte Adları**: `faculty_names.csv` içinde bazı programlar için boş fakülte adı bulunabilir. Bu durum, ham veride fakülte bilgisinin olmamasından kaynaklanmaktadır.
 
 ### Gelecek Vizyonu ve Eklenecek Veriler

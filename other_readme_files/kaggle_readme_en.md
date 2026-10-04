@@ -1,4 +1,4 @@
-# Turkey University Departments & Statistics (2019-2024)
+# Turkey University Departments & Statistics (2019-2025)
 
 ### Context (Why this Dataset?)
 
@@ -10,12 +10,12 @@ My goal is to provide a comprehensive and reliable dataset that serves as both *
 
 ### Dataset at a Glance
 
-*   **Time Range:** 2019-2024 (6 Years) *(2025 data will be added upon release)*
-*   **Total Rows:** **128,352** records in the `all_in_one_denormalized.csv` file.
+*   **Time Range:** 2019-2025 (7 Years).
+*   **Total Rows:** **149,954** records in the `all_in_one_denormalized.csv` file.
 *   **Unique Counts:**
-    *   **32,505** unique Programs (`program_code`)
-    *   **235** unique Universities
-    *   **733** unique Department Names
+    *   **34,474** unique Programs (`program_code`)
+    *   **237** unique Universities
+    *   **767** unique Department Names
     *   **27** unique Tags
 *   **Most Common Tags:** `Burslu` (5.6k+ programs), `%50 İndirimli` (5.4k+ programs), `İngilizce` (5.2k+ programs)
 
@@ -45,6 +45,7 @@ This folder contains multiple CSV files designed with a relational database sche
 *   **`program_code`**: Should be read as a `string` to preserve leading zeros.
 *   **`final_rank_*`**: May contain nulls (`NaN`). You will need to handle these missing values in your analysis. In Pandas, you can convert these columns to a *nullable integer* type using `pd.to_numeric(df['col'], errors='coerce').astype('Int64')`.
 *   **`all_tags`**: This is a comma-separated string containing multiple tags for a program. It can be converted to a list for analysis using the `split(',')` method.
+*   **`avg_obp_012` / `avg_obp_018`**: The average OBP columns are empty for 2025.
 *   **Faculty Names**: The `faculty_names.csv` file may contain entries with empty faculty names for some programs. This is due to missing faculty information in the source data.
 
 ### Future Vision & Planned Additions
