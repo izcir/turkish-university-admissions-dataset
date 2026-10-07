@@ -64,4 +64,4 @@ The data is sourced from Turkey's Higher Education Council (YÖK) Atlas and ÖSY
 | `placed_pref_uni_kktc_count`| Among placed students, the total number of TRNC university preferences in their lists. / *Yerleşen öğrencilerin tercih listelerindeki KKTC üniversitesi sayısı.* |
 | `placed_pref_uni_yurt_disi_count`| Among placed students, the total number of International university preferences in their lists. / *Yerleşen öğrencilerin tercih listelerindeki Yurtdışı üniversitesi sayısı.* |
 
-For 2025, `avg_obp_012` and `avg_obp_018` are empty.
+Available 2025 values for `avg_obp_012` and `avg_obp_018` have been completed. Values unavailable for a program remain empty.

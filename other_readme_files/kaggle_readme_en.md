@@ -45,7 +45,7 @@ This folder contains multiple CSV files designed with a relational database sche
 *   **`program_code`**: Should be read as a `string` to preserve leading zeros.
 *   **`final_rank_*`**: May contain nulls (`NaN`). You will need to handle these missing values in your analysis. In Pandas, you can convert these columns to a *nullable integer* type using `pd.to_numeric(df['col'], errors='coerce').astype('Int64')`.
 *   **`all_tags`**: This is a comma-separated string containing multiple tags for a program. It can be converted to a list for analysis using the `split(',')` method.
-*   **`avg_obp_012` / `avg_obp_018`**: The average OBP columns are empty for 2025.
+*   **`avg_obp_012` / `avg_obp_018`**: Available average OBP values for 2025 have been completed. Values unavailable for a program remain empty.
 *   **Faculty Names**: The `faculty_names.csv` file may contain entries with empty faculty names for some programs. This is due to missing faculty information in the source data.
 
 ### Future Vision & Planned Additions

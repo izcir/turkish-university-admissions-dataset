@@ -45,7 +45,7 @@ Bu klasör, veritabanı mantığıyla tasarlanmış, birbiriyle ilişkili ve nor
 *   **`program_code`**: Başındaki sıfırların kaybolmaması için `string` (metin) olarak okunmalıdır.
 *   **`final_rank_*`**: Bazı satırlarda boş olabilir (`NaN`). Analizlerinizde bu eksik değerleri yönetmeniz gerekebilir. Pandas'ta bu kolonları `pd.to_numeric(df['col'], errors='coerce').astype('Int64')` ile *nullable integer*'a (boş bırakılabilir tamsayı) çevirebilirsiniz.
 *   **`all_tags`**: Bir programın birden fazla etiketini içeren, virgülle ayrılmış bir metin alanıdır. Analiz için `split(',')` metodu ile bir listeye dönüştürülebilir.
-*   **`avg_obp_012` / `avg_obp_018`**: 2025 yılı satırlarında ortalama OBP sütunları boştur.
+*   **`avg_obp_012` / `avg_obp_018`**: 2025 yılı için mevcut ortalama OBP değerleri tamamlanmıştır. Değeri bulunmayan programlarda alanlar boştur.
 *   **Fakülte Adları**: `faculty_names.csv` içinde bazı programlar için boş fakülte adı bulunabilir. Bu durum, ham veride fakülte bilgisinin olmamasından kaynaklanmaktadır.
 
 ### Gelecek Vizyonu ve Eklenecek Veriler

@@ -68,14 +68,14 @@ These tables contain the core, measurable events or states in the dataset.
 | **`department_stats.csv`** | The performance of one **program** in one **year**. | Contains fundamental metrics like quota, enrollment, and admission rank. This is the starting point for most analyses.<br>*(Columns: `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`)* |
 | **`department_avg_net_stats.csv`** | The average net score for one **lesson** in one **program** in one **year**. | Contains the academic profile of enrolled students on a per-subject basis.<br>*(Columns: `program_code`, `year`, `lesson_id`, `coefficient_type`, `average_net`)* |
 
-For 2025, the average OBP columns (`avg_obp_012` and `avg_obp_018`) are empty.
+Available group-specific OBP means were completed for 2025: 20,773 values for `avg_obp_012` and 7,658 for `avg_obp_018`. Missing source values remain null.
 
 ### 2. Dimension and Lookup Tables
 These tables contain the descriptive information that corresponds to the IDs in the fact tables.
 
 | File Name | Purpose | Example |
 | :--- | :--- | :--- |
-| **`departments_normalized.csv`** | Stores time-invariant attributes of each program and acts as a bridge to other dimensions. | `101490226` → `university_id: 101`, `department_name_id: 25`, ... |
+| **`departments_normalized.csv`** | Latest program identity snapshot and bridge to other dimensions. The historical merged file preserves the 2024 identities of 29 reused codes. | `101490226` → `university_id: 101`, `department_name_id: 25`, ... |
 | **`universities_normalized.csv`** | Contains core information about universities (name, type, city). | `101` → "BOĞAZİÇİ ÜNİVERSİTESİ", `type_id: 1`, `city_id: 34` |
 | **`lessons.csv`** | Contains information about exam subjects (name, exam type, question count). | `1` → "TYT Temel Matematik", "TYT", 40 |
 | **`department_names.csv`** | Translates department IDs to names. | `25` → "Bilgisayar Mühendisliği" |
@@ -202,3 +202,9 @@ This dataset is not just for academic use; it is actively used in production on 
 
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE). The data is sourced from public resources (YÖK Atlas, ÖSYM) and is shared for research and educational purposes only.
+
+## Update, 7 October 2026
+
+Available 2025 average OBP values were completed. Selected admission scores and ranks for 2020, 2021, 2022 and 2024 were corrected, along with the 2025 department, faculty, score type, scholarship and tags of 29 programs. The merged data file was refreshed. No tables or columns were added.
+
+Program tables show the latest details. The merged file preserves the 2024 details of these 29 reused program codes; use it for their historical analysis.

@@ -73,14 +73,14 @@ Bu tablolar, veri setindeki en temel ve ölçülebilir olayları içerir.
 | **`department_stats.csv`** | Bir **programın** bir **yıldaki** performansı | Kontenjan, yerleşen, sıralama gibi temel metrikleri barındırır. Analizlerin başlangıç noktasıdır.<br>*(Sütunlar: `program_code`, `year`, `total_quota`, `total_enrolled`, `final_rank_012`)* |
 | **`department_avg_net_stats.csv`** | Bir **programın** bir **yıldaki** tek bir **derse** ait net ortalaması | Bölümlere yerleşenlerin ders bazlı akademik profilini içerir.<br>*(Sütunlar: `program_code`, `year`, `lesson_id`, `coefficient_type`, `average_net`)* |
 
-2025 yılı satırlarında ortalama OBP sütunları (`avg_obp_012`, `avg_obp_018`) boştur.
+2025 ayrı katsayı gruplarının ortalama OBP değerleri tamamlandı: `avg_obp_012` için 20.773 ve `avg_obp_018` için 7.658 dolu değer. Kaynakta olmayan değerler boştur.
 
 ### 2. Boyut (Dimension) ve Lookup Tabloları
 Bu tablolar, çekirdek tablolardaki ID'lere karşılık gelen açıklayıcı bilgileri içerir.
 
 | Dosya Adı | Amaç | Örnek |
 | :--- | :--- | :--- |
-| **`departments_normalized.csv`** | Her programın zamanla değişmeyen niteliklerini tutar ve diğer boyutlara köprü görevi görür. | `101490226` → `university_id: 101`, `department_name_id: 25`, ... |
+| **`departments_normalized.csv`** | Her programın en güncel kimliğini tutar ve diğer boyutlara köprü görevi görür. Yeniden kullanılan 29 kodun 2024 kimlikleri birleşik dosyada ayrıca korunur. | `101490226` → `university_id: 101`, `department_name_id: 25`, ... |
 | **`universities_normalized.csv`** | Üniversitelerin temel bilgilerini (ad, tür, şehir) içerir. | `101` → "BOĞAZİÇİ ÜNİVERSİTESİ", `type_id: 1`, `city_id: 34` |
 | **`lessons.csv`** | Derslerin bilgilerini (ad, sınav türü, soru sayısı) içerir. | `1` → "TYT Temel Matematik", "TYT", 40 |
 | **`department_names.csv`** | Bölüm ID'lerini isimlere çevirir. | `25` → "Bilgisayar Mühendisliği" |
@@ -205,3 +205,9 @@ Bu veri seti yalnızca akademik kullanım için değil, aynı zamanda öğrencil
 
 ## 📜 Lisans
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Veriler kamuya açık kaynaklardan (YÖK Atlas, ÖSYM) alınmış olup yalnızca araştırma ve eğitim amaçlı paylaşılmaktadır.
+
+## 7 Ekim 2026 güncellemesi
+
+2025 ortalama OBP değerleri tamamlandı. 2020, 2021, 2022 ve 2024 yıllarındaki bazı taban puan ve sıralamalar ile 29 programın 2025 bölüm, fakülte, puan türü, burs ve etiket bilgileri düzeltildi. Birleşik veri dosyası güncellendi. Yeni tablo veya sütun eklenmedi.
+
+Program tabloları en güncel bilgileri gösterir. Kodu yeniden kullanılan bu 29 programın 2024 bilgileri birleşik dosyada korunur; bu programların geçmiş yıl analizlerinde birleşik dosyayı kullanın.

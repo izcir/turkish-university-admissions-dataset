@@ -7,6 +7,156 @@ RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
 OUTPUT_FILE = os.path.join(BASE_DIR, "data", 'all_in_one_denormalized.csv')
 
 
+# These 29 codes identify a different program from 2025 onward.
+# Existing CSVs retain their original schema and the latest identity.
+# Preserve their 2024 identity when producing the historical merged CSV.
+PROGRAM_IDENTITIES_2024 = {202990358: {'department_name_id': 607,
+             'faculty_name_id': 34,
+             'scholarship_type_id': 3,
+             'score_type_id': 4,
+             'tags': 'Burslu'},
+ 202990365: {'department_name_id': 607,
+             'faculty_name_id': 34,
+             'scholarship_type_id': 6,
+             'score_type_id': 4,
+             'tags': '%50 İndirimli'},
+ 208910258: {'department_name_id': 409,
+             'faculty_name_id': 53,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209010289: {'department_name_id': 721,
+             'faculty_name_id': 461,
+             'scholarship_type_id': 3,
+             'score_type_id': 3,
+             'tags': 'Burslu,İngilizce'},
+ 209010296: {'department_name_id': 721,
+             'faculty_name_id': 461,
+             'scholarship_type_id': 9,
+             'score_type_id': 3,
+             'tags': '%25 İndirimli,İngilizce'},
+ 209210173: {'department_name_id': 409,
+             'faculty_name_id': 9,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210180: {'department_name_id': 491,
+             'faculty_name_id': 9,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210187: {'department_name_id': 11,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210194: {'department_name_id': 21,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210201: {'department_name_id': 23,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210208: {'department_name_id': 90,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210215: {'department_name_id': 152,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210222: {'department_name_id': 154,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210229: {'department_name_id': 228,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210236: {'department_name_id': 323,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210243: {'department_name_id': 465,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210250: {'department_name_id': 468,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210257: {'department_name_id': 515,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210264: {'department_name_id': 542,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210271: {'department_name_id': 635,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210278: {'department_name_id': 636,
+             'faculty_name_id': 12,
+             'scholarship_type_id': 9,
+             'score_type_id': 2,
+             'tags': '%25 İndirimli'},
+ 209210320: {'department_name_id': 305,
+             'faculty_name_id': 672,
+             'scholarship_type_id': 9,
+             'score_type_id': 4,
+             'tags': '%25 İndirimli'},
+ 209210327: {'department_name_id': 298,
+             'faculty_name_id': 948,
+             'scholarship_type_id': 9,
+             'score_type_id': 4,
+             'tags': '%25 İndirimli'},
+ 209210334: {'department_name_id': 508,
+             'faculty_name_id': 163,
+             'scholarship_type_id': 9,
+             'score_type_id': 4,
+             'tags': '%25 İndirimli,İngilizce'},
+ 209210341: {'department_name_id': 687,
+             'faculty_name_id': 163,
+             'scholarship_type_id': 9,
+             'score_type_id': 4,
+             'tags': '%25 İndirimli,İngilizce'},
+ 209210348: {'department_name_id': 687,
+             'faculty_name_id': 163,
+             'scholarship_type_id': 9,
+             'score_type_id': 4,
+             'tags': '%25 İndirimli'},
+ 209210355: {'department_name_id': 728,
+             'faculty_name_id': 163,
+             'scholarship_type_id': 9,
+             'score_type_id': 4,
+             'tags': '%25 İndirimli'},
+ 209210362: {'department_name_id': 279,
+             'faculty_name_id': 157,
+             'scholarship_type_id': 9,
+             'score_type_id': 1,
+             'tags': '%25 İndirimli'},
+ 209210369: {'department_name_id': 73,
+             'faculty_name_id': 76,
+             'scholarship_type_id': 9,
+             'score_type_id': 3,
+             'tags': '%25 İndirimli,İngilizce'}}
+
+
 def main():
     # Core processed tables
     dept_norm = pd.read_csv(os.path.join(PROCESSED_DIR, 'departments_normalized.csv'))
@@ -39,6 +189,13 @@ def main():
     # Expand departments by years
     dept_year_expanded = dept_norm.merge(dept_years, on='program_code', how='left')
     dept_year_expanded = dept_year_expanded.merge(years, on='year_id', how='left')
+    for code, identity in PROGRAM_IDENTITIES_2024.items():
+        historical = dept_year_expanded['program_code'].eq(code) & dept_year_expanded['year'].eq(2024)
+        if historical.sum() != 1:
+            raise ValueError(f'Expected one 2024 record for reused program code {code}')
+        for field, value in identity.items():
+            dept_year_expanded.loc[historical, field] = value
+
 
     # Join names
     dept_year_expanded = dept_year_expanded.merge(dept_names, on='department_name_id', how='left')
@@ -56,6 +213,11 @@ def main():
 
     # Tags aggregated
     dept_year_expanded = dept_year_expanded.merge(tags_agg, on='program_code', how='left')
+    for code, identity in PROGRAM_IDENTITIES_2024.items():
+        historical = dept_year_expanded['program_code'].eq(code) & dept_year_expanded['year'].eq(2024)
+        dept_year_expanded.loc[historical, 'all_tags'] = ','.join(
+            sorted(set(t.strip() for t in identity['tags'].split(',') if t.strip())))
+
 
     # Merge stats (left join to keep structure even if stats missing)
     if 'year' in stats.columns:
